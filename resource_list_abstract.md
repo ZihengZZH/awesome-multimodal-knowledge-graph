@@ -1,5 +1,10 @@
 **Resource List w/ Abstract**
 
+> [pdf]: paper PDF online link  
+> [repo]: paper PDF repo link  
+> [github]: github link  
+> [web]: website link
+
 - [Paper](#paper)
     - [Distant Supervision for Relation Extraction without Labeled Data](#distant-supervision-for-relation-extraction-without-labeled-data)
     - [Distance Supervision for Relation Extraction via Piecewise Convolutional Neural Networks](#distance-supervision-for-relation-extraction-via-piecewise-convolutional-neural-networks)
@@ -8,12 +13,19 @@
     - [Neural Relation Extraction with Selective Attention over Instances](#neural-relation-extraction-with-selective-attention-over-instances)
     - [Towards Building Large Scale Multimodal Domain-Aware Conversation Systems](#towards-building-large-scale-multimodal-domain-aware-conversation-systems)
     - [A Multimodal Translation-Based Approach for Knowledge Graph Representation Learning](#a-multimodal-translation-based-approach-for-knowledge-graph-representation-learning)
+    - [Multimodal Unsupervised Image-to-Image Translation](#multimodal-unsupervised-image-to-image-translation)
     - [Embedding Multimodal Relational Data for Knowledge Base Completion](#embedding-multimodal-relational-data-for-knowledge-base-completion)
     - [MMKG: Multi-Modal Knowledge Graphs](#mmkg-multi-modal-knowledge-graphs)
+    - [Shared Predictive Cross-Modal Deep Quantization](#shared-predictive-cross-modal-deep-quantization)
     - [Answering Visual-Relational Queries in Web-Extracted Knowledge Graphs](#answering-visual-relational-queries-in-web-extracted-knowledge-graphs)
     - [Multimodal Data Enhanced Representation Learning for Knowledge Graphs](#multimodal-data-enhanced-representation-learning-for-knowledge-graphs)
+    - [A New Benchmark and Approach for Fine-grained Cross-media Retrieval](#a-new-benchmark-and-approach-for-fine-grained-cross-media-retrieval)
+    - [Annotation Efficient Cross-Modal Retrieval with Adversarial Attentive Alignment](#annotation-efficient-cross-modal-retrieval-with-adversarial-attentive-alignment)
+    - [Knowledge-guided Pairwise Reconstruction Network for Weakly Supervised Referring Expression Grounding](#knowledge-guided-pairwise-reconstruction-network-for-weakly-supervised-referring-expression-grounding)
     - [Multi-modal Knowledge-aware Hierarchical Attention Network for Explainable Medical Question Answering](#multi-modal-knowledge-aware-hierarchical-attention-network-for-explainable-medical-question-answering)
     - [MHSAN: Multi-Head Self-Attention Network for Visual Semantic Embedding](#mhsan-multi-head-self-attention-network-for-visual-semantic-embedding)
+    - [MULE: Multimodal Universal Language Embedding](#mule-multimodal-universal-language-embedding)
+    - [Modality to Modality Translation: An Adversarial Representation Learning and Graph Fusion Network for Multimodal Fusion](#modality-to-modality-translation-an-adversarial-representation-learning-and-graph-fusion-network-for-multimodal-fusion)
 - [Tutorials](#tutorials)
     - [Multimodal Knowledge Graphs: Automatic Extraction & Applications](#multimodal-knowledge-graphs-automatic-extraction--applications)
     - [Towards Building Large-Scale Multimodal Knowledge Bases](#towards-building-large-scale-multimodal-knowledge-bases)
@@ -60,7 +72,7 @@
   * ACL'16
   * Distant supervised relation extraction has been widely used to find novel relational facts from text. However, distant supervision inevitably accompanies with the wrong labelling problem, and these noisy data will substantially hurt the performance of relation extraction. To alleviate this issue, we propose a sentence-level attention-based model for relation extraction. In this model, we employ convolutional neural networks to embed the semantics of sentences. Afterwards, we build sentence-level attention over multiple instances, which is expected to dynamically reduce the weights of those noisy instances. Experimental results on real-world datasets show that, our model can make full use of all informative sentences and effectively reduce the influence of wrong labelled instances. Our model achieves significant and consistent improvements on relation extraction as compared with baselines.
 
-**2018** {#3}
+**2018** {#4}
 
 #### Towards Building Large Scale Multimodal Domain-Aware Conversation Systems 
   * [[pdf](https://arxiv.org/pdf/1704.00200.pdf)] [[repo](paper/saha2018towards.pdf)]
@@ -74,19 +86,31 @@
   * SEM'18
   * Current methods for knowledge graph (KG) representation learning focus solely on the structure of the KG and do not exploit any kind of external information, such as visual and linguistic information corresponding to the KG entities. In this paper, we propose a multimodal translation-based approach that defines the energy og a KG triple as the sum of sub-energy functions that leverage both multimodal (visual and linguistic) and structural KG representations. Next, a ranking-based loss is minimized using a simple neural network architecture. Moreover, we introduce a new large-scale dataset for multimodal KG representation learning. We compared the performance of our approach to other baselines on two standard tasks, namely knowledge graph completion and triple classification, using our as well as the WN9-IMG dataset. The results demonstrate that our approach outperforms all baselines on both tasks and datasets.
 
+#### Multimodal Unsupervised Image-to-Image Translation
+  * [[pdf](http://openaccess.thecvf.com/content_ECCV_2018/papers/Xun_Huang_Multimodal_Unsupervised_Image-to-image_ECCV_2018_paper.pdf)] [[repo](paper/huang2018multimodal.pdf)]
+  * Huang et al. (2018.09)
+  * ECCV'18
+  * Unsupervised image-to-image translation is an important and challenging problem in computer vision. Given an image in the source domain, the goal is to learn the conditional distribution of corresponding images in the target domain, without seeing any examples of corresponding image pairs. While this conditional distribution is inherently multimodal, existing approaches make an overly simplified assumption, modeling it as a deterministic one-to-one mapping. As a result, they fail to generate diverse outputs from a given source domain image. To address this limitation, we propose a Multimodal Unsupervised Image-to-image Translation (MUNIT) framework. We assume that the image representation can be decomposed into a content code that is domain-invariant, and a style code that captures domain-specific properties. To translate an image to another domain, we recombine its content code with a random style code sampled from the style space of the target domain. We analyze the proposed framework and establish several theoretical results. Extensive experiments with comparisons to the state-of-the-art approaches further demonstrate the advantage of the proposed framework. Moreover, our framework allows users to control the style of translation outputs by providing an example style image. Code and pretrained models are available at https://github.com/nvlabs/MUNIT.
+
 #### Embedding Multimodal Relational Data for Knowledge Base Completion
   * [[pdf](https://www.aclweb.org/anthology/D18-1359.pdf)] [[repo](paper/pezeshkpour2018embedding.pdf)]
   * Pezeshkpour et al. (2018.11)
   * EMNLP'18
   * Representing entities and relations in an embedding space is well-studied approach for machine learning on relational data. Existing approaches, however, primarily focus on simple link structure between a finite set of entities, ignoring the variety of data types that are often used in knowledge bases, such as text, images, and numerical values. In this paper, we propose multimodal knowledge base embeddings (MKBE) that use different neural encoders for this variety of observed data, and combine them with existing relational models to learn embeddings of the entities and multimodal data. Further, using these learned embeddings and different neural decoders, we introduce a novel multimodal imputation model to generate missing multimodal values, like text and images, from information in the knowledge base. We enrich existing relational datasets to create two novel benchmarks that contain additional information such as textual descriptions and images of the original entities. We demonstrate that our models utilize this additional information effectively to provide more accurate link prediction, achieving state-of-the-art results with a considerable gep of 5-7% over existing methods. Further, we evaluate the quality of our generated multimodal values via a user study.
 
-**2019** {#4}
+**2019** {#8}
 
 #### MMKG: Multi-Modal Knowledge Graphs 
   * [[pdf](https://arxiv.org/pdf/1903.05485.pdf)] [[repo](paper/liu2019mmkg.pdf)]
   * Liu et al. (2019.03)
   * ESWC'19
   * We present MMKG, a collection of three knowledge graphs that contain both numerical features and (links to) images for all entities as well as entity alignments between pairs of KGs. Therefore, multi-relational link prediction and entity matching communities can benefit from this resource. We believe this data set has the potential to facilitate the development of novel multi-modal learning approaches for knowledge graphs. We validate the utility of MMKG in the sameAs link prediction task with an extensive set of experiments. These experiments show that the task at hand benefits from learning of multiple feature types.
+
+#### Shared Predictive Cross-Modal Deep Quantization
+  * [[pdf](https://arxiv.org/pdf/1904.07488.pdf)] [[repo](paper/yang2019shared.pdf)]
+  * Yang et al. (2019.04)
+  * arXiv
+  * With explosive growth of data volume and ever-increasing diversity of data modalities, cross-modal similarity search, which conducts nearest neighbor search across different modalities, has been attracting increasing interest. This paper presents a deep compact code learning solution for efficient cross-modal similarity search. Many recent studies have proven that quantization based approaches perform generally better than hashing based approaches on single-modal similarity search. In this work, we propose a deep quantization approach, which is among the early attempts of leveraging deep neural networks into quantization based cross-modal similarity search. Our approach, dubbed shared predictive deep quantization (SPDQ), explicitly formulates a shared subspace across different modalities and two private subspaces for individual modalities, representations in the shared subspace and the private subspaces are learned simultaneously by embedding them to a reproducing kernel Hilbert space where the mean embedding of different modality distributions can be explicitly compared. Additionally, in the shared subspace, a quantizer is learned to produce the semantics preserving compact codes with the help of label alignment. Thanks to this novel network architecture in cooperation with supervised quantization training, SPDQ can preserve intra- and inter-modal similarities as much as possible and greatly reduce quantization error. Experiments on two popular benchmarks corroborate that our approach outperforms state-of-the-art methods.
 
 #### Answering Visual-Relational Queries in Web-Extracted Knowledge Graphs
   * [[pdf](https://arxiv.org/pdf/1709.02314.pdf)] [[repo](paper/rubio2019answering.pdf)]
@@ -100,19 +124,49 @@
   * IJCNN'19
   * Knowledge graph, or knowledge base, plays an important role in a variety of applications in the field of artificial intelligence. In both research and application of knowledge graph, knowledge representation learning is one of the fundamental tasks. Existing representation learning approaches are mainly based on structural knowledge between entities and relations, while knowledge among entities per se is largely ignored. Though a few approaches integrated entity knowledge while learning representations, these methods lack the flexibility to apply to multimodalities. To tackle this problem, in this paper, we propose a new representation learning method, TransAE, by combining multimodal autoencoder with TransE model, where TransE is a simple and effective representation learning method for knowledge graphs. In TransAE, the hidden layer of autoencoder is used as the representation of entities in the TransE model, thus it encodes not only the structural knowledge, but also the multimodal knowledge, such as visual and textual knowledge, into the final representation. Compared with traditional methods based on only structured knowledge, TransAE can significantly improve the performance in the sense of link prediction and triplet classification. Also, TransAE has the ability to learn representations for entities out of knowledge base in zero-shot. Experiments on various tasks demonstrate the effectiveness of our proposed TransAE method.
 
+#### A New Benchmark and Approach for Fine-grained Cross-media Retrieval
+  * [[pdf](https://arxiv.org/pdf/1907.04476.pdf)] [[repo](paper/he2019new.pdf)] [[github](https://github.com/PKU-ICST-MIPL/FGCrossNet_ACMMM2019)]
+  * He et al. (2019.10)
+  * ACM-MM'19
+  * Cross-media retrieval is to return the results of various media types corresponding to the query of any media type. Existing researches generally focus on coarse-grained cross-media retrieval. When users submit an image of "Slaty-backed Gull" as a query, coarse-grained cross-media retrieval treats it as "Bird", so that users can only get the results of "Bird", which may include other bird species with similar appearance (image and video), descriptions (text) or sounds (audio), such as "Herring Gull". Such coarse-grained cross-media retrieval is not consistent with human lifestyle, where we generally have the fine-grained requirement of returning the exactly relevant results of "Slaty-backed Gull" instead of "Herring Gull". However, few researches focus on fine-grained cross-media retrieval, which is a highly challenging and practical task. Therefore, in this paper, we first construct a new benchmark for fine-grained cross-media retrieval, which consists of 200 fine-grained subcategories of the "Bird", and contains 4 media types, including image, text, video and audio. To the best of our knowledge, it is the first benchmark with 4 media types for fine-grained cross-media retrieval. Then, we propose a uniform deep model, namely FGCrossNet, which simultaneously learns 4 types of media without discriminative treatments. We jointly consider three constraints for better common representation learning: *classification constraint* ensures the learning of discriminative features for fine-grained subcategories, *center constraint* ensures the compactness characteristic of the features of the same subcategory, and *ranking constraint* ensures the sparsity characteristic of the features of different subcategories. Extensive experiments verify the usefulness of the new benchmark and the effectiveness of our FGCrossNet. The new benchmark and the source code of FGCrossNet will be made available at https://github.com/PKU-ICST-MIPL/FGCrossNet_ACMMM2019.
+
+#### Annotation Efficient Cross-Modal Retrieval with Adversarial Attentive Alignment
+  * [[pdf](http://www.cs.cmu.edu/~poyaoh/data/ann.pdf)] [[repo](paper/huang2019annotation.pdf)]
+  * Huang et al. (2019.10)
+  * ACM-MM'19
+  * Visual-semantic embeddings are central to many multimedia applications such as cross-modal retrieval between visual data and natural language descriptions. Conventionally, learning a joint embedding space relies on large parallel multimodal corpora. Since massive human annotation is expensive to obtain, there is a strong motivation in developing versatile algorithms to learn from large corpora with fewer annotations. In this paper, we propose a novel framework to leverage automatically extracted regional semantics from un-annotated images as additional weak supervision to learn visual-semantic embeddings. The proposed model employs adversarial attentive alignments to close the inherent heterogeneous gaps between annotated and un-annotated portions of visual and textual domains. To demonstrate its superiority, we conduct extensive experiments on sparsely annotated multimodal corpora. The experimental results show that the proposed model outperforms state-of-the-art visual-semantic embedding models by a significant margin for cross-modal retrieval tasks on the sparse Flickr30K and MS-COCO datasets. It is also worth noting that, despite using only 20% of the annotations, the proposed model can achieve competitive performance (Recall at 10 > 80.0% for 1K and > 70% for 5K text-to-image retrieval) compared to the benchmarks trained with the complete annotations.
+
+#### Knowledge-guided Pairwise Reconstruction Network for Weakly Supervised Referring Expression Grounding
+  * [[pdf](https://arxiv.org/pdf/1909.02860.pdf)] [[repo](paper/liu2019knowledge.pdf)]
+  * Liu et al. (2019.10)
+  * ACM-MM'19
+  * Weakly supervised referring expression grounding (REG) aims at localizing the referential entity in an image according to linguistic query, where the mapping between the image region (proposal) and the query is unknown in the training stage. In referring expressions, people usually describe a target entity in terms of its relationship with other contextual entities as well as visual attributes. However, previous weakly supervised REG methods rarely pay attention to the relationship between the entities. In this paper, we propose a knowledge-guided pairwise reconstruction network (KPRN), which models the relationship between the target entity (subject) and contextual entity (object) as well as grounds these two entities. Specifically, we first design a knowledge extraction module to guide the proposal selection of subject and object. The prior knowledge is obtained in a specific form of semantic similarities between each proposal and the subject/object. Second, guided by such knowledge, we design the subject and object attention module to construct the subject-object proposal pairs. The subject attention excludes the unrelated proposals from the candidate proposals. The object attention selects the most suitable proposal as the contextual proposal. Third, we introduce a pairwise attention and an adaptive weighting scheme to learn the correspondence between these proposal pairs and the query. Finally, a pairwise reconstruction module is used to measure the grounding for weakly supervised learning. Extensive experiments on four large-scale datasets show our method outperforms existing state-of-the-art methods by a large margin.
+
 #### Multi-modal Knowledge-aware Hierarchical Attention Network for Explainable Medical Question Answering 
   * [[pdf](https://dl.acm.org/doi/10.1145/3343031.3351033)] [[repo](paper/zhang2019multimodal.pdf)]
   * Zhang et al. (2019.10)
   * ACM-MM'19
   * Online healthcare services can offer public ubiquitous access to the medical knowledge, especially with the emergence of medical question answering websites, where patients can get in touch with doctors without going to hospital. Explainability and accuracy are two main concerns for medical question answering. However, existing methods mainly focus on accuracy and cannot provide good explanation for retrieved medical answers. This paper proposes a novel Multi-Modal Knowledge-aware Hierarchical Attention Network (MKHAN) to effectively exploit multi-modal knowledge graph (MKG) for explainable medical question answering. MKHAN can generate path representation by composing the structural, linguistics, and visual information of entities, and infer the underlying rationale of question-answer interactions by leveraging the sequential dependencies within a path from MKG. Furthermore, a novel hierarchical attention network is proposed to discriminate the salience of paths endowing our model with explainability. We build a large-scale multi-modal medical knowledge graph and two real-world medical question answering datasets, the experimental results demonstrate the superior performance on our approach compared with the state-of-the-art methods. 
 
-**2020** {#1}
+**2020** {#3}
 
 #### MHSAN: Multi-Head Self-Attention Network for Visual Semantic Embedding
   * [[pdf](https://arxiv.org/pdf/2001.03712.pdf)] [[repo](paper/park2020mhsan.pdf)]
   * Park et al. (2020.01)
   * WACV'20
   * Visual-semantic embedding enables various tasks such as image-text retrieval, image captioning, and visual question answering. The key to successful visual-semantic embedding is to express visual and textual data properly by accounting for their intricate relationship. While previous studies have achieved much advance by encoding the visual and textual data into a joint space where similar concepts are closely located, they often represent data by a single vector ignoring the presence of multiple important components in an image or text. Thus, in addition to the joint embedding space, we propose a novel multi-head self-attention network to capture various components of visual and textual data by attending to important parts in data. Our approach achieves the new state-of-the-art results in image-text retrieval tasks on MS-COCO and Flickr30K datasets. Through the visualization of the attention maps that capture distinct semantic components at multiple positions in the image and the text, we demonstrate that our method achieves an effective and interpretable visual-semantic joint space.
+
+#### MULE: Multimodal Universal Language Embedding
+  * [[pdf](https://arxiv.org/pdf/1909.03493.pdf)] [[repo](paper/kim2019MULE.pdf)]
+  * Kim et al. (2020.02)
+  * AAAI'20
+  * Existing vision-language methods typically support two languages at a time at most. In this paper, we present a modular approach which can easily be incorporated into existing vision-language methods in order to support many languages. We accomplish this by learning a single shared Multimodal Universal Language Embedding (MULE) which has been visually-semantically aligned across all languages. Then we learn to relate MULE to visual data as if it were a single language. Our method is not architecture specific, unlike prior work which typically learned separate branches for each language, enabling our approach to easily be adapted to many vision-language methods and tasks. Since MULE learns a single language branch in the multimodal model, we can also scale to support many languages, and languages with fewer annotations can take advantage of the good representation learned from other (more abundant) language data. We demonstrate the effectiveness of MULE on the bidirectional image-sentence retrieval task, supporting up to four languages in a single model. In addition, we show that Machine Translation can be used for data augmentation in multilingual learning, which, combined with MULE, improves mean recall by up to 21.9% on a single-language compared to prior work, with the most significant gains seen on languages with relatively few annotations. Our code is publicly available. 
+
+#### Modality to Modality Translation: An Adversarial Representation Learning and Graph Fusion Network for Multimodal Fusion
+  * [[pdf](https://arxiv.org/pdf/1911.07848.pdf)] [[repo](paper/mai2019modality.pdf)]
+  * Mai et al. (2020.02)
+  * AAAI'20
+  * Learning joint embedding space for various modalities is of vital importance for multimodal fusion. Mainstream modality fusion approaches fail to achieve this goal, leaving a modality gap which heavily affects cross-modal fusion. In this paper, we propose a novel adversarial encoder-decoder-classifier framework to learn a modality invariant embedding space. Since the distributions of various modalities vary in nature, to reduce the modality gap, we translate the distributions of source modalities into that of target modality via their respective encoders using adversarial training. Furthermore, we exert additional constraints on embedding space by introducing reconstruction loss and classification loss. Then we fuse the encoded representations using hierarchical graph neural network which explicitly explores unimodal, bimodal and trimodal interactions in multi-stage. Our method achieves state-of-the-art performance on multiple datasets. Visualization of the learned embeddings suggests that the joint embedding space learned by our method is discriminative. 
 
 ## Tutorials
 
@@ -143,7 +197,7 @@
   * WSDM‘18
 
 #### Injecting Prior Information and Multiple Modalities into Knowledge Base Embeddings
-  * [[pdf](http://exobrain.kr/images/(1-1)Injecting%20Prior%20Information%20and%20Multiple%20Modalities%20into%20KB%20Embeddings(Sameer%20Singh).pdf)]
+  * [[pdf](http://exobrain.kr/images/(1-1)Injecting%20Prior%20Information%20and%20Multiple%20Modalities%20into%20KB%20Embeddings(Sameer%20Singh).pdf)] [[repo](tutorials/InjectingPriorInformationAndMultipleModalitiesIntoKBEmbeddings.pdf)]
   * Sameer Singh
   * Uni California, Irvine
 
