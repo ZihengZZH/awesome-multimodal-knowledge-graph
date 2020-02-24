@@ -32,9 +32,11 @@
 | 2016.03| Vendrov et al. | ICLR'16 | Order-Embeddings of Image and Language | [[pdf](https://arxiv.org/pdf/1511.06361.pdf)] [[repo](paper/vendrov2016order.pdf)] [[github](https://github.com/ivendrov/order-embedding)] |
 | 2018.09| Huang et al. | ECCV'18 | Multimodal Unsupervised Image-to-Image Translation | [[pdf](http://openaccess.thecvf.com/content_ECCV_2018/papers/Xun_Huang_Multimodal_Unsupervised_Image-to-image_ECCV_2018_paper.pdf)] [[repo](paper/huang2018multimodal.pdf)] |
 | 2019.04| Yang et al. | arXiv | Shared Predictive Cross-Modal Deep Quantization | [[pdf](https://arxiv.org/pdf/1904.07488.pdf)] [[repo](paper/yang2019shared.pdf)] |
+| 2019.10| Guo et al. | ACM-MM'19 | Aligning Linguistic Words and Visual Semantic Units for Image Captioning | [[pdf](https://arxiv.org/pdf/1908.02127.pdf)] [[repo](paper/guo2019aligning.pdf)] [[github](https://github.com/ltguo19/VSUA-Captioning)] |
 | 2019.10| He et al. | ACM-MM'19 | A New Benchmark and Approach for Fine-grained Cross-media Retrieval | [[pdf](https://arxiv.org/pdf/1907.04476.pdf)] [[repo](paper/he2019new.pdf)] [[github](https://github.com/PKU-ICST-MIPL/FGCrossNet_ACMMM2019)] |
 | 2019.10| Huang et al. | ACM-MM'19 | Annotation Efficient Cross-Modal Retrieval with Adversarial Attentive Alignment | [[pdf](http://www.cs.cmu.edu/~poyaoh/data/ann.pdf)] [[repo](paper/huang2019annotation.pdf)] |
-| 2020.01| Park et al. | WACV'20 | MHSAN: Multi-Head Self-Attention Network for Visual Semantic Embedding | [[pdf](https://arxiv.org/pdf/2001.03712.pdf)] [[repo](paper/park2020mhsan.pdf)] |
+| 2019.10| Nie et al. | ACM-MM'19 | Multimodal Dialog System: Generating Responses via Adaptive Decoders | [[pdf](https://liqiangnie.github.io/paper/fp349-nieAemb.pdf)] [[repo](paper/nie2019multimodal.pdf)] |
+| 2020.01| Park et al. | WACV'20 | MHSAN: Multi-Head Self-Attention Network for Visual Semantic Embedding | [[pdf](https://arxiv.org/pdf/2001.03712.pdf)] [[repo](paper/park2020mhsan.pdf)] | [[pdf](https://liqiangnie.github.io/paper/fp349-nieAemb.pdf)] [[repo](paper/nie2019multimodal.pdf)] |
 | 2020.02| Kim et al. | AAAI'20 | MULE: Multimodal Universal Language Embedding | [[pdf](https://arxiv.org/pdf/1909.03493.pdf)] [[repo](paper/kim2019MULE.pdf)] |
 | 2020.02| Mai et al. | AAAI'20 | Modality to Modality Translation: An Adversarial Representation Learning and Graph Fusion Network for Multimodal Fusion | [[pdf](https://arxiv.org/pdf/1911.07848.pdf)] [[repo](paper/mai2019modality.pdf)] |
 
