@@ -16,6 +16,7 @@
 | *Year* | <div style="width:100px">*Author*</div> | <div style="width:100px">*Conf.*</div> | *Title* | *Links* |
 | :----: | --------------------------------------- | -------------------------------------- | ------- | ------- |
 | 2015.11| Zhu et al. | arXiv | Building a Large-scale Multimodal Knowledge Base System for Answering Visual Queries | [[pdf](https://arxiv.org/pdf/1507.05670.pdf)] [[repo](paper/zhu2015building.pdf)] |
+| 2017.08| Xie et al. | IJCAI'17 | Image-embodied Knowledge Representation Learning | [[pdf](https://www.ijcai.org/Proceedings/2017/0438.pdf)] [[repo](paper/xie2017image.pdf)] |
 | 2018.01| Saha et al. | AAAI'18 | Towards Building Large Scale Multimodal Domain-Aware Conversation Systems | [[pdf](https://arxiv.org/pdf/1704.00200.pdf)] [[repo](paper/saha2018towards.pdf)] |
 | 2018.06| Mousselly-Sergieh et al. | SEM'18 | A Multimodal Translation-Based Approach for Knowledge Graph Representation Learning | [[pdf](https://www.aclweb.org/anthology/S18-2027.pdf)] [[repo](paper/mousselly2018multimodal.pdf)] |
 | 2018.11| Pezeshkpour et al. | EMNLP'18 | Embedding Multimodal Relational Data for Knowledge Base Completion | [[pdf](https://www.aclweb.org/anthology/D18-1359.pdf)] [[repo](paper/pezeshkpour2018embedding.pdf)] |

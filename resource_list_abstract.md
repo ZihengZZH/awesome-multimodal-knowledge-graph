@@ -11,6 +11,7 @@
     - [Building a Large-scale Multimodal Knowledge Base System for Answering Visual Queries](#building-a-large-scale-multimodal-knowledge-base-system-for-answering-visual-queries)
     - [Order-Embeddings of Image and Language](#order-embeddings-of-image-and-language)
     - [Neural Relation Extraction with Selective Attention over Instances](#neural-relation-extraction-with-selective-attention-over-instances)
+    - [Image-embodied Knowledge Representation Learning](#image-embodied-knowledge-representation-learning)
     - [Towards Building Large Scale Multimodal Domain-Aware Conversation Systems](#towards-building-large-scale-multimodal-domain-aware-conversation-systems)
     - [A Multimodal Translation-Based Approach for Knowledge Graph Representation Learning](#a-multimodal-translation-based-approach-for-knowledge-graph-representation-learning)
     - [Multimodal Unsupervised Image-to-Image Translation](#multimodal-unsupervised-image-to-image-translation)
@@ -73,6 +74,14 @@
   * Lin et al. (2016.08)
   * ACL'16
   * Distant supervised relation extraction has been widely used to find novel relational facts from text. However, distant supervision inevitably accompanies with the wrong labelling problem, and these noisy data will substantially hurt the performance of relation extraction. To alleviate this issue, we propose a sentence-level attention-based model for relation extraction. In this model, we employ convolutional neural networks to embed the semantics of sentences. Afterwards, we build sentence-level attention over multiple instances, which is expected to dynamically reduce the weights of those noisy instances. Experimental results on real-world datasets show that, our model can make full use of all informative sentences and effectively reduce the influence of wrong labelled instances. Our model achieves significant and consistent improvements on relation extraction as compared with baselines.
+
+**2017** {#1}
+
+#### Image-embodied Knowledge Representation Learning
+  * [[pdf](https://www.ijcai.org/Proceedings/2017/0438.pdf)] [[repo](paper/xie2017image.pdf)]
+  * Xie et al. (2017.08)
+  * IJCAI'17
+  * Entity images could provide significant visual information for knowledge representation learning. Most conventional methods learn knowledge representations merely from structured triples, ignoring rich visual information extracted from entity images. In this paper, we propose a novel Image-embodied Knowledge Representation Learning model (IKRL), where knowledge representations are learned with both triple facts and images. More specially, we first construct representations for all images of an entity with a neural image encoder. These image representations are then integrated into an aggregated image-based representation via an attention-based method. We evaluate out IKRL models on knowledge graph completion and triple classification. Experimental results demonstrate that our models outperform all baselines on both tasks, which indicates the significance of visual information for knowledge representations and the capability of our models in learning knowledge representations with images.
 
 **2018** {#4}
 

@@ -18,7 +18,15 @@ An **ontology** is an explicit, formal specification of a shared conceptualizati
 
 A **knowledge graph** (i) mainly describes real-world entities and their interrelations, organized in a graph, (ii) defines possible classes and relations of entities in a schema, (iii) allows for potentially interrelating arbitrary entities with each other and (iv) covers various topical domains.
 
-In essence, **Resource Description Framework (RDF)** is an Information Model, much like the Relational Database Model. In fact, one could say that RDF is a Relational "Triple" Model, in which a statement of <subject predicate object> is called a triple.
+In essence, **Resource Description Framework (RDF)** is an Information Model, much like the Relational Database Model. In fact, one could say that RDF is a Relational "Triple" Model, in which a statement of \<subject, predicate, object\> is called a triple.
+
+Here is a simple triple within a knowledge base.
+
+* Subject : Louvre
+* Predicate : is located
+* Object : Paris
+
+In practice, knowledge bases include millions of such triples, which we also term as **facts**. These facts are grouped under ontologies in knowledge bases. An **ontology** is an identifying category for a particular domain of facts. Hence, an ontology explains what sort of entities exist within that category.
 
 ## Expansion & Enrichment & Validation
 
@@ -62,3 +70,4 @@ Some approaches are available
 4. [Knowledge Graph Completion: Data Linking](https://www.lri.fr/~sais/KGC/2-DataLinking-final.pdf)
 5. [Knowledge Graph Completion: Key Discovery](https://www.lri.fr/~sais/KGC/3-KeyDiscovery_Final.pdf)
 6. [Knowledge Graph Completion: Identity Link Validation](https://www.lri.fr/~sais/KGC/4-IdentityProblem.pdf)
+7. [Conceptualizing the Knowledge Graph Construction Pipeline](https://towardsdatascience.com/conceptualizing-the-knowledge-graph-construction-pipeline-33edb25ab831)
