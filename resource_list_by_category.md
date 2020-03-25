@@ -1,8 +1,8 @@
 **Resource List by category**
 
-> [pdf]: paper PDF online link  
-> [repo]: paper PDF repo link  
-> [github]: github link  
+> [pdf]: paper PDF online link
+> [repo]: paper PDF repo link
+> [github]: github link
 > [web]: website link
 
 - [multimodal knowledge graph](#multimodal-knowledge-graph)
@@ -46,10 +46,12 @@
 | *Year* | <div style="width:100px">*Author*</div> | <div style="width:100px">*Conf.*</div> | *Title* | *Links* |
 | :----: | --------------------------------------- | -------------------------------------- | ------- | ------- |
 | 2009.08| Mintz et al. | ACL'09 | Distant Supervision for Relation Extraction without Labeled Data | [[pdf](https://www.aclweb.org/anthology/P09-1113.pdf)] [[repo](paper/mintz2009distant.pdf)] |
+| 2013.12| Bordes et al. | NIPS'13 | Translating Embeddings for Modeling Multi-relational Data | [[pdf](https://www.utc.fr/~bordesan/dokuwiki/_media/en/transe_nips13.pdf)] [[repo](paper/bordes2013translating.pdf)] |
+| 2014.08| Zeng et al. | COLING'14 | Relation Classification via Convolutional Deep Neural Network | [[pdf](https://www.aclweb.org/anthology/C14-1220.pdf)] [[repo](paper/zeng2014relation.pdf)] |
 | 2015.08| Zeng et al. | EMNLP'15 | Distance Supervision for Relation Extraction via Piecewise Convolutional Neural Networks | [[pdf](http://www.emnlp2015.org/proceedings/EMNLP/pdf/EMNLP203.pdf)] [[repo](paper/zeng2015distant.pdf)] |
 | 2016.08| Lin et al. | ACL'16 | Neural Relation Extraction with Selective Attention over Instances | [[pdf](https://www.aclweb.org/anthology/P16-1200v2.pdf)] [[repo](paper/lin2016neural.pdf)] |
 
-## tutorials 
+## tutorials
 
 | *Author* | <div style="width:100px">*Conf. / Uni*</div> | *Title* | *Links* |
 | -------- | -------------------------------------------- | ------- | ------- |

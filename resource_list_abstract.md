@@ -1,12 +1,14 @@
 **Resource List w/ Abstract**
 
-> [pdf]: paper PDF online link  
-> [repo]: paper PDF repo link  
-> [github]: github link  
+> [pdf]: paper PDF online link
+> [repo]: paper PDF repo link
+> [github]: github link
 > [web]: website link
 
 - [Paper](#paper)
     - [Distant Supervision for Relation Extraction without Labeled Data](#distant-supervision-for-relation-extraction-without-labeled-data)
+    - [Translating Embeddings for Modeling Multi-relational Data](#translating-embeddings-for-modeling-multi-relational-data)
+    - [Relation Classification via Convolutional Deep Neural Network](#relation-classification-via-convolutional-deep-neural-network)
     - [Distance Supervision for Relation Extraction via Piecewise Convolutional Neural Networks](#distance-supervision-for-relation-extraction-via-piecewise-convolutional-neural-networks)
     - [Building a Large-scale Multimodal Knowledge Base System for Answering Visual Queries](#building-a-large-scale-multimodal-knowledge-base-system-for-answering-visual-queries)
     - [Order-Embeddings of Image and Language](#order-embeddings-of-image-and-language)
@@ -47,6 +49,22 @@
   * ACL'09
   * Modern models of relation extraction for tasks like ACE are based on supervised learning of relations from small hand-labeled corpora. We investigate an alternative paradigm that does not require labeled corpora, avoiding the domain dependence of ACE-style algorithms, and allowing the use of corpora of any size. Our experiments use Freebase, a large semantic database of several thousand relations, to provide distant supervision. For each pair of entities that appears in some Freebase relation, we find all sentences containing those entities in a large unlabeled corpus and extract textual features to train a relation classifier. Our algorithm combines the advantages of supervised IE (combining 400,000 noisy pattern features in a probabilistic classifier) and unsupervised IE (extracting large numbers of relations from large corpora of any domain). Our model is able to extract 10,000 instances of 102 relations at a precision of 67.6%. We also analyze feature performance, showing that syntactic parse features are particularly helpful for relations that are ambiguous or lexically distance in their expression.
 
+**2013** {#1}
+
+#### Translating Embeddings for Modeling Multi-relational Data
+  * [[pdf](https://www.utc.fr/~bordesan/dokuwiki/_media/en/transe_nips13.pdf)] [[repo](paper/bordes2013translating.pdf)]
+  * Bordes et al. (2013.12)
+  * NIPS'13
+  * We consider the problem of embedding entities and relationships of multi-relational data in the low-dimensional vector spaces. Our objective is to propose a canonical model which is easy to train, contains a reduced number of parameters and can scale up to very large databases. Hence, we propose TransE, a method which models relationships by interpreting them as translations operating on the low-dimensional embeddings of the entities. Despite its simplicity, this assumption proves to be powerful since extensive experiments show that TransE significantly outperforms state-of-the-art methods in link prediction on two knowledge bases. Besides, it can be successfully trained on a large scale data set with 1M entities, 25k relationships and more than 17M training samples.
+
+**2014** {#1}
+
+#### Relation Classification via Convolutional Deep Neural Network
+  * [[pdf](https://www.aclweb.org/anthology/C14-1220.pdf)] [[repo](paper/zeng2014relation.pdf)]
+  * Zeng et al. (2014.08)
+  * COLING'14
+  * The state-of-the-art methods used for relation classification are primarily based on statistical machine learning, and their performance strongly depends on the quality of the extracted features. The extracted features are often derived from the output of pre-existing natural language processing (NLP) systems, which leads to the propagation of the errors in the existing tools and hinders the performance of these systems. In this paper, we exploit a convolutional deep neural network (DNN) to extract lexical and sentence level features. Our method takes all of the word tokens as input without complicated pre-processing. First, the work tokens are transformed to vectors by looking up word embeddings. Then, lexical level features are extracted according to the given nouns. Meanwhile, sentence level features are learned using a convolutional approach. These two level features are concatenated to form the final extracted feature vector. Finally, the features are fed into a softmax classifier to predict the relationship between two marked nouns. The experimental results demonstrate that our approach significantly outperforms the state-of-the-art methods.
+
 **2015** {#2}
 
 #### Distance Supervision for Relation Extraction via Piecewise Convolutional Neural Networks
@@ -55,7 +73,7 @@
   * EMNLP'15
   * Two problems arise when using distant supervision for relation extraction. First, in this method, an already existing knowledge base is heuristically aligned to texts, and the alignment results are treated as labeled data. However, the heuristic alignment can fail, resulting in wrong label problem. In addition, in previous approaches, statistical models have typically been applied to ad hoc features. The noise that originates from feature extraction process can cause poor performance. In this paper, we propose a novel model dubbed the Piecewise Convolutional Neural Networks (PCNNs) with multi-instance learning to address these two problems. To solve the first problem, distant supervised relation extraction is treated as a multi-instance problem in which the uncertainty of instance labels is taken into account. To address the latter problem, we avoid feature engineering and instead adopt convolutional architecture with piecewise max pooling to automatically learn relevant features. Experiments show that our method is effective and outperforms several competitive baseline methods.
 
-#### Building a Large-scale Multimodal Knowledge Base System for Answering Visual Queries 
+#### Building a Large-scale Multimodal Knowledge Base System for Answering Visual Queries
   * [[pdf](https://arxiv.org/pdf/1507.05670.pdf)] [[repo](paper/zhu2015building.pdf)]
   * Zhu et al. (2015.11)
   * arXiv
@@ -63,7 +81,7 @@
 
 **2016** {#2}
 
-#### Order-Embeddings of Image and Language 
+#### Order-Embeddings of Image and Language
   * [[pdf](https://arxiv.org/pdf/1511.06361.pdf)] [[repo](paper/vendrov2016order.pdf)] [[github](https://github.com/ivendrov/order-embedding)]
   * Vendrov et al. (2016.03)
   * ICLR'16
@@ -85,17 +103,17 @@
 
 **2018** {#4}
 
-#### Towards Building Large Scale Multimodal Domain-Aware Conversation Systems 
+#### Towards Building Large Scale Multimodal Domain-Aware Conversation Systems
   * [[pdf](https://arxiv.org/pdf/1704.00200.pdf)] [[repo](paper/saha2018towards.pdf)]
   * Saha et al. (2018.01)
   * AAAI'18
   * While multimodal conversation agents are gaining importance in several domains such as retail, travel etc., deep learning research in this area has been limited primarily due to the lack of availability of large-scale, open chatlogs. To overcome this bottleneck, in this paper we introduce the task of multimodal, domain-aware conversation, and propose the MMD benchmark dataset. This dataset was gathered by working in close coordination with large number of domain experts in the reail domain. These experts suggested various conversations flows and dialog states which are typically seen in multimodal conversations in the fashion domain. Keeping these flows and states in mind, we created a dataset consisting of over 150K conversation sessions between shoppers and sale agents, with the help of in-house annotators using a semi-automated manually intense iterative process. With this dataset, we propose 5 new sub-tasks for multimodal conversations along with their evaluation methodology. We also propose two multimodal neural models in the encode-attend-decode paradigm and demonstrate their performance on two of the sub-tasks, namely text response generation and best image response selection. These experiments serve to establish baseline performance and open new research directions for each of these sub-tasks. Further, for each of the sub-tasks, we present a 'per-state evaluation' of 9 most significant dialog states, which would enable more focused research into understanding the challenges and complexities involved in each of these states.
 
-#### A Multimodal Translation-Based Approach for Knowledge Graph Representation Learning 
+#### A Multimodal Translation-Based Approach for Knowledge Graph Representation Learning
   * [[pdf](https://www.aclweb.org/anthology/S18-2027.pdf)] [[repo](paper/mousselly2018multimodal.pdf)]
   * Mousselly-Sergieh et al. (2018.06)
   * SEM'18
-  * Current methods for knowledge graph (KG) representation learning focus solely on the structure of the KG and do not exploit any kind of external information, such as visual and linguistic information corresponding to the KG entities. In this paper, we propose a multimodal translation-based approach that defines the energy og a KG triple as the sum of sub-energy functions that leverage both multimodal (visual and linguistic) and structural KG representations. Next, a ranking-based loss is minimized using a simple neural network architecture. Moreover, we introduce a new large-scale dataset for multimodal KG representation learning. We compared the performance of our approach to other baselines on two standard tasks, namely knowledge graph completion and triple classification, using our as well as the WN9-IMG dataset. The results demonstrate that our approach outperforms all baselines on both tasks and datasets.
+  * Current methods for knowledge graph (KG) representation learning focus solely on the structure of the KG and do not exploit any kind of external information, such as visual and linguistic information corresponding to the KG entities. In this paper, we propose a multimodal translation-based approach that defines the energy of a KG triple as the sum of sub-energy functions that leverage both multimodal (visual and linguistic) and structural KG representations. Next, a ranking-based loss is minimized using a simple neural network architecture. Moreover, we introduce a new large-scale dataset for multimodal KG representation learning. We compared the performance of our approach to other baselines on two standard tasks, namely knowledge graph completion and triple classification, using our as well as the WN9-IMG dataset. The results demonstrate that our approach outperforms all baselines on both tasks and datasets.
 
 #### Multimodal Unsupervised Image-to-Image Translation
   * [[pdf](http://openaccess.thecvf.com/content_ECCV_2018/papers/Xun_Huang_Multimodal_Unsupervised_Image-to-image_ECCV_2018_paper.pdf)] [[repo](paper/huang2018multimodal.pdf)]
@@ -111,7 +129,7 @@
 
 **2019** {#10}
 
-#### MMKG: Multi-Modal Knowledge Graphs 
+#### MMKG: Multi-Modal Knowledge Graphs
   * [[pdf](https://arxiv.org/pdf/1903.05485.pdf)] [[repo](paper/liu2019mmkg.pdf)]
   * Liu et al. (2019.03)
   * ESWC'19
@@ -127,9 +145,9 @@
   * [[pdf](https://arxiv.org/pdf/1709.02314.pdf)] [[repo](paper/rubio2019answering.pdf)]
   * Rubio et al. (2019.05)
   * AKBC'19
-  * A visual-relational knowledge graph (KG) is a multi-relational graph whose entities are associated with images. We explore novel machine learning approaches for answering visual-relational queries in web-extracted knowledge graphs. To this end, we have created ImageGraph, a KG with 1330 relation types, 14870 entities, and 829,931 images crawled from the web. With visual-relational KGs such as ImageGraph one can introduce novel probabilistic query types in which images are treated as first-class citizens. Both the prediction of relations between unseen images as well as multi-relational image retrieval can be expressed with specific families of visual-relational queries. We introduce novel combinations of convolutional networks and knowledge graph embedding methods to answer such queries. We also explore a zero-shot learning scenario where an image of an entirely new entity is linked with multiple relations to entities of an existing KG. The resulting multi-relational grounding of unseen entity images into a knowledge graph serves as a semantic entity representation. We conduct experiments to demonstrate that the proposed methods can answer these visual-relational queries efficiently and accurately. 
+  * A visual-relational knowledge graph (KG) is a multi-relational graph whose entities are associated with images. We explore novel machine learning approaches for answering visual-relational queries in web-extracted knowledge graphs. To this end, we have created ImageGraph, a KG with 1330 relation types, 14870 entities, and 829,931 images crawled from the web. With visual-relational KGs such as ImageGraph one can introduce novel probabilistic query types in which images are treated as first-class citizens. Both the prediction of relations between unseen images as well as multi-relational image retrieval can be expressed with specific families of visual-relational queries. We introduce novel combinations of convolutional networks and knowledge graph embedding methods to answer such queries. We also explore a zero-shot learning scenario where an image of an entirely new entity is linked with multiple relations to entities of an existing KG. The resulting multi-relational grounding of unseen entity images into a knowledge graph serves as a semantic entity representation. We conduct experiments to demonstrate that the proposed methods can answer these visual-relational queries efficiently and accurately.
 
-#### Multimodal Data Enhanced Representation Learning for Knowledge Graphs 
+#### Multimodal Data Enhanced Representation Learning for Knowledge Graphs
   * [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8852079)] [[repo](paper/wang2019multimodal.pdf)]
   * Wang et al. (2019.06)
   * IJCNN'19
@@ -165,11 +183,11 @@
   * ACM-MM'19
   * On the shoulders of textual dialog systems, the multimodal ones, recently have engaged increasing attention, especially in the retail domain. Despite the commercial value of multimodal dialog systems, they will suffer from the following challenges: 1) automatically generate the right responses in appropriate medium forms; 2) jointly consider the visual cues and the side information while selecting product images; and 3) guide the response generation with multi-faceted and heterogeneous knowledge. To address the aforementioned issues, we present a Multimodal diAloG  system with adaptIve deCoders, MAGIC for short. In particular, MAGIC first judges the response type and the corresponding medium form via understanding the intention of the given multimodal context. Hereafter, it employs adaptive decoders to generate the desired responses: a simple recurrent neural network (RNN) is applied to generating general responses, then a knowledge-aware RNN decoder is designed to encode the multiform domain knowledge to enrich the response, and the multimodal response decoder incorporates an image recommendation model with jointly considers the textual attributes and the visual images via a neural model optimized by the max-margin loss. We comparatively justify MAGIC over a benchmark dataset. Experiment results demonstrate that MAGIC outperforms the existing methods and achieves the state-of-the-art performance.
 
-#### Multi-modal Knowledge-aware Hierarchical Attention Network for Explainable Medical Question Answering 
+#### Multi-modal Knowledge-aware Hierarchical Attention Network for Explainable Medical Question Answering
   * [[pdf](https://dl.acm.org/doi/10.1145/3343031.3351033)] [[repo](paper/zhang2019multimodal.pdf)]
   * Zhang et al. (2019.10)
   * ACM-MM'19
-  * Online healthcare services can offer public ubiquitous access to the medical knowledge, especially with the emergence of medical question answering websites, where patients can get in touch with doctors without going to hospital. Explainability and accuracy are two main concerns for medical question answering. However, existing methods mainly focus on accuracy and cannot provide good explanation for retrieved medical answers. This paper proposes a novel Multi-Modal Knowledge-aware Hierarchical Attention Network (MKHAN) to effectively exploit multi-modal knowledge graph (MKG) for explainable medical question answering. MKHAN can generate path representation by composing the structural, linguistics, and visual information of entities, and infer the underlying rationale of question-answer interactions by leveraging the sequential dependencies within a path from MKG. Furthermore, a novel hierarchical attention network is proposed to discriminate the salience of paths endowing our model with explainability. We build a large-scale multi-modal medical knowledge graph and two real-world medical question answering datasets, the experimental results demonstrate the superior performance on our approach compared with the state-of-the-art methods. 
+  * Online healthcare services can offer public ubiquitous access to the medical knowledge, especially with the emergence of medical question answering websites, where patients can get in touch with doctors without going to hospital. Explainability and accuracy are two main concerns for medical question answering. However, existing methods mainly focus on accuracy and cannot provide good explanation for retrieved medical answers. This paper proposes a novel Multi-Modal Knowledge-aware Hierarchical Attention Network (MKHAN) to effectively exploit multi-modal knowledge graph (MKG) for explainable medical question answering. MKHAN can generate path representation by composing the structural, linguistics, and visual information of entities, and infer the underlying rationale of question-answer interactions by leveraging the sequential dependencies within a path from MKG. Furthermore, a novel hierarchical attention network is proposed to discriminate the salience of paths endowing our model with explainability. We build a large-scale multi-modal medical knowledge graph and two real-world medical question answering datasets, the experimental results demonstrate the superior performance on our approach compared with the state-of-the-art methods.
 
 **2020** {#3}
 
@@ -183,22 +201,22 @@
   * [[pdf](https://arxiv.org/pdf/1909.03493.pdf)] [[repo](paper/kim2019MULE.pdf)]
   * Kim et al. (2020.02)
   * AAAI'20
-  * Existing vision-language methods typically support two languages at a time at most. In this paper, we present a modular approach which can easily be incorporated into existing vision-language methods in order to support many languages. We accomplish this by learning a single shared Multimodal Universal Language Embedding (MULE) which has been visually-semantically aligned across all languages. Then we learn to relate MULE to visual data as if it were a single language. Our method is not architecture specific, unlike prior work which typically learned separate branches for each language, enabling our approach to easily be adapted to many vision-language methods and tasks. Since MULE learns a single language branch in the multimodal model, we can also scale to support many languages, and languages with fewer annotations can take advantage of the good representation learned from other (more abundant) language data. We demonstrate the effectiveness of MULE on the bidirectional image-sentence retrieval task, supporting up to four languages in a single model. In addition, we show that Machine Translation can be used for data augmentation in multilingual learning, which, combined with MULE, improves mean recall by up to 21.9% on a single-language compared to prior work, with the most significant gains seen on languages with relatively few annotations. Our code is publicly available. 
+  * Existing vision-language methods typically support two languages at a time at most. In this paper, we present a modular approach which can easily be incorporated into existing vision-language methods in order to support many languages. We accomplish this by learning a single shared Multimodal Universal Language Embedding (MULE) which has been visually-semantically aligned across all languages. Then we learn to relate MULE to visual data as if it were a single language. Our method is not architecture specific, unlike prior work which typically learned separate branches for each language, enabling our approach to easily be adapted to many vision-language methods and tasks. Since MULE learns a single language branch in the multimodal model, we can also scale to support many languages, and languages with fewer annotations can take advantage of the good representation learned from other (more abundant) language data. We demonstrate the effectiveness of MULE on the bidirectional image-sentence retrieval task, supporting up to four languages in a single model. In addition, we show that Machine Translation can be used for data augmentation in multilingual learning, which, combined with MULE, improves mean recall by up to 21.9% on a single-language compared to prior work, with the most significant gains seen on languages with relatively few annotations. Our code is publicly available.
 
 #### Modality to Modality Translation: An Adversarial Representation Learning and Graph Fusion Network for Multimodal Fusion
   * [[pdf](https://arxiv.org/pdf/1911.07848.pdf)] [[repo](paper/mai2019modality.pdf)]
   * Mai et al. (2020.02)
   * AAAI'20
-  * Learning joint embedding space for various modalities is of vital importance for multimodal fusion. Mainstream modality fusion approaches fail to achieve this goal, leaving a modality gap which heavily affects cross-modal fusion. In this paper, we propose a novel adversarial encoder-decoder-classifier framework to learn a modality invariant embedding space. Since the distributions of various modalities vary in nature, to reduce the modality gap, we translate the distributions of source modalities into that of target modality via their respective encoders using adversarial training. Furthermore, we exert additional constraints on embedding space by introducing reconstruction loss and classification loss. Then we fuse the encoded representations using hierarchical graph neural network which explicitly explores unimodal, bimodal and trimodal interactions in multi-stage. Our method achieves state-of-the-art performance on multiple datasets. Visualization of the learned embeddings suggests that the joint embedding space learned by our method is discriminative. 
+  * Learning joint embedding space for various modalities is of vital importance for multimodal fusion. Mainstream modality fusion approaches fail to achieve this goal, leaving a modality gap which heavily affects cross-modal fusion. In this paper, we propose a novel adversarial encoder-decoder-classifier framework to learn a modality invariant embedding space. Since the distributions of various modalities vary in nature, to reduce the modality gap, we translate the distributions of source modalities into that of target modality via their respective encoders using adversarial training. Furthermore, we exert additional constraints on embedding space by introducing reconstruction loss and classification loss. Then we fuse the encoded representations using hierarchical graph neural network which explicitly explores unimodal, bimodal and trimodal interactions in multi-stage. Our method achieves state-of-the-art performance on multiple datasets. Visualization of the learned embeddings suggests that the joint embedding space learned by our method is discriminative.
 
 ## Tutorials
 
-#### Multimodal Knowledge Graphs: Automatic Extraction & Applications 
+#### Multimodal Knowledge Graphs: Automatic Extraction & Applications
   * [[pdf](http://www.ee.columbia.edu/~sfchang/papers/CVPR2019_MM_Knowledge_Graph_SF_Chang.pdf)] [[repo](tutorials/MultimodalKnowledgeGraphs@Columbia.pdf)]
   * Shih-Fu Chang
   * CVPR'19 & Uni. Columbia
 
-#### Towards Building Large-Scale Multimodal Knowledge Bases 
+#### Towards Building Large-Scale Multimodal Knowledge Bases
   * [[pdf](https://www.cise.ufl.edu/~dihong/assets/MKBC.pdf)] [[repo](tutorials/TowardsBuildingLargeScaleMultimodalKnowledgeBases@Florida.pdf)]
   * Dihong Gong
   * Uni. Florida
