@@ -47,9 +47,13 @@
 | :----: | --------------------------------------- | -------------------------------------- | ------- | ------- |
 | 2009.08| Mintz et al. | ACL'09 | Distant Supervision for Relation Extraction without Labeled Data | [[pdf](https://www.aclweb.org/anthology/P09-1113.pdf)] [[repo](paper/mintz2009distant.pdf)] |
 | 2013.12| Bordes et al. | NIPS'13 | Translating Embeddings for Modeling Multi-relational Data | [[pdf](https://www.utc.fr/~bordesan/dokuwiki/_media/en/transe_nips13.pdf)] [[repo](paper/bordes2013translating.pdf)] |
+| 2014.07| Wang et al. | AAAI'14 | Knowledge Graph Embedding by Translating on Hyperplanes | [[pdf](https://persagen.com/files/misc/wang2014knowledge.pdf)] [[repo](paper/wang2014knowledge.pdf)] |
 | 2014.08| Zeng et al. | COLING'14 | Relation Classification via Convolutional Deep Neural Network | [[pdf](https://www.aclweb.org/anthology/C14-1220.pdf)] [[repo](paper/zeng2014relation.pdf)] |
 | 2015.08| Zeng et al. | EMNLP'15 | Distance Supervision for Relation Extraction via Piecewise Convolutional Neural Networks | [[pdf](http://www.emnlp2015.org/proceedings/EMNLP/pdf/EMNLP203.pdf)] [[repo](paper/zeng2015distant.pdf)] |
+| 2015.10| Ji et al. | ACL'15 | Knowledge Graph Embedding via Dynamic Mapping Matrix | [[pdf](https://www.aclweb.org/anthology/P15-1067.pdf)] [[repo](paper/ji2015knowledge.pdf)] |
+| 2016.02| Ji et al. | AAAI'16 | Knowledge Graph Completion with Adaptive Sparse Transfer Matrix | [[pdf](https://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/download/11982/11693)] [[repo](paper/ji2016knowledge.pdf)] |
 | 2016.08| Lin et al. | ACL'16 | Neural Relation Extraction with Selective Attention over Instances | [[pdf](https://www.aclweb.org/anthology/P16-1200v2.pdf)] [[repo](paper/lin2016neural.pdf)] |
+| 2016.08| Xiao et al. | ACL'16 | TransG: A Generative Model for Knowledge Graph Embedding | [[pdf](https://www.aclweb.org/anthology/P16-1219.pdf)] [[repo](paper/xiao2016transg.pdf)] |
 
 ## tutorials
 

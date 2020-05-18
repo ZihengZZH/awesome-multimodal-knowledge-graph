@@ -8,11 +8,15 @@
 - [Paper](#paper)
     - [Distant Supervision for Relation Extraction without Labeled Data](#distant-supervision-for-relation-extraction-without-labeled-data)
     - [Translating Embeddings for Modeling Multi-relational Data](#translating-embeddings-for-modeling-multi-relational-data)
+    - [Knowledge Graph Embedding by Translating on Hyperplanes](#knowledge-graph-embedding-by-translating-on-hyperplanes)
     - [Relation Classification via Convolutional Deep Neural Network](#relation-classification-via-convolutional-deep-neural-network)
     - [Distance Supervision for Relation Extraction via Piecewise Convolutional Neural Networks](#distance-supervision-for-relation-extraction-via-piecewise-convolutional-neural-networks)
+    - [Knowledge Graph Embedding via Dynamic Mapping Matrix](#knowledge-graph-embedding-via-dynamic-mapping-matrix)
     - [Building a Large-scale Multimodal Knowledge Base System for Answering Visual Queries](#building-a-large-scale-multimodal-knowledge-base-system-for-answering-visual-queries)
+    - [Knowledge Graph Completion with Adaptive Sparse Transfer Matrix](#knowledge-graph-completion-with-adaptive-sparse-transfer-matrix)
     - [Order-Embeddings of Image and Language](#order-embeddings-of-image-and-language)
     - [Neural Relation Extraction with Selective Attention over Instances](#neural-relation-extraction-with-selective-attention-over-instances)
+    - [TransG: A Generative Model for Knowledge Graph Embedding](#transg-a-generative-model-for-knowledge-graph-embedding)
     - [Image-embodied Knowledge Representation Learning](#image-embodied-knowledge-representation-learning)
     - [Towards Building Large Scale Multimodal Domain-Aware Conversation Systems](#towards-building-large-scale-multimodal-domain-aware-conversation-systems)
     - [A Multimodal Translation-Based Approach for Knowledge Graph Representation Learning](#a-multimodal-translation-based-approach-for-knowledge-graph-representation-learning)
@@ -57,7 +61,13 @@
   * NIPS'13
   * We consider the problem of embedding entities and relationships of multi-relational data in the low-dimensional vector spaces. Our objective is to propose a canonical model which is easy to train, contains a reduced number of parameters and can scale up to very large databases. Hence, we propose TransE, a method which models relationships by interpreting them as translations operating on the low-dimensional embeddings of the entities. Despite its simplicity, this assumption proves to be powerful since extensive experiments show that TransE significantly outperforms state-of-the-art methods in link prediction on two knowledge bases. Besides, it can be successfully trained on a large scale data set with 1M entities, 25k relationships and more than 17M training samples.
 
-**2014** {#1}
+**2014** {#2}
+
+#### Knowledge Graph Embedding by Translating on Hyperplanes
+  * [[pdf](https://persagen.com/files/misc/wang2014knowledge.pdf)] [[repo](paper/wang2014knowledge.pdf)]
+  * Wang et al. (2014.07)
+  * AAAI'14
+  * We deal with embedding a large scale knowledge graph composed of entities and relations into a continuous vector space. TransE is a promising method proposed by recently, which is very efficient while achieving state-of-the-art predictive performance. We discuss some mapping properties of relations which should be considered in embedding, such as reflexive, one-to-many, many-to-one, and many-to-many. We note that TransE does not do well in dealing with these properties. Some complex models are capable of preserving these mapping properties but sacrifice efficiency in the process. To make a good trade-off between model capacity and efficiency, in this paper we propose TransH which models a relation as a hyperplane together with a translation operation on it. In this way, we can well preserve the above mapping properties of relations with almost the same model complexity of TransE. Additionally, as a practical knowledge graph is often far from completed, how to construct negative examples to reduce false negative labels in training is very important. Utilizing the one-to-many/many-to-one mapping property of a relation, we propose a simple trick to reduce the possibility of false negative labeling. We conduct extensive experiments on link prediction, triplet classification and fact extraction on benchmark datasets like WordNet and Freebase. Experiments show TransH delivers significant improvements over TransE on predictive accuracy with comparable capability to scale up.
 
 #### Relation Classification via Convolutional Deep Neural Network
   * [[pdf](https://www.aclweb.org/anthology/C14-1220.pdf)] [[repo](paper/zeng2014relation.pdf)]
@@ -65,7 +75,7 @@
   * COLING'14
   * The state-of-the-art methods used for relation classification are primarily based on statistical machine learning, and their performance strongly depends on the quality of the extracted features. The extracted features are often derived from the output of pre-existing natural language processing (NLP) systems, which leads to the propagation of the errors in the existing tools and hinders the performance of these systems. In this paper, we exploit a convolutional deep neural network (DNN) to extract lexical and sentence level features. Our method takes all of the word tokens as input without complicated pre-processing. First, the work tokens are transformed to vectors by looking up word embeddings. Then, lexical level features are extracted according to the given nouns. Meanwhile, sentence level features are learned using a convolutional approach. These two level features are concatenated to form the final extracted feature vector. Finally, the features are fed into a softmax classifier to predict the relationship between two marked nouns. The experimental results demonstrate that our approach significantly outperforms the state-of-the-art methods.
 
-**2015** {#2}
+**2015** {#3}
 
 #### Distance Supervision for Relation Extraction via Piecewise Convolutional Neural Networks
   * [[pdf](http://www.emnlp2015.org/proceedings/EMNLP/pdf/EMNLP203.pdf)] [[repo](paper/zeng2015distant.pdf)]
@@ -73,13 +83,25 @@
   * EMNLP'15
   * Two problems arise when using distant supervision for relation extraction. First, in this method, an already existing knowledge base is heuristically aligned to texts, and the alignment results are treated as labeled data. However, the heuristic alignment can fail, resulting in wrong label problem. In addition, in previous approaches, statistical models have typically been applied to ad hoc features. The noise that originates from feature extraction process can cause poor performance. In this paper, we propose a novel model dubbed the Piecewise Convolutional Neural Networks (PCNNs) with multi-instance learning to address these two problems. To solve the first problem, distant supervised relation extraction is treated as a multi-instance problem in which the uncertainty of instance labels is taken into account. To address the latter problem, we avoid feature engineering and instead adopt convolutional architecture with piecewise max pooling to automatically learn relevant features. Experiments show that our method is effective and outperforms several competitive baseline methods.
 
+#### Knowledge Graph Embedding via Dynamic Mapping Matrix
+  * [[pdf](https://www.aclweb.org/anthology/P15-1067.pdf)] [[repo](paper/ji2015knowledge.pdf)]
+  * Ji et al. (2015.10)
+  * ACL'15
+  * Knowledge graphs are useful resources for numerous AI applications, but they are far from completeness. Previous work such as TransE, TransH and TransR/CTransR regard a relation as translation from head entity to tail entity and the CTransR achieves state-of-the-art performance. In this paper, we propose a more fine-grained model named TransD, which is an improvement of TransR/CTransR. In TransD, we use two vectors to represent a named symbol object (entity and relation). The first one represents the meaning of a(n) entity (relation), the other one is used to construct mapping matrix dynamically. Compared with TransR/CTransR, TransD not only considers the diversity of relations, but also entities. TransD has less parameters and has no matrix-vector multiplication operations, which makes it can be applied on large scale graphs. In experiments, we evaluate our model on two typical tasks including triplets classification and link prediction. Evaluation results show that our approach outperforms state-of-the-art methods.
+
 #### Building a Large-scale Multimodal Knowledge Base System for Answering Visual Queries
   * [[pdf](https://arxiv.org/pdf/1507.05670.pdf)] [[repo](paper/zhu2015building.pdf)]
   * Zhu et al. (2015.11)
   * arXiv
   * The complexity of the visual world creates significant challenges for comprehensive visual understanding. In spite of recent successes in visual recognition, today's vision systems would still struggle to deal with visual queries that require a deeper reasoning. We propose a knowledge base (KB) framework to handle an assortment of visual queries, without the need to train new classifiers for new tasks. Building such a large-scale multimodal KB presents a major challenge of scalability. We cast a large-scale MRF into a KB representation, incorporating visual, textual and structured data, as well as their diverse relations. We introduce a scalable knowledge base construction system that is capable of building a KB with half billion variables and millions of parameters in a few hours. Our system achieves competitive results compared to purpose-built models on standard recognition and retrieval tasks, while exhibiting greater flexibility in answering richer visual queries.
 
-**2016** {#2}
+**2016** {#4}
+
+#### Knowledge Graph Completion with Adaptive Sparse Transfer Matrix
+  * [[pdf](https://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/download/11982/11693)] [[repo](paper/ji2016knowledge.pdf)]
+  * Ji et al. (2016.02)
+  * AAAI'16
+  * We model knowledge graphs for their completion by encoding each entity and relation into a numerical space. All previous work including Trans(E, H, R, and D) ignore the heterogeneity (some relations link many entity pairs and others do not) and the imbalance (the number of head entities and that of tail entities in a relation could be different) of knowledge graphs. In this paper, we propose a novel approach TranSparse to deal with the two issues. In TranSparse, transfer matrices are replaced by adaptive sparse matrices, whose sparse degrees are determined by the number of entities (or entity pairs) linked by relations. In experiments, we design structured and unstructured sparse patterns for transfer matrices and analyze their advantages and disadvantages. We evaluate our approach on triplet classification and link prediction tasks. Experimental results show that TranSparse outperforms Trans(E, H, R, and D) significantly, and achieves state-of-the-art performance.
 
 #### Order-Embeddings of Image and Language
   * [[pdf](https://arxiv.org/pdf/1511.06361.pdf)] [[repo](paper/vendrov2016order.pdf)] [[github](https://github.com/ivendrov/order-embedding)]
@@ -92,6 +114,12 @@
   * Lin et al. (2016.08)
   * ACL'16
   * Distant supervised relation extraction has been widely used to find novel relational facts from text. However, distant supervision inevitably accompanies with the wrong labelling problem, and these noisy data will substantially hurt the performance of relation extraction. To alleviate this issue, we propose a sentence-level attention-based model for relation extraction. In this model, we employ convolutional neural networks to embed the semantics of sentences. Afterwards, we build sentence-level attention over multiple instances, which is expected to dynamically reduce the weights of those noisy instances. Experimental results on real-world datasets show that, our model can make full use of all informative sentences and effectively reduce the influence of wrong labelled instances. Our model achieves significant and consistent improvements on relation extraction as compared with baselines.
+
+#### TransG: A Generative Model for Knowledge Graph Embedding
+  * [[pdf](https://www.aclweb.org/anthology/P16-1219.pdf)] [[repo](paper/xiao2016transg.pdf)]
+  * Xiao et al. (2016.08)
+  * ACL'16
+  * Recently, knowledge graph embedding, which projects symbolic entities and relations into continuous vector space, has become a new, hot topic in artificial intelligence. This paper proposes a novel generative model (TransG) to address the issue of multiple relation semantics that a relation may have multiple meanings revealed by the entity pairs associated with the corresponding triples. The new model can discover latent semantics for a relation and leverage a mixture of relation-specific component vectors to embed a fact triple. To the best of our knowledge, this is the first generative model for knowledge graph embedding, and at the first time, the issue of multiple relation semantics is formally discussed. Extensive experiments show that the proposed model achieves substantial improvements against the state-of-the-art baselines.
 
 **2017** {#1}
 
