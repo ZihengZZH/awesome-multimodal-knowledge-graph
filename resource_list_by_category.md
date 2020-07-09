@@ -54,6 +54,7 @@
 | 2016.02| Ji et al. | AAAI'16 | Knowledge Graph Completion with Adaptive Sparse Transfer Matrix | [[pdf](https://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/download/11982/11693)] [[repo](paper/ji2016knowledge.pdf)] |
 | 2016.08| Lin et al. | ACL'16 | Neural Relation Extraction with Selective Attention over Instances | [[pdf](https://www.aclweb.org/anthology/P16-1200v2.pdf)] [[repo](paper/lin2016neural.pdf)] |
 | 2016.08| Xiao et al. | ACL'16 | TransG: A Generative Model for Knowledge Graph Embedding | [[pdf](https://www.aclweb.org/anthology/P16-1219.pdf)] [[repo](paper/xiao2016transg.pdf)] |
+| 2020.07| Li et al. | ACL'20 | GAIA: A Fine-grained Multimedia Knowledge Extraction System | [[pdf](https://www.aclweb.org/anthology/2020.acl-demos.11.pdf)] [[repo](paper/li2020gaia.pdf)] |
 
 ## tutorials
 
