@@ -1,9 +1,9 @@
 **Resource List by category**
 
-> [pdf]: paper PDF online link
-> [repo]: paper PDF repo link
-> [github]: github link
-> [web]: website link
+> [pdf]: paper PDF online link  
+> [repo]: paper PDF repo link  
+> [github]: github link  
+> [web]: website link  
 
 - [multimodal knowledge graph](#multimodal-knowledge-graph)
 - [multimodal language model](#multimodal-language-model)
@@ -25,6 +25,7 @@
 | 2019.06| Wang et al. | IJCNN'19 | Multimodal Data Enhanced Representation Learning for Knowledge Graphs | [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8852079)] [[repo](paper/wang2019multimodal.pdf)] |
 | 2019.10| Liu et al. | ACM-MM'19 | Knowledge-guided Pairwise Reconstruction Network for Weakly Supervised Referring Expression Grounding | [[pdf](https://arxiv.org/pdf/1909.02860.pdf)] [[repo](paper/liu2019knowledge.pdf)] |
 | 2019.10| Zhang et al. | ACM-MM'19 | Multi-modal Knowledge-aware Hierarchical Attention Network for Explainable Medical Question Answering | [[pdf](https://dl.acm.org/doi/10.1145/3343031.3351033)] [[repo](paper/zhang2019multimodal.pdf)] |
+| 2020.10| Wang et al. | ICMR'20 | Fake News Detection via Knowledge-drive Multimodal Graph Convolutional Networks | [[pdf](https://dl.acm.org/doi/pdf/10.1145/3372278.3390713)] [[repo](paper/wang2020fake.pdf)] |
 
 ## multimodal language model
 
@@ -40,6 +41,7 @@
 | 2020.01| Park et al. | WACV'20 | MHSAN: Multi-Head Self-Attention Network for Visual Semantic Embedding | [[pdf](https://arxiv.org/pdf/2001.03712.pdf)] [[repo](paper/park2020mhsan.pdf)] | [[pdf](https://liqiangnie.github.io/paper/fp349-nieAemb.pdf)] [[repo](paper/nie2019multimodal.pdf)] |
 | 2020.02| Kim et al. | AAAI'20 | MULE: Multimodal Universal Language Embedding | [[pdf](https://arxiv.org/pdf/1909.03493.pdf)] [[repo](paper/kim2019MULE.pdf)] |
 | 2020.02| Mai et al. | AAAI'20 | Modality to Modality Translation: An Adversarial Representation Learning and Graph Fusion Network for Multimodal Fusion | [[pdf](https://arxiv.org/pdf/1911.07848.pdf)] [[repo](paper/mai2019modality.pdf)] |
+| 2020.10| Chiou et al. | arXiv | Visual Relationship Detection with Visual-Linguistic Knowledge from Multimodal Representations | [[pdf](https://arxiv.org/pdf/2009.04965.pdf)] [[repo](paper/chiou2020visual.pdf)] |
 
 ## information extraction
 

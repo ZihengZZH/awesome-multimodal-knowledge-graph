@@ -1,9 +1,9 @@
 **Resource List w/ Abstract**
 
-> [pdf]: paper PDF online link
-> [repo]: paper PDF repo link
-> [github]: github link
-> [web]: website link
+> [pdf]: paper PDF online link  
+> [repo]: paper PDF repo link  
+> [github]: github link  
+> [web]: website link  
 
 - [Paper](#paper)
     - [Distant Supervision for Relation Extraction without Labeled Data](#distant-supervision-for-relation-extraction-without-labeled-data)
@@ -36,6 +36,8 @@
     - [MULE: Multimodal Universal Language Embedding](#mule-multimodal-universal-language-embedding)
     - [Modality to Modality Translation: An Adversarial Representation Learning and Graph Fusion Network for Multimodal Fusion](#modality-to-modality-translation-an-adversarial-representation-learning-and-graph-fusion-network-for-multimodal-fusion)
     - [GAIA: A Fine-grained Multimedia Knowledge Extraction System](#gaia-a-fine-grained-multimedia-knowledge-extraction-system)
+    - [Fake News Detection via Knowledge-drive Multimodal Graph Convolutional Networks](#fake-news-detection-via-knowledge-drive-multimodal-graph-convolutional-networks)
+    - [Visual Relationship Detection with Visual-Linguistic Knowledge from Multimodal Representations](#visual-relationship-detection-with-visual-linguistic-knowledge-from-multimodal-representations)
 - [Tutorials](#tutorials)
     - [Multimodal Knowledge Graphs: Automatic Extraction & Applications](#multimodal-knowledge-graphs-automatic-extraction--applications)
     - [Towards Building Large-Scale Multimodal Knowledge Bases](#towards-building-large-scale-multimodal-knowledge-bases)
@@ -136,7 +138,7 @@
   * [[pdf](https://arxiv.org/pdf/1704.00200.pdf)] [[repo](paper/saha2018towards.pdf)]
   * Saha et al. (2018.01)
   * AAAI'18
-  * While multimodal conversation agents are gaining importance in several domains such as retail, travel etc., deep learning research in this area has been limited primarily due to the lack of availability of large-scale, open chatlogs. To overcome this bottleneck, in this paper we introduce the task of multimodal, domain-aware conversation, and propose the MMD benchmark dataset. This dataset was gathered by working in close coordination with large number of domain experts in the reail domain. These experts suggested various conversations flows and dialog states which are typically seen in multimodal conversations in the fashion domain. Keeping these flows and states in mind, we created a dataset consisting of over 150K conversation sessions between shoppers and sale agents, with the help of in-house annotators using a semi-automated manually intense iterative process. With this dataset, we propose 5 new sub-tasks for multimodal conversations along with their evaluation methodology. We also propose two multimodal neural models in the encode-attend-decode paradigm and demonstrate their performance on two of the sub-tasks, namely text response generation and best image response selection. These experiments serve to establish baseline performance and open new research directions for each of these sub-tasks. Further, for each of the sub-tasks, we present a 'per-state evaluation' of 9 most significant dialog states, which would enable more focused research into understanding the challenges and complexities involved in each of these states.
+  * While multimodal conversation agents are gaining importance in several domains such as retail, travel etc., deep learning research in this area has been limited primarily due to the lack of availability of large-scale, open chatlogs. To overcome this bottleneck, in this paper we introduce the task of multimodal, domain-aware conversation, and propose the MMD benchmark dataset. This dataset was gathered by working in close coordination with large number of domain experts in the retail domain. These experts suggested various conversations flows and dialog states which are typically seen in multimodal conversations in the fashion domain. Keeping these flows and states in mind, we created a dataset consisting of over 150K conversation sessions between shoppers and sale agents, with the help of in-house annotators using a semi-automated manually intense iterative process. With this dataset, we propose 5 new sub-tasks for multimodal conversations along with their evaluation methodology. We also propose two multimodal neural models in the encode-attend-decode paradigm and demonstrate their performance on two of the sub-tasks, namely text response generation and best image response selection. These experiments serve to establish baseline performance and open new research directions for each of these sub-tasks. Further, for each of the sub-tasks, we present a 'per-state evaluation' of 9 most significant dialog states, which would enable more focused research into understanding the challenges and complexities involved in each of these states.
 
 #### A Multimodal Translation-Based Approach for Knowledge Graph Representation Learning
   * [[pdf](https://www.aclweb.org/anthology/S18-2027.pdf)] [[repo](paper/mousselly2018multimodal.pdf)]
@@ -218,7 +220,7 @@
   * ACM-MM'19
   * Online healthcare services can offer public ubiquitous access to the medical knowledge, especially with the emergence of medical question answering websites, where patients can get in touch with doctors without going to hospital. Explainability and accuracy are two main concerns for medical question answering. However, existing methods mainly focus on accuracy and cannot provide good explanation for retrieved medical answers. This paper proposes a novel Multi-Modal Knowledge-aware Hierarchical Attention Network (MKHAN) to effectively exploit multi-modal knowledge graph (MKG) for explainable medical question answering. MKHAN can generate path representation by composing the structural, linguistics, and visual information of entities, and infer the underlying rationale of question-answer interactions by leveraging the sequential dependencies within a path from MKG. Furthermore, a novel hierarchical attention network is proposed to discriminate the salience of paths endowing our model with explainability. We build a large-scale multi-modal medical knowledge graph and two real-world medical question answering datasets, the experimental results demonstrate the superior performance on our approach compared with the state-of-the-art methods.
 
-**2020** {#4}
+**2020** {#6}
 
 #### MHSAN: Multi-Head Self-Attention Network for Visual Semantic Embedding
   * [[pdf](https://arxiv.org/pdf/2001.03712.pdf)] [[repo](paper/park2020mhsan.pdf)]
@@ -243,6 +245,18 @@
   * Li et al. (2020.07)
   * ACL'20
   * We present the first comprehensive, open source multimedia knowledge extraction system that takes a massive stream of unstructured, heterogeneous multimedia data from various and languages as input, and creates a coherent, structured knowledge base, indexing entities, relations, and events, following a rich, fine-grained ontology. Our system, GAIA, enables seamless search of complex graph queries, and retrieves multimedia evidence including text, images and videos. GAIA achieves top performance at the recent NIST TAC SM-KBP2019 evaluation. The system is publicly available at GitHub and DockerHub, with complete documentation.
+
+#### Fake News Detection via Knowledge-drive Multimodal Graph Convolutional Networks
+  * [[pdf](https://dl.acm.org/doi/pdf/10.1145/3372278.3390713)] [[repo](paper/wang2020fake.pdf)]
+  * Wang et al. (2020.10)
+  * ICMR'20
+  * Nowadays, with the rapid development of social media, there is a great deal of news produced every day. How to detect fake news automatically from a large multimedia posts has become very important for people, the government and news recommendation sites. However, most of the existing approaches either extract features from the text of the post which is a single modality or simply concatenate the visual features and textual features of a post to get a multimodal feature and detect fake news. Most of them ignore the background knowledge hidden in the text content of the post which facilitates fake news detection. To address these issues, we propose a novel Knowledge-drive Multimodal Graph Convolutional Network (KMGCN) to model teh semantic representations by jointly modeling the textual information, knowledge concepts and visual information into a unified framework for fake news detection. Instead of viewing text content as word sequences normally, we convert them into a graph, which can model non-consecutive phrases for better obtaining the composition of semantics. Besides, we not only convert visual information as nodes of graphs but also retrieve external knowledge from real-world knowledge graph as nodes of graphs to provide complementary semantics information to improve fake news detection. We utilize a well-designed graph convolutional network to extract the semantic representation of these graphs. Extensive experiments on two public real-world datasets illustrate teh validation of our approach.
+
+#### Visual Relationship Detection with Visual-Linguistic Knowledge from Multimodal Representations
+  * [[pdf](https://arxiv.org/pdf/2009.04965.pdf)] [[repo](paper/chiou2020visual.pdf)]
+  * Chiou et al. (2020.10)
+  * arXiv
+  * Visual relationship detection aims to reason over relationships among salient objects in images, which has drawn increasing attention over the past few years. Inspired by human reasoning mechanism, it is believed that external visual common-sense knowledge is beneficial for reasoning visual relationships of objects in images, which is however rarely considered in existing methods. In this paper, we propose a novel approach named Relational Visual-Linguistic Bidirectional Encoder Representations from Transformers (RVL-BERT), which performs relational reasoning with both visual and language common-sense knowledge learned via self-supervised pre-training with multimodal representations. RVL-BERT also uses an effective spatial module and a novel mask attention module to explicitly capture spatial information among the objects. Moreover, our model decouples object detection from visual relationship recognition by taking in object names directly, enabling it to be used on top of any object detection systems. We show through quantitative and qualitative experiments that, with the transferred knowledge and novel module, RVL-BERT achieves competitive results on two challenging visual relationship detection datasets. The source code will be publicly available soon.
 
 ## Tutorials
 
