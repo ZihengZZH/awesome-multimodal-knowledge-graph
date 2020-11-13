@@ -36,8 +36,12 @@
     - [MULE: Multimodal Universal Language Embedding](#mule-multimodal-universal-language-embedding)
     - [Modality to Modality Translation: An Adversarial Representation Learning and Graph Fusion Network for Multimodal Fusion](#modality-to-modality-translation-an-adversarial-representation-learning-and-graph-fusion-network-for-multimodal-fusion)
     - [GAIA: A Fine-grained Multimedia Knowledge Extraction System](#gaia-a-fine-grained-multimedia-knowledge-extraction-system)
-    - [Fake News Detection via Knowledge-drive Multimodal Graph Convolutional Networks](#fake-news-detection-via-knowledge-drive-multimodal-graph-convolutional-networks)
+    - [MMEA: Entity Alignment for Multi-modal Knowledge Graph](#mmea-entity-alignment-for-multi-modal-knowledge-graph)
+    - [Construction of Multi-modal Chinese Tourism Knowledge Graph](#construction-of-multi-modal-chinese-tourism-knowledge-graph)
+    - [Fake News Detection via Knowledge-driven Multimodal Graph Convolutional Networks](#fake-news-detection-via-knowledge-driven-multimodal-graph-convolutional-networks)
     - [Visual Relationship Detection with Visual-Linguistic Knowledge from Multimodal Representations](#visual-relationship-detection-with-visual-linguistic-knowledge-from-multimodal-representations)
+    - [Multimodal Knowledge Graph for Deep Learning Papers and Code](#multimodal-knowledge-graph-for-deep-learning-papers-and-code)
+    - [Multi-modal Knowledge Graphs for Recommender Systems](#multi-modal-knowledge-graphs-for-recommender-systems)
 - [Tutorials](#tutorials)
     - [Multimodal Knowledge Graphs: Automatic Extraction & Applications](#multimodal-knowledge-graphs-automatic-extraction--applications)
     - [Towards Building Large-Scale Multimodal Knowledge Bases](#towards-building-large-scale-multimodal-knowledge-bases)
@@ -220,7 +224,7 @@
   * ACM-MM'19
   * Online healthcare services can offer public ubiquitous access to the medical knowledge, especially with the emergence of medical question answering websites, where patients can get in touch with doctors without going to hospital. Explainability and accuracy are two main concerns for medical question answering. However, existing methods mainly focus on accuracy and cannot provide good explanation for retrieved medical answers. This paper proposes a novel Multi-Modal Knowledge-aware Hierarchical Attention Network (MKHAN) to effectively exploit multi-modal knowledge graph (MKG) for explainable medical question answering. MKHAN can generate path representation by composing the structural, linguistics, and visual information of entities, and infer the underlying rationale of question-answer interactions by leveraging the sequential dependencies within a path from MKG. Furthermore, a novel hierarchical attention network is proposed to discriminate the salience of paths endowing our model with explainability. We build a large-scale multi-modal medical knowledge graph and two real-world medical question answering datasets, the experimental results demonstrate the superior performance on our approach compared with the state-of-the-art methods.
 
-**2020** {#6}
+**2020** {#9}
 
 #### MHSAN: Multi-Head Self-Attention Network for Visual Semantic Embedding
   * [[pdf](https://arxiv.org/pdf/2001.03712.pdf)] [[repo](paper/park2020mhsan.pdf)]
@@ -246,7 +250,19 @@
   * ACL'20
   * We present the first comprehensive, open source multimedia knowledge extraction system that takes a massive stream of unstructured, heterogeneous multimedia data from various and languages as input, and creates a coherent, structured knowledge base, indexing entities, relations, and events, following a rich, fine-grained ontology. Our system, GAIA, enables seamless search of complex graph queries, and retrieves multimedia evidence including text, images and videos. GAIA achieves top performance at the recent NIST TAC SM-KBP2019 evaluation. The system is publicly available at GitHub and DockerHub, with complete documentation.
 
-#### Fake News Detection via Knowledge-drive Multimodal Graph Convolutional Networks
+#### MMEA: Entity Alignment for Multi-modal Knowledge Graph
+  * [[pdf](http://staff.ustc.edu.cn/~cheneh/paper_pdf/2020/Liyi-Chen-KSEM.pdf)] [[repo](paper/chen2020MMEA.pdf)]
+  * Chen et al. (2020.08)
+  * KSEM'20
+  * Entity Alignment plays an essential role in the knowledge graph (KG) integration. Through large efforts have been made on exploring the association of relational embeddings between different knowledge graphs, they may fail to effectively describe and integrate the multi-modal knowledge in the real application scenario. To that end, in his paper, we propose a novel solution called Multi-Modal Entity Alignment (MMEA) to address the problem of entity alignment in a multi-modal view. Specifically, we first design a novel multi-modal knowledge embedding method to generate the entity representations of relational, visual and numerical knowledge, respectively. Along this line, multiple representations of different types of knowledge will be integrated via a multi-modal knowledge fusion module. Extensive experiments on two public datasets clearly demonstrate the effectiveness of the MMEA model with a significant margin compared with the state-of-the-art methods.
+
+#### Construction of Multi-modal Chinese Tourism Knowledge Graph
+  * [[pdf](https://easychair.org/publications/preprint/k8kh)] [[repo](paper/xie2020construction.pdf)]
+  * Xie et al. (2020.08)
+  * EasyChair
+  * This paper proposes a construction process of Multi-modal Chinese Tourism Knowledge Graph (MCTKG). In order to maintain the semantic consistency of heterogeneous data sources, the tourism ontology. The construction process of MCTKG includes following modules: ontology construction, entity alignment, tourism route automatic generation, sharing platform establishment. In ontology construction, semi-automatic fine-tuning operations are carried out, which optimize and simplify the concept hierarchy relationship abstracted from the obtained data resources, and some new concept hierarchy relationships are manually defined according to the actual application scenarios. In entity alignment, we adopt a method based on n-gram distance to align entities from different sources, and fuse and cross-validate their attributes. In addition, based on the concepts of attraction and tourism style in the knowledge graph, we propose a tourism route generation algorithm, which could automatically schedule the tourism routes by incorporating the characteristics of attraction and tourists' demands. Lastly, a sharing platform is established, which provides open data access and query interface.
+
+#### Fake News Detection via Knowledge-driven Multimodal Graph Convolutional Networks
   * [[pdf](https://dl.acm.org/doi/pdf/10.1145/3372278.3390713)] [[repo](paper/wang2020fake.pdf)]
   * Wang et al. (2020.10)
   * ICMR'20
@@ -257,6 +273,18 @@
   * Chiou et al. (2020.10)
   * arXiv
   * Visual relationship detection aims to reason over relationships among salient objects in images, which has drawn increasing attention over the past few years. Inspired by human reasoning mechanism, it is believed that external visual common-sense knowledge is beneficial for reasoning visual relationships of objects in images, which is however rarely considered in existing methods. In this paper, we propose a novel approach named Relational Visual-Linguistic Bidirectional Encoder Representations from Transformers (RVL-BERT), which performs relational reasoning with both visual and language common-sense knowledge learned via self-supervised pre-training with multimodal representations. RVL-BERT also uses an effective spatial module and a novel mask attention module to explicitly capture spatial information among the objects. Moreover, our model decouples object detection from visual relationship recognition by taking in object names directly, enabling it to be used on top of any object detection systems. We show through quantitative and qualitative experiments that, with the transferred knowledge and novel module, RVL-BERT achieves competitive results on two challenging visual relationship detection datasets. The source code will be publicly available soon.
+
+#### Multimodal Knowledge Graph for Deep Learning Papers and Code
+  * [[pdf](https://dl.acm.org/doi/pdf/10.1145/3340531.3417439)] [[repo](paper/kannan2020multimodal.pdf)]
+  * Kannan et al. (2020.10)
+  * CIKM'20
+  * Keeping up with the rapid growth of Deep Learning (DL) research is a daunting task. While existing scientific literature search systems provide text search capabilities and can identify similar papers, gaining an in-depth understanding of a new approach or an application is much more complicated. Many publications leverage multiple modalities to convey their findings and spread their ideas - they include pseudocode, tables, images and diagrams in addition to text, and often make publicly accessible their implementations. It is important to be able to represent and query them as well. We utilize RDF knowledge graphs (KGs) to represent multimodal information and enable expressive querying over modalities. In our demo we present an approach for extracting KGs from different modalities, namely text, architecture images, and source code. We show how graph queries can be used to get insights into different facets (modalities) of a paper, and its associated code implementation. Our innovation lies in the multimodal nature of the KG we create. While our work is of direct interest to DL researchers and practitioners, our approaches can also be leveraged in other scientific domains.
+
+#### Multi-modal Knowledge Graphs for Recommender Systems
+  * [[pdf](https://zheng-kai.com/paper/cikm_2020_sun.pdf)] [[repo](paper/sun2020multi.pdf)]
+  * Sun et al. (2020.10)
+  * CIKM'20
+  * Recommender systems have shown great potential to solve the information explosion problem and enhance user experience in various online applications. To tackle data sparsity and cold start problems in recommender systems, researchers propose knowledge graphs (KGs) based recommendations by leveraging valuable external knowledge as auxiliary information. However, most of these works ignore the variety of data types (e.g., texts and images) in multi-modal knowledge graphs (MMKGs). In this paper, we propose Multi-modal Knowledge Graph Attention Network (MKGAT) to better enhance recommender systems by leveraging multi-modal knowledge. Specifically, we propose a multi-modal graph attention technique to conduct information propagation over MMKGs, and then use the resulting aggregated embedding representation for recommendation. To the best of our knowledge, this is the first work that incorporates multi-modal knowledge graph into recommender systems. We conduct extensive experiments on two real datasets from different domains, results of which demonstrate that our model MKGAT can successfully employ MMKGs to improve the quality of recommender system.
 
 ## Tutorials
 

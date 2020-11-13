@@ -25,7 +25,11 @@
 | 2019.06| Wang et al. | IJCNN'19 | Multimodal Data Enhanced Representation Learning for Knowledge Graphs | [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8852079)] [[repo](paper/wang2019multimodal.pdf)] |
 | 2019.10| Liu et al. | ACM-MM'19 | Knowledge-guided Pairwise Reconstruction Network for Weakly Supervised Referring Expression Grounding | [[pdf](https://arxiv.org/pdf/1909.02860.pdf)] [[repo](paper/liu2019knowledge.pdf)] |
 | 2019.10| Zhang et al. | ACM-MM'19 | Multi-modal Knowledge-aware Hierarchical Attention Network for Explainable Medical Question Answering | [[pdf](https://dl.acm.org/doi/10.1145/3343031.3351033)] [[repo](paper/zhang2019multimodal.pdf)] |
+| 2020.08| Chen et al. | KSEM'20 | MMEA: Entity Alignment for Multi-modal Knowledge Graph | [[pdf](http://staff.ustc.edu.cn/~cheneh/paper_pdf/2020/Liyi-Chen-KSEM.pdf)] [[repo](paper/chen2020MMEA.pdf)] |
+| 2020.08| Xie et al. | EasyChair | Construction of Multi-modal Chinese Tourism Knowledge Graph | [[pdf](https://easychair.org/publications/preprint/k8kh)] [[repo](paper/xie2020construction.pdf)] |
 | 2020.10| Wang et al. | ICMR'20 | Fake News Detection via Knowledge-drive Multimodal Graph Convolutional Networks | [[pdf](https://dl.acm.org/doi/pdf/10.1145/3372278.3390713)] [[repo](paper/wang2020fake.pdf)] |
+| 2020.10| Kannan et al. | CIKM'20 | Multimodal Knowledge Graph for Deep Learning Papers and Code | [[pdf](https://dl.acm.org/doi/pdf/10.1145/3340531.3417439)] [[repo](paper/kannan2020multimodal.pdf)] |
+| 2020.10| Sun et al. | CIKM'20 | Multi-modal Knowledge Graphs for Recommender Systems | [[pdf](https://zheng-kai.com/paper/cikm_2020_sun.pdf)] [[repo](paper/sun2020multi.pdf)] |
 
 ## multimodal language model
 
