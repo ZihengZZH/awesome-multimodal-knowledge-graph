@@ -30,6 +30,7 @@
 | 2020.10| Wang et al. | ICMR'20 | Fake News Detection via Knowledge-drive Multimodal Graph Convolutional Networks | [[pdf](https://dl.acm.org/doi/pdf/10.1145/3372278.3390713)] [[repo](paper/wang2020fake.pdf)] |
 | 2020.10| Kannan et al. | CIKM'20 | Multimodal Knowledge Graph for Deep Learning Papers and Code | [[pdf](https://dl.acm.org/doi/pdf/10.1145/3340531.3417439)] [[repo](paper/kannan2020multimodal.pdf)] |
 | 2020.10| Sun et al. | CIKM'20 | Multi-modal Knowledge Graphs for Recommender Systems | [[pdf](https://zheng-kai.com/paper/cikm_2020_sun.pdf)] [[repo](paper/sun2020multi.pdf)] |
+| 2020.11| Wang et al. | EMNLP'20 | Incorporating Multimodal Information in Open-Domain Web Keyphrase Extraction | [[pdf](https://www.aclweb.org/anthology/2020.emnlp-main.140.pdf)] [[repo](paper/wang2020incorporating.pdf)] [[github](https://github.com/victorywys/SMART-KPE)] |
 
 ## multimodal language model
 
@@ -46,6 +47,7 @@
 | 2020.02| Kim et al. | AAAI'20 | MULE: Multimodal Universal Language Embedding | [[pdf](https://arxiv.org/pdf/1909.03493.pdf)] [[repo](paper/kim2019MULE.pdf)] |
 | 2020.02| Mai et al. | AAAI'20 | Modality to Modality Translation: An Adversarial Representation Learning and Graph Fusion Network for Multimodal Fusion | [[pdf](https://arxiv.org/pdf/1911.07848.pdf)] [[repo](paper/mai2019modality.pdf)] |
 | 2020.10| Chiou et al. | arXiv | Visual Relationship Detection with Visual-Linguistic Knowledge from Multimodal Representations | [[pdf](https://arxiv.org/pdf/2009.04965.pdf)] [[repo](paper/chiou2020visual.pdf)] |
+| 2020.11| Tsai et al. | EMNLP'20 | Multimodal Routing: Improving Local and Global Interpretability of Multimodal Language Analysis | [[pdf](https://www.aclweb.org/anthology/2020.emnlp-main.143.pdf)] [[repo](paper/tsai2020multimodal.pdf)] [[github](https://github.com/martinmamql/multimodal_routing)] |
 
 ## information extraction
 

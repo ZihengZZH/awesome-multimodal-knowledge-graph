@@ -42,6 +42,8 @@
     - [Visual Relationship Detection with Visual-Linguistic Knowledge from Multimodal Representations](#visual-relationship-detection-with-visual-linguistic-knowledge-from-multimodal-representations)
     - [Multimodal Knowledge Graph for Deep Learning Papers and Code](#multimodal-knowledge-graph-for-deep-learning-papers-and-code)
     - [Multi-modal Knowledge Graphs for Recommender Systems](#multi-modal-knowledge-graphs-for-recommender-systems)
+    - [Multimodal Routing: Improving Local and Global Interpretability of Multimodal Language Analysis](#multimodal-routing-improving-local-and-global-interpretability-of-multimodal-language-analysis)
+    - [Incorporating Multimodal Information in Open-Domain Web Keyphrase Extraction](#incorporating-multimodal-information-in-open-domain-web-keyphrase-extraction)
 - [Tutorials](#tutorials)
     - [Multimodal Knowledge Graphs: Automatic Extraction & Applications](#multimodal-knowledge-graphs-automatic-extraction--applications)
     - [Towards Building Large-Scale Multimodal Knowledge Bases](#towards-building-large-scale-multimodal-knowledge-bases)
@@ -224,7 +226,7 @@
   * ACM-MM'19
   * Online healthcare services can offer public ubiquitous access to the medical knowledge, especially with the emergence of medical question answering websites, where patients can get in touch with doctors without going to hospital. Explainability and accuracy are two main concerns for medical question answering. However, existing methods mainly focus on accuracy and cannot provide good explanation for retrieved medical answers. This paper proposes a novel Multi-Modal Knowledge-aware Hierarchical Attention Network (MKHAN) to effectively exploit multi-modal knowledge graph (MKG) for explainable medical question answering. MKHAN can generate path representation by composing the structural, linguistics, and visual information of entities, and infer the underlying rationale of question-answer interactions by leveraging the sequential dependencies within a path from MKG. Furthermore, a novel hierarchical attention network is proposed to discriminate the salience of paths endowing our model with explainability. We build a large-scale multi-modal medical knowledge graph and two real-world medical question answering datasets, the experimental results demonstrate the superior performance on our approach compared with the state-of-the-art methods.
 
-**2020** {#9}
+**2020** {#11}
 
 #### MHSAN: Multi-Head Self-Attention Network for Visual Semantic Embedding
   * [[pdf](https://arxiv.org/pdf/2001.03712.pdf)] [[repo](paper/park2020mhsan.pdf)]
@@ -285,6 +287,18 @@
   * Sun et al. (2020.10)
   * CIKM'20
   * Recommender systems have shown great potential to solve the information explosion problem and enhance user experience in various online applications. To tackle data sparsity and cold start problems in recommender systems, researchers propose knowledge graphs (KGs) based recommendations by leveraging valuable external knowledge as auxiliary information. However, most of these works ignore the variety of data types (e.g., texts and images) in multi-modal knowledge graphs (MMKGs). In this paper, we propose Multi-modal Knowledge Graph Attention Network (MKGAT) to better enhance recommender systems by leveraging multi-modal knowledge. Specifically, we propose a multi-modal graph attention technique to conduct information propagation over MMKGs, and then use the resulting aggregated embedding representation for recommendation. To the best of our knowledge, this is the first work that incorporates multi-modal knowledge graph into recommender systems. We conduct extensive experiments on two real datasets from different domains, results of which demonstrate that our model MKGAT can successfully employ MMKGs to improve the quality of recommender system.
+
+#### Multimodal Routing: Improving Local and Global Interpretability of Multimodal Language Analysis
+  * [[pdf](https://www.aclweb.org/anthology/2020.emnlp-main.143.pdf)] [[repo](paper/tsai2020multimodal.pdf)] [[github](https://github.com/martinmamql/multimodal_routing)]
+  * Tsai et al. (2020.11)
+  * EMNLP'20
+  * The human language can be expressed through multiple sources of information known as modalities, including tones of voice, facial gestures, and spoken language. Recent multimodal learning with strong performances on human-centric tasks such as sentiment analysis and emotion recognition are often block-box, with very limited interpretability. In this paper we propose Multimodal Routing, which dynamically adjusts weights between input modalities and output representations differently for each input sample. Multimodal routing can identify relative importance of both individual modalities and cross-modality features. Moreover, the weight assignment by routing allows us interpret modality-prediction relationships not only globally (i.e. general trends over the whole dataset), but also locally for each single input sample, meanwhile keeping competitive performance compared to state-of-the-art methods.
+
+#### Incorporating Multimodal Information in Open-Domain Web Keyphrase Extraction
+  * [[pdf](https://www.aclweb.org/anthology/2020.emnlp-main.140.pdf)] [[repo](paper/wang2020incorporating.pdf)] [[github](https://github.com/victorywys/SMART-KPE)]
+  * Wang et al. (2020.11)
+  * EMNLP'20
+  * Open-domain Keyphrase extraction (KPE) on the Web is a fundamental yet complex NLP task with a wide range of practical applications within the field of Information Retrieval. In contrast to other document types, web page designs are intended for easy navigation and information finding. Effective designs encode within the layout and formatting signals that point to where the important information can be found. In this work, we propose a modeling approach that leverages these multi-modal signals to aid the KPE task. In particular, we leverage both lexical and visual features (e.g. size, font, position) at the micro-level to enable effective strategy induction, and meta-level features that describe pages at a macro-level to aid in strategy selection. Our evaluation demonstrates that a combination of effective strategy induction and strategy selection within this approach for the KPE task outperforms state-of-the-art models. A qualitative post-hoc analysis illustrates how these features function within the model.
 
 ## Tutorials
 
