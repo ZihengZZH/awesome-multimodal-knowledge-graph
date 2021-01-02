@@ -31,6 +31,7 @@
 | 2020.10| Kannan et al. | CIKM'20 | Multimodal Knowledge Graph for Deep Learning Papers and Code | [[pdf](https://dl.acm.org/doi/pdf/10.1145/3340531.3417439)] [[repo](paper/kannan2020multimodal.pdf)] |
 | 2020.10| Sun et al. | CIKM'20 | Multi-modal Knowledge Graphs for Recommender Systems | [[pdf](https://zheng-kai.com/paper/cikm_2020_sun.pdf)] [[repo](paper/sun2020multi.pdf)] |
 | 2020.11| Wang et al. | EMNLP'20 | Incorporating Multimodal Information in Open-Domain Web Keyphrase Extraction | [[pdf](https://www.aclweb.org/anthology/2020.emnlp-main.140.pdf)] [[repo](paper/wang2020incorporating.pdf)] [[github](https://github.com/victorywys/SMART-KPE)] |
+| 2021.02| Liu et al. | AAAI'21 | Visual Pivoting for (Unsupervised) Entity Alignment | [[pdf](https://arxiv.org/pdf/2009.13603.pdf)] [[repo](paper/liu2021visual.pdf)] |
 
 ## multimodal language model
 

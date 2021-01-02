@@ -44,6 +44,7 @@
     - [Multi-modal Knowledge Graphs for Recommender Systems](#multi-modal-knowledge-graphs-for-recommender-systems)
     - [Multimodal Routing: Improving Local and Global Interpretability of Multimodal Language Analysis](#multimodal-routing-improving-local-and-global-interpretability-of-multimodal-language-analysis)
     - [Incorporating Multimodal Information in Open-Domain Web Keyphrase Extraction](#incorporating-multimodal-information-in-open-domain-web-keyphrase-extraction)
+    - [Visual Pivoting for (Unsupervised) Entity Alignment](#visual-pivoting-for-unsupervised-entity-alignment)
 - [Tutorials](#tutorials)
     - [Multimodal Knowledge Graphs: Automatic Extraction & Applications](#multimodal-knowledge-graphs-automatic-extraction--applications)
     - [Towards Building Large-Scale Multimodal Knowledge Bases](#towards-building-large-scale-multimodal-knowledge-bases)
@@ -299,6 +300,13 @@
   * Wang et al. (2020.11)
   * EMNLP'20
   * Open-domain Keyphrase extraction (KPE) on the Web is a fundamental yet complex NLP task with a wide range of practical applications within the field of Information Retrieval. In contrast to other document types, web page designs are intended for easy navigation and information finding. Effective designs encode within the layout and formatting signals that point to where the important information can be found. In this work, we propose a modeling approach that leverages these multi-modal signals to aid the KPE task. In particular, we leverage both lexical and visual features (e.g. size, font, position) at the micro-level to enable effective strategy induction, and meta-level features that describe pages at a macro-level to aid in strategy selection. Our evaluation demonstrates that a combination of effective strategy induction and strategy selection within this approach for the KPE task outperforms state-of-the-art models. A qualitative post-hoc analysis illustrates how these features function within the model.
+
+**2021** {#1}
+
+#### Visual Pivoting for (Unsupervised) Entity Alignment
+  * [[pdf](https://arxiv.org/pdf/2009.13603.pdf)] [[repo](paper/liu2021visual.pdf)]
+  * Liu et al. (2021.02)
+  * This work studies the use of visual semantic representations to align entities in heterogeneous knowledge graphs (KGs). Images are natural components of many existing KGs. By combining visual knowledge with other auxiliary information, we show that the proposed new approach, EVA, creates a holistic entity representation that provides strong signals for cross-graph entity alignment. Besides, previous entity alignment methods require human labelled seed alignment, restricting availability. EVA provides a completely unsupervised solution by leveraging the visual similarity of entities to create an intial seed dictionary (visual pivots). Experiments on benchmark data sets DBP15k and DWY15k show that EVA offers state-of-the-art performance on both monolingual and cross-lingual entity alignment tasks. Furthermore, we discover that images are particularly useful to align long-tail KG entities, which inherently lack the structural contexts that are necessary for capturing the correspondences.
 
 ## Tutorials
 
