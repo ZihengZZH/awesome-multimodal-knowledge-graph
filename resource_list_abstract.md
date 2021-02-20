@@ -38,6 +38,7 @@
     - [GAIA: A Fine-grained Multimedia Knowledge Extraction System](#gaia-a-fine-grained-multimedia-knowledge-extraction-system)
     - [MMEA: Entity Alignment for Multi-modal Knowledge Graph](#mmea-entity-alignment-for-multi-modal-knowledge-graph)
     - [Construction of Multi-modal Chinese Tourism Knowledge Graph](#construction-of-multi-modal-chinese-tourism-knowledge-graph)
+    - [Multimodal Learning with Incomplete Modalities by Knowledge Distillation](#multimodal-learning-with-incomplete-modalities-by-knowledge-distillation)
     - [Fake News Detection via Knowledge-driven Multimodal Graph Convolutional Networks](#fake-news-detection-via-knowledge-driven-multimodal-graph-convolutional-networks)
     - [Visual Relationship Detection with Visual-Linguistic Knowledge from Multimodal Representations](#visual-relationship-detection-with-visual-linguistic-knowledge-from-multimodal-representations)
     - [Multimodal Knowledge Graph for Deep Learning Papers and Code](#multimodal-knowledge-graph-for-deep-learning-papers-and-code)
@@ -45,6 +46,7 @@
     - [Multimodal Routing: Improving Local and Global Interpretability of Multimodal Language Analysis](#multimodal-routing-improving-local-and-global-interpretability-of-multimodal-language-analysis)
     - [Incorporating Multimodal Information in Open-Domain Web Keyphrase Extraction](#incorporating-multimodal-information-in-open-domain-web-keyphrase-extraction)
     - [Visual Pivoting for (Unsupervised) Entity Alignment](#visual-pivoting-for-unsupervised-entity-alignment)
+    - [RpBERT: A Text-image Relation Propagation-based BERT Model for Multimodal NER](#rpbert-a-text-image-relation-propagation-based-bert-model-for-multimodal-ner)
 - [Tutorials](#tutorials)
     - [Multimodal Knowledge Graphs: Automatic Extraction & Applications](#multimodal-knowledge-graphs-automatic-extraction--applications)
     - [Towards Building Large-Scale Multimodal Knowledge Bases](#towards-building-large-scale-multimodal-knowledge-bases)
@@ -227,7 +229,7 @@
   * ACM-MM'19
   * Online healthcare services can offer public ubiquitous access to the medical knowledge, especially with the emergence of medical question answering websites, where patients can get in touch with doctors without going to hospital. Explainability and accuracy are two main concerns for medical question answering. However, existing methods mainly focus on accuracy and cannot provide good explanation for retrieved medical answers. This paper proposes a novel Multi-Modal Knowledge-aware Hierarchical Attention Network (MKHAN) to effectively exploit multi-modal knowledge graph (MKG) for explainable medical question answering. MKHAN can generate path representation by composing the structural, linguistics, and visual information of entities, and infer the underlying rationale of question-answer interactions by leveraging the sequential dependencies within a path from MKG. Furthermore, a novel hierarchical attention network is proposed to discriminate the salience of paths endowing our model with explainability. We build a large-scale multi-modal medical knowledge graph and two real-world medical question answering datasets, the experimental results demonstrate the superior performance on our approach compared with the state-of-the-art methods.
 
-**2020** {#11}
+**2020** {#12}
 
 #### MHSAN: Multi-Head Self-Attention Network for Visual Semantic Embedding
   * [[pdf](https://arxiv.org/pdf/2001.03712.pdf)] [[repo](paper/park2020mhsan.pdf)]
@@ -265,6 +267,12 @@
   * EasyChair
   * This paper proposes a construction process of Multi-modal Chinese Tourism Knowledge Graph (MCTKG). In order to maintain the semantic consistency of heterogeneous data sources, the tourism ontology. The construction process of MCTKG includes following modules: ontology construction, entity alignment, tourism route automatic generation, sharing platform establishment. In ontology construction, semi-automatic fine-tuning operations are carried out, which optimize and simplify the concept hierarchy relationship abstracted from the obtained data resources, and some new concept hierarchy relationships are manually defined according to the actual application scenarios. In entity alignment, we adopt a method based on n-gram distance to align entities from different sources, and fuse and cross-validate their attributes. In addition, based on the concepts of attraction and tourism style in the knowledge graph, we propose a tourism route generation algorithm, which could automatically schedule the tourism routes by incorporating the characteristics of attraction and tourists' demands. Lastly, a sharing platform is established, which provides open data access and query interface.
 
+#### Multimodal Learning with Incomplete Modalities by Knowledge Distillation
+  * [[pdf](https://dl.acm.org/doi/pdf/10.1145/3394486.3403234)] [[repo](paper/wang2020multimodal.pdf)]
+  * Wang et al. (2020.08)
+  * KDD'20
+  * Multimodal learning aims at utilizing information from a variety of data modalities to improve the generalization performance. One common approach is to seek the common information that is shared among different modalities for learning, whereas we can also fuse the supplementary information to leverage modality-specific information. Through the supplementary information is often desired, mosting existing multimodal approaches can only learn from samples with complete modalities, which wastes a considerable amount of data collected. Otherwise, model-based imputation needs to be used to complete the missing values and yet may introduce undesired noise, especially when the sample size is limited. In this paper, we proposed a framework based on knowledge distillation, utilizing the supplementary information from all modalities, and avoiding imputation and noise associated with it. Specifically, we first train models on each modality independently using all the available data. Then the trained models are used as teachers to teach the student model, which is trained with the samples having complete modalities. We demonstrate the effectiveness of the proposed method in extensive empirical studies on both synthetic datasets and real-world datasets.
+
 #### Fake News Detection via Knowledge-driven Multimodal Graph Convolutional Networks
   * [[pdf](https://dl.acm.org/doi/pdf/10.1145/3372278.3390713)] [[repo](paper/wang2020fake.pdf)]
   * Wang et al. (2020.10)
@@ -301,12 +309,19 @@
   * EMNLP'20
   * Open-domain Keyphrase extraction (KPE) on the Web is a fundamental yet complex NLP task with a wide range of practical applications within the field of Information Retrieval. In contrast to other document types, web page designs are intended for easy navigation and information finding. Effective designs encode within the layout and formatting signals that point to where the important information can be found. In this work, we propose a modeling approach that leverages these multi-modal signals to aid the KPE task. In particular, we leverage both lexical and visual features (e.g. size, font, position) at the micro-level to enable effective strategy induction, and meta-level features that describe pages at a macro-level to aid in strategy selection. Our evaluation demonstrates that a combination of effective strategy induction and strategy selection within this approach for the KPE task outperforms state-of-the-art models. A qualitative post-hoc analysis illustrates how these features function within the model.
 
-**2021** {#1}
+**2021** {#2}
 
 #### Visual Pivoting for (Unsupervised) Entity Alignment
   * [[pdf](https://arxiv.org/pdf/2009.13603.pdf)] [[repo](paper/liu2021visual.pdf)]
   * Liu et al. (2021.02)
+  * AAAI'21
   * This work studies the use of visual semantic representations to align entities in heterogeneous knowledge graphs (KGs). Images are natural components of many existing KGs. By combining visual knowledge with other auxiliary information, we show that the proposed new approach, EVA, creates a holistic entity representation that provides strong signals for cross-graph entity alignment. Besides, previous entity alignment methods require human labelled seed alignment, restricting availability. EVA provides a completely unsupervised solution by leveraging the visual similarity of entities to create an intial seed dictionary (visual pivots). Experiments on benchmark data sets DBP15k and DWY15k show that EVA offers state-of-the-art performance on both monolingual and cross-lingual entity alignment tasks. Furthermore, we discover that images are particularly useful to align long-tail KG entities, which inherently lack the structural contexts that are necessary for capturing the correspondences.
+
+#### RpBERT: A Text-image Relation Propagation-based BERT Model for Multimodal NER
+  * [[pdf](https://arxiv.org/pdf/2102.02967.pdf)] [[repo](paper/sun2021rpbert.pdf)] [[github](https://github.com/Multimodal-NER/RpBERT)]
+  * Sun et al. (2021.02)
+  * AAAI'21
+  * Recently multimodal named entity recognition (MNER) has utilized images to improve the accuracy of NER in tweets. However, most of the multimodal methods use attention mechanisms to extract visual clues regardless of whether the text and image are relevant. Practically, the irrelevant text-image pairs account for a large proportion in tweets. The visual clues that are unrelated to the texts will exert uncertain or even negative effects on multimodal model learning. In this paper, we introduce a method for text-image relation propagation into the multimodal BERT model. We integrate soft or hard gates to select visual clues and propose a multitask algorithm to train on the MNER datasets. In the experiments, we deeply analyze the changes in the visual attention before and after the use of text-image relation propagation. Our model achieves state-of-the-art performance on the MNER datasets. The source code is available online.
 
 ## Tutorials
 

@@ -25,6 +25,7 @@
 | 2019.06| Wang et al. | IJCNN'19 | Multimodal Data Enhanced Representation Learning for Knowledge Graphs | [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8852079)] [[repo](paper/wang2019multimodal.pdf)] |
 | 2019.10| Liu et al. | ACM-MM'19 | Knowledge-guided Pairwise Reconstruction Network for Weakly Supervised Referring Expression Grounding | [[pdf](https://arxiv.org/pdf/1909.02860.pdf)] [[repo](paper/liu2019knowledge.pdf)] |
 | 2019.10| Zhang et al. | ACM-MM'19 | Multi-modal Knowledge-aware Hierarchical Attention Network for Explainable Medical Question Answering | [[pdf](https://dl.acm.org/doi/10.1145/3343031.3351033)] [[repo](paper/zhang2019multimodal.pdf)] |
+| 2020.07| Li et al. | ACL'20 | GAIA: A Fine-grained Multimedia Knowledge Extraction System | [[pdf](https://www.aclweb.org/anthology/2020.acl-demos.11.pdf)] [[repo](paper/li2020gaia.pdf)] |
 | 2020.08| Chen et al. | KSEM'20 | MMEA: Entity Alignment for Multi-modal Knowledge Graph | [[pdf](http://staff.ustc.edu.cn/~cheneh/paper_pdf/2020/Liyi-Chen-KSEM.pdf)] [[repo](paper/chen2020MMEA.pdf)] |
 | 2020.08| Xie et al. | EasyChair | Construction of Multi-modal Chinese Tourism Knowledge Graph | [[pdf](https://easychair.org/publications/preprint/k8kh)] [[repo](paper/xie2020construction.pdf)] |
 | 2020.10| Wang et al. | ICMR'20 | Fake News Detection via Knowledge-drive Multimodal Graph Convolutional Networks | [[pdf](https://dl.acm.org/doi/pdf/10.1145/3372278.3390713)] [[repo](paper/wang2020fake.pdf)] |
@@ -32,6 +33,7 @@
 | 2020.10| Sun et al. | CIKM'20 | Multi-modal Knowledge Graphs for Recommender Systems | [[pdf](https://zheng-kai.com/paper/cikm_2020_sun.pdf)] [[repo](paper/sun2020multi.pdf)] |
 | 2020.11| Wang et al. | EMNLP'20 | Incorporating Multimodal Information in Open-Domain Web Keyphrase Extraction | [[pdf](https://www.aclweb.org/anthology/2020.emnlp-main.140.pdf)] [[repo](paper/wang2020incorporating.pdf)] [[github](https://github.com/victorywys/SMART-KPE)] |
 | 2021.02| Liu et al. | AAAI'21 | Visual Pivoting for (Unsupervised) Entity Alignment | [[pdf](https://arxiv.org/pdf/2009.13603.pdf)] [[repo](paper/liu2021visual.pdf)] |
+| 2021.02| Sun et al. | AAAI'21 | RpBERT: A Text-image Relation Propagation-based BERT Model for Multimodal NER | [[pdf](https://arxiv.org/pdf/2102.02967.pdf)] [[repo](paper/sun2021rpbert.pdf)] [[github](https://github.com/Multimodal-NER/RpBERT)] |
 
 ## multimodal language model
 
@@ -47,6 +49,7 @@
 | 2020.01| Park et al. | WACV'20 | MHSAN: Multi-Head Self-Attention Network for Visual Semantic Embedding | [[pdf](https://arxiv.org/pdf/2001.03712.pdf)] [[repo](paper/park2020mhsan.pdf)] | [[pdf](https://liqiangnie.github.io/paper/fp349-nieAemb.pdf)] [[repo](paper/nie2019multimodal.pdf)] |
 | 2020.02| Kim et al. | AAAI'20 | MULE: Multimodal Universal Language Embedding | [[pdf](https://arxiv.org/pdf/1909.03493.pdf)] [[repo](paper/kim2019MULE.pdf)] |
 | 2020.02| Mai et al. | AAAI'20 | Modality to Modality Translation: An Adversarial Representation Learning and Graph Fusion Network for Multimodal Fusion | [[pdf](https://arxiv.org/pdf/1911.07848.pdf)] [[repo](paper/mai2019modality.pdf)] |
+| 2020.08| Wang et al. | KDD'20 | Multimodal Learning with Incomplete Modalities by Knowledge Distillation | [[pdf](https://dl.acm.org/doi/pdf/10.1145/3394486.3403234)] [[repo](paper/wang2020multimodal.pdf)] |
 | 2020.10| Chiou et al. | arXiv | Visual Relationship Detection with Visual-Linguistic Knowledge from Multimodal Representations | [[pdf](https://arxiv.org/pdf/2009.04965.pdf)] [[repo](paper/chiou2020visual.pdf)] |
 | 2020.11| Tsai et al. | EMNLP'20 | Multimodal Routing: Improving Local and Global Interpretability of Multimodal Language Analysis | [[pdf](https://www.aclweb.org/anthology/2020.emnlp-main.143.pdf)] [[repo](paper/tsai2020multimodal.pdf)] [[github](https://github.com/martinmamql/multimodal_routing)] |
 
@@ -63,7 +66,6 @@
 | 2016.02| Ji et al. | AAAI'16 | Knowledge Graph Completion with Adaptive Sparse Transfer Matrix | [[pdf](https://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/download/11982/11693)] [[repo](paper/ji2016knowledge.pdf)] |
 | 2016.08| Lin et al. | ACL'16 | Neural Relation Extraction with Selective Attention over Instances | [[pdf](https://www.aclweb.org/anthology/P16-1200v2.pdf)] [[repo](paper/lin2016neural.pdf)] |
 | 2016.08| Xiao et al. | ACL'16 | TransG: A Generative Model for Knowledge Graph Embedding | [[pdf](https://www.aclweb.org/anthology/P16-1219.pdf)] [[repo](paper/xiao2016transg.pdf)] |
-| 2020.07| Li et al. | ACL'20 | GAIA: A Fine-grained Multimedia Knowledge Extraction System | [[pdf](https://www.aclweb.org/anthology/2020.acl-demos.11.pdf)] [[repo](paper/li2020gaia.pdf)] |
 
 ## tutorials
 
