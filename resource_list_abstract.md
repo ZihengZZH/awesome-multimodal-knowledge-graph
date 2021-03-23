@@ -32,9 +32,11 @@
     - [Knowledge-guided Pairwise Reconstruction Network for Weakly Supervised Referring Expression Grounding](#knowledge-guided-pairwise-reconstruction-network-for-weakly-supervised-referring-expression-grounding)
     - [Multimodal Dialog System: Generating Responses via Adaptive Decoders](#multimodal-dialog-system-generating-responses-via-adaptive-decoders)
     - [Multi-modal Knowledge-aware Hierarchical Attention Network for Explainable Medical Question Answering](#multi-modal-knowledge-aware-hierarchical-attention-network-for-explainable-medical-question-answering)
+    - [Multimodal Sentiment Analysis based on Multi-head Attention Mechanism](#multimodal-sentiment-analysis-based-on-multi-head-attention-mechanism)
     - [MHSAN: Multi-Head Self-Attention Network for Visual Semantic Embedding](#mhsan-multi-head-self-attention-network-for-visual-semantic-embedding)
     - [MULE: Multimodal Universal Language Embedding](#mule-multimodal-universal-language-embedding)
     - [Modality to Modality Translation: An Adversarial Representation Learning and Graph Fusion Network for Multimodal Fusion](#modality-to-modality-translation-an-adversarial-representation-learning-and-graph-fusion-network-for-multimodal-fusion)
+    - [Multimodal Intelligence: Representation Learning, Information Fusion, and Applications](#multimodal-intelligence-representation-learning-information-fusion-and-applications)
     - [GAIA: A Fine-grained Multimedia Knowledge Extraction System](#gaia-a-fine-grained-multimedia-knowledge-extraction-system)
     - [MMEA: Entity Alignment for Multi-modal Knowledge Graph](#mmea-entity-alignment-for-multi-modal-knowledge-graph)
     - [Construction of Multi-modal Chinese Tourism Knowledge Graph](#construction-of-multi-modal-chinese-tourism-knowledge-graph)
@@ -45,6 +47,7 @@
     - [Multi-modal Knowledge Graphs for Recommender Systems](#multi-modal-knowledge-graphs-for-recommender-systems)
     - [Multimodal Routing: Improving Local and Global Interpretability of Multimodal Language Analysis](#multimodal-routing-improving-local-and-global-interpretability-of-multimodal-language-analysis)
     - [Incorporating Multimodal Information in Open-Domain Web Keyphrase Extraction](#incorporating-multimodal-information-in-open-domain-web-keyphrase-extraction)
+    - [Deep Multimodal Fusion by Channel Exchanging](#deep-multimodal-fusion-by-channel-exchanging)
     - [Visual Pivoting for (Unsupervised) Entity Alignment](#visual-pivoting-for-unsupervised-entity-alignment)
     - [RpBERT: A Text-image Relation Propagation-based BERT Model for Multimodal NER](#rpbert-a-text-image-relation-propagation-based-bert-model-for-multimodal-ner)
 - [Tutorials](#tutorials)
@@ -229,7 +232,13 @@
   * ACM-MM'19
   * Online healthcare services can offer public ubiquitous access to the medical knowledge, especially with the emergence of medical question answering websites, where patients can get in touch with doctors without going to hospital. Explainability and accuracy are two main concerns for medical question answering. However, existing methods mainly focus on accuracy and cannot provide good explanation for retrieved medical answers. This paper proposes a novel Multi-Modal Knowledge-aware Hierarchical Attention Network (MKHAN) to effectively exploit multi-modal knowledge graph (MKG) for explainable medical question answering. MKHAN can generate path representation by composing the structural, linguistics, and visual information of entities, and infer the underlying rationale of question-answer interactions by leveraging the sequential dependencies within a path from MKG. Furthermore, a novel hierarchical attention network is proposed to discriminate the salience of paths endowing our model with explainability. We build a large-scale multi-modal medical knowledge graph and two real-world medical question answering datasets, the experimental results demonstrate the superior performance on our approach compared with the state-of-the-art methods.
 
-**2020** {#12}
+**2020** {#15}
+
+#### Multimodal Sentiment Analysis based on Multi-head Attention Mechanism
+  * [[pdf](https://dl.acm.org/doi/abs/10.1145/3380688.3380693)] [[repo](paper/xi2020multimodal.pdf)]
+  * Xi et al. (2020.01)
+  * ICMLSC'20
+  * Multimodal sentiment analysis is still a promising area of research, which has many issues needed to be addressed. Among them, extracting reasonable unimodal features and designing a robust multimodal sentiment analysis model is the most basic problem. This paper presents some novel ways of extracting sentiment features from visual, audio and text, furthermore use these features to verify the multimodal sentiment analysis model based on multi-head attention mechanism. The proposed model is evaluated on Multimodal Opinion Utterances Dataset (MOUD) corpus and CMU Multi-modal Opinion-level Sentiment Intensity (CMU-MOSI) corpus for multimodal sentiment analysis. Experimental results prove the effectiveness of the proposed approach. The accuracy of the MOUD and MOSI datasets is 90.43% and 82.71%, respectively. Compared to the state-of-the-art models, the improvements of the performance are approximately 2 and 0.4 points.
 
 #### MHSAN: Multi-Head Self-Attention Network for Visual Semantic Embedding
   * [[pdf](https://arxiv.org/pdf/2001.03712.pdf)] [[repo](paper/park2020mhsan.pdf)]
@@ -248,6 +257,12 @@
   * Mai et al. (2020.02)
   * AAAI'20
   * Learning joint embedding space for various modalities is of vital importance for multimodal fusion. Mainstream modality fusion approaches fail to achieve this goal, leaving a modality gap which heavily affects cross-modal fusion. In this paper, we propose a novel adversarial encoder-decoder-classifier framework to learn a modality invariant embedding space. Since the distributions of various modalities vary in nature, to reduce the modality gap, we translate the distributions of source modalities into that of target modality via their respective encoders using adversarial training. Furthermore, we exert additional constraints on embedding space by introducing reconstruction loss and classification loss. Then we fuse the encoded representations using hierarchical graph neural network which explicitly explores unimodal, bimodal and trimodal interactions in multi-stage. Our method achieves state-of-the-art performance on multiple datasets. Visualization of the learned embeddings suggests that the joint embedding space learned by our method is discriminative.
+
+#### Multimodal Intelligence: Representation Learning, Information Fusion, and Applications
+  * [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9068414)] [[repo](paper/zhang2020multimodal.pdf)]
+  * Zhang et al. (2020.03)
+  * JSTSP/IEEE
+  * Deep learning methods have revolutionized speech recognition, image recognition, and natural language processing since 2010. Each of these tasks involves a single modality in their input signals. However, many applications in the artificial intelligence field involve multiple modalities. Therefore, it is of broad interest to study the more difficult and complex problem of modelling and learning across multiple modalities. In this paper, we provide a technical review of available models and learning methods for multimodal intelligence. The main focus of this review is the combination of vision and natural language modalities, which has become an important topic in both the computer vision and natural language processing research communities. This review provides a comprehensive analysis of recent works on multimodal deep learning from three perspectives: learning multimodal representations, fusing multimodal signals at various levels, and multimodal applications. Regarding multimodal representation learning, we review the key concepts of embedding, which unify multimodal signals into a single vector space and thereby enable cross-modality singal processing. We also review the properties of many types of embeddings that are constructed and learned for general downstream tasks. Regarding multimodal fusion, this review focuses on special architectures for the integration of representations of unimodal signals for a particular task. Regarding applications, selected areas of a broad interest in the current literature are covered, including image-to-text caption generation, text-to-image generation, and visual question answering. We believe that this review will facilitate future studies in the emerging field of multimodal intelligence for related communities.
 
 #### GAIA: A Fine-grained Multimedia Knowledge Extraction System
   * [[pdf](https://www.aclweb.org/anthology/2020.acl-demos.11.pdf)] [[repo](paper/li2020gaia.pdf)]
@@ -308,6 +323,12 @@
   * Wang et al. (2020.11)
   * EMNLP'20
   * Open-domain Keyphrase extraction (KPE) on the Web is a fundamental yet complex NLP task with a wide range of practical applications within the field of Information Retrieval. In contrast to other document types, web page designs are intended for easy navigation and information finding. Effective designs encode within the layout and formatting signals that point to where the important information can be found. In this work, we propose a modeling approach that leverages these multi-modal signals to aid the KPE task. In particular, we leverage both lexical and visual features (e.g. size, font, position) at the micro-level to enable effective strategy induction, and meta-level features that describe pages at a macro-level to aid in strategy selection. Our evaluation demonstrates that a combination of effective strategy induction and strategy selection within this approach for the KPE task outperforms state-of-the-art models. A qualitative post-hoc analysis illustrates how these features function within the model.
+
+#### Deep Multimodal Fusion by Channel Exchanging
+  * [[pdf](https://proceedings.neurips.cc/paper/2020/file/339a18def9898dd60a634b2ad8fbbd58-Paper.pdf)] [[repo](paper/wang2020deep.pdf)] [[github](https://github.com/yikaiw/CEN)]
+  * Wang et al. (2020.12)
+  * NeurIPS'20
+  * Deep multimodal fusion by using multiple sources of data for classification or regression has exhibited a clear advantage over the unimodal counterpart on various applications. Yet, current methods including aggregation-based and alignment-based fusion are still inadequate in balancing the trade-off between inter-modal fusion and intra-modal processing, incurring a bottleneck of performance improvement. To this end, this paper proposes Channel-Exchanging-Network (CEN), a parameter-free multimodal fusion framework that dynamically exchanges channels between sub-networks of different modalities. Specifically, the channel exchanging process is self-guided by individual channel importance that is measured by the magnitude of Batch-Normalization (BN) scaling factor during training. The validity of such exchanging process is also guaranteed by sharing convolutional filters yet keeping separate BN layers across modalities, which, as an add-on benefit, allows our multimodal architecture to be almost as compact as a unimodal network. Extensive experiments on semantic segmentation via RGB-D data and image translation through multi-domain input verify the effectiveness of our CEN compared to current state-of-the-art methods. Detailed ablation studies have also been carried out, which provably affirm the advantage of each component we propose.
 
 **2021** {#2}
 

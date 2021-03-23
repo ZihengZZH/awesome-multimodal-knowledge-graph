@@ -46,12 +46,15 @@
 | 2019.10| He et al. | ACM-MM'19 | A New Benchmark and Approach for Fine-grained Cross-media Retrieval | [[pdf](https://arxiv.org/pdf/1907.04476.pdf)] [[repo](paper/he2019new.pdf)] [[github](https://github.com/PKU-ICST-MIPL/FGCrossNet_ACMMM2019)] |
 | 2019.10| Huang et al. | ACM-MM'19 | Annotation Efficient Cross-Modal Retrieval with Adversarial Attentive Alignment | [[pdf](http://www.cs.cmu.edu/~poyaoh/data/ann.pdf)] [[repo](paper/huang2019annotation.pdf)] |
 | 2019.10| Nie et al. | ACM-MM'19 | Multimodal Dialog System: Generating Responses via Adaptive Decoders | [[pdf](https://liqiangnie.github.io/paper/fp349-nieAemb.pdf)] [[repo](paper/nie2019multimodal.pdf)] |
+| 2020.01| Xi et al. | ICMLSC'20 | Multimodal Sentiment Analysis based on Multi-head Attention Mechanism | [[pdf](https://dl.acm.org/doi/abs/10.1145/3380688.3380693)] [[repo](paper/xi2020multimodal.pdf)] |
 | 2020.01| Park et al. | WACV'20 | MHSAN: Multi-Head Self-Attention Network for Visual Semantic Embedding | [[pdf](https://arxiv.org/pdf/2001.03712.pdf)] [[repo](paper/park2020mhsan.pdf)] | [[pdf](https://liqiangnie.github.io/paper/fp349-nieAemb.pdf)] [[repo](paper/nie2019multimodal.pdf)] |
 | 2020.02| Kim et al. | AAAI'20 | MULE: Multimodal Universal Language Embedding | [[pdf](https://arxiv.org/pdf/1909.03493.pdf)] [[repo](paper/kim2019MULE.pdf)] |
 | 2020.02| Mai et al. | AAAI'20 | Modality to Modality Translation: An Adversarial Representation Learning and Graph Fusion Network for Multimodal Fusion | [[pdf](https://arxiv.org/pdf/1911.07848.pdf)] [[repo](paper/mai2019modality.pdf)] |
+| 2020.03| Zhang et al. | JSTSP/IEEE | Multimodal Intelligence: Representation Learning, Information Fusion, and Applications | [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9068414)] [[repo](paper/zhang2020multimodal.pdf)] |
 | 2020.08| Wang et al. | KDD'20 | Multimodal Learning with Incomplete Modalities by Knowledge Distillation | [[pdf](https://dl.acm.org/doi/pdf/10.1145/3394486.3403234)] [[repo](paper/wang2020multimodal.pdf)] |
 | 2020.10| Chiou et al. | arXiv | Visual Relationship Detection with Visual-Linguistic Knowledge from Multimodal Representations | [[pdf](https://arxiv.org/pdf/2009.04965.pdf)] [[repo](paper/chiou2020visual.pdf)] |
 | 2020.11| Tsai et al. | EMNLP'20 | Multimodal Routing: Improving Local and Global Interpretability of Multimodal Language Analysis | [[pdf](https://www.aclweb.org/anthology/2020.emnlp-main.143.pdf)] [[repo](paper/tsai2020multimodal.pdf)] [[github](https://github.com/martinmamql/multimodal_routing)] |
+| 2020.12| Wang et al. | NeurIPS'20 | Deep Multimodal Fusion by Channel Exchanging | [[pdf](https://proceedings.neurips.cc/paper/2020/file/339a18def9898dd60a634b2ad8fbbd58-Paper.pdf)] [[repo](paper/wang2020deep.pdf)] [[github](https://github.com/yikaiw/CEN)] |
 
 ## information extraction
 
