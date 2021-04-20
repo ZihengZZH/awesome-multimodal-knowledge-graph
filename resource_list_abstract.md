@@ -22,6 +22,7 @@
     - [A Multimodal Translation-Based Approach for Knowledge Graph Representation Learning](#a-multimodal-translation-based-approach-for-knowledge-graph-representation-learning)
     - [Multimodal Unsupervised Image-to-Image Translation](#multimodal-unsupervised-image-to-image-translation)
     - [Embedding Multimodal Relational Data for Knowledge Base Completion](#embedding-multimodal-relational-data-for-knowledge-base-completion)
+    - [Associative Multichannel Autoencoder for Multimodal Word Representation](#associative-multichannel-autoencoder-for-multimodal-word-representation)
     - [MMKG: Multi-Modal Knowledge Graphs](#mmkg-multi-modal-knowledge-graphs)
     - [Shared Predictive Cross-Modal Deep Quantization](#shared-predictive-cross-modal-deep-quantization)
     - [Answering Visual-Relational Queries in Web-Extracted Knowledge Graphs](#answering-visual-relational-queries-in-web-extracted-knowledge-graphs)
@@ -144,7 +145,7 @@
   * IJCAI'17
   * Entity images could provide significant visual information for knowledge representation learning. Most conventional methods learn knowledge representations merely from structured triples, ignoring rich visual information extracted from entity images. In this paper, we propose a novel Image-embodied Knowledge Representation Learning model (IKRL), where knowledge representations are learned with both triple facts and images. More specially, we first construct representations for all images of an entity with a neural image encoder. These image representations are then integrated into an aggregated image-based representation via an attention-based method. We evaluate out IKRL models on knowledge graph completion and triple classification. Experimental results demonstrate that our models outperform all baselines on both tasks, which indicates the significance of visual information for knowledge representations and the capability of our models in learning knowledge representations with images.
 
-**2018** {#4}
+**2018** {#5}
 
 #### Towards Building Large Scale Multimodal Domain-Aware Conversation Systems
   * [[pdf](https://arxiv.org/pdf/1704.00200.pdf)] [[repo](paper/saha2018towards.pdf)]
@@ -169,6 +170,12 @@
   * Pezeshkpour et al. (2018.11)
   * EMNLP'18
   * Representing entities and relations in an embedding space is well-studied approach for machine learning on relational data. Existing approaches, however, primarily focus on simple link structure between a finite set of entities, ignoring the variety of data types that are often used in knowledge bases, such as text, images, and numerical values. In this paper, we propose multimodal knowledge base embeddings (MKBE) that use different neural encoders for this variety of observed data, and combine them with existing relational models to learn embeddings of the entities and multimodal data. Further, using these learned embeddings and different neural decoders, we introduce a novel multimodal imputation model to generate missing multimodal values, like text and images, from information in the knowledge base. We enrich existing relational datasets to create two novel benchmarks that contain additional information such as textual descriptions and images of the original entities. We demonstrate that our models utilize this additional information effectively to provide more accurate link prediction, achieving state-of-the-art results with a considerable gep of 5-7% over existing methods. Further, we evaluate the quality of our generated multimodal values via a user study.
+
+#### Associative Multichannel Autoencoder for Multimodal Word Representation
+  * [[pdf](https://www.aclweb.org/anthology/D18-1011.pdf)] [[repo](paper/wang2018associative.pdf)]
+  * Wang et al. (2018.11)
+  * EMNLP'18
+  * In this paper we address the problem of learning multimodal word representations by integrating textual, visual and auditory inputs. Inspired by the re-constructive and association nature of human memory, we propose a novel associative multichannel autoencoder (AMA). Our model first learns the associations between textual and perceptual modalities, so as to predict the missing perceptual information of concepts. Then the textual and predicted perceptual representations are fused through reconstructing their original and associated embeddings. Using a gating mechanism our model assigns different weights to each modality according to the different concepts. Results on six benchmark concept similarity tests show that the proposed method significantly outperforms strong unimodal baselines and state-of-the-art multimodal models.
 
 **2019** {#10}
 
