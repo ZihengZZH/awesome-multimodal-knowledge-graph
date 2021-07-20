@@ -56,6 +56,10 @@
 | 2020.10| Chiou et al. | arXiv | Visual Relationship Detection with Visual-Linguistic Knowledge from Multimodal Representations | [[pdf](https://arxiv.org/pdf/2009.04965.pdf)] [[repo](paper/chiou2020visual.pdf)] |
 | 2020.11| Tsai et al. | EMNLP'20 | Multimodal Routing: Improving Local and Global Interpretability of Multimodal Language Analysis | [[pdf](https://www.aclweb.org/anthology/2020.emnlp-main.143.pdf)] [[repo](paper/tsai2020multimodal.pdf)] [[github](https://github.com/martinmamql/multimodal_routing)] |
 | 2020.12| Wang et al. | NeurIPS'20 | Deep Multimodal Fusion by Channel Exchanging | [[pdf](https://proceedings.neurips.cc/paper/2020/file/339a18def9898dd60a634b2ad8fbbd58-Paper.pdf)] [[repo](paper/wang2020deep.pdf)] [[github](https://github.com/yikaiw/CEN)] |
+| 2021.06| Xu et al. | ACL'21 | LayoutLMv2: Multi-modal Pre-training for Visually-rich Document Understanding | [[pdf](https://arxiv.org/pdf/2012.14740.pdf)] [[repo](paper/xu2021layoutlmv2.pdf)] |
+| 2021.06| Cao et al. | ACL'21 | Knowledgeable or Educated Guess? Revisiting Language Models as Knowledge Bases | [[pdf](https://arxiv.org/pdf/2106.09231.pdf)] [[repo](paper/cao2021knowledgeable.pdf)] |
+| 2021.06| Xing et al. | ACL'21 | KM-BART: Knowledge Enhanced Multimodal BART for Visual Commonsense Generation | [[pdf](https://arxiv.org/pdf/2101.00419.pdf)] [[repo](paper/xing2021kmbart.pdf)] |
+| 2021.06| Su et al. | ACL'21 | GEM: A General Evaluation Benchmark for Multimodal Tasks | [[pdf](https://arxiv.org/pdf/2106.09889.pdf)] [[repo](paper/su2021gem.pdf)] |
 
 ## information extraction
 

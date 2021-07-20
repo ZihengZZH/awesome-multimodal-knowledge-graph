@@ -51,6 +51,10 @@
     - [Deep Multimodal Fusion by Channel Exchanging](#deep-multimodal-fusion-by-channel-exchanging)
     - [Visual Pivoting for (Unsupervised) Entity Alignment](#visual-pivoting-for-unsupervised-entity-alignment)
     - [RpBERT: A Text-image Relation Propagation-based BERT Model for Multimodal NER](#rpbert-a-text-image-relation-propagation-based-bert-model-for-multimodal-ner)
+    - [LayoutLMv2: Multi-modal Pre-training for Visually-rich Document Understanding](#layoutlmv2-multi-modal-pre-training-for-visually-rich-document-understanding)
+    - [Knowledgeable or Educated Guess? Revisiting Language Models as Knowledge Bases](#knowledgeable-or-educated-guess-revisiting-language-models-as-knowledge-bases)
+    - [KM-BART: Knowledge Enhanced Multimodal BART for Visual Commonsense Generation](#km-bart-knowledge-enhanced-multimodal-bart-for-visual-commonsense-generation)
+    - [GEM: A General Evaluation Benchmark for Multimodal Tasks](#gem-a-general-evaluation-benchmark-for-multimodal-tasks)
 - [Tutorials](#tutorials)
     - [Multimodal Knowledge Graphs: Automatic Extraction & Applications](#multimodal-knowledge-graphs-automatic-extraction--applications)
     - [Towards Building Large-Scale Multimodal Knowledge Bases](#towards-building-large-scale-multimodal-knowledge-bases)
@@ -337,7 +341,7 @@
   * NeurIPS'20
   * Deep multimodal fusion by using multiple sources of data for classification or regression has exhibited a clear advantage over the unimodal counterpart on various applications. Yet, current methods including aggregation-based and alignment-based fusion are still inadequate in balancing the trade-off between inter-modal fusion and intra-modal processing, incurring a bottleneck of performance improvement. To this end, this paper proposes Channel-Exchanging-Network (CEN), a parameter-free multimodal fusion framework that dynamically exchanges channels between sub-networks of different modalities. Specifically, the channel exchanging process is self-guided by individual channel importance that is measured by the magnitude of Batch-Normalization (BN) scaling factor during training. The validity of such exchanging process is also guaranteed by sharing convolutional filters yet keeping separate BN layers across modalities, which, as an add-on benefit, allows our multimodal architecture to be almost as compact as a unimodal network. Extensive experiments on semantic segmentation via RGB-D data and image translation through multi-domain input verify the effectiveness of our CEN compared to current state-of-the-art methods. Detailed ablation studies have also been carried out, which provably affirm the advantage of each component we propose.
 
-**2021** {#2}
+**2021** {#6}
 
 #### Visual Pivoting for (Unsupervised) Entity Alignment
   * [[pdf](https://arxiv.org/pdf/2009.13603.pdf)] [[repo](paper/liu2021visual.pdf)]
@@ -350,6 +354,30 @@
   * Sun et al. (2021.02)
   * AAAI'21
   * Recently multimodal named entity recognition (MNER) has utilized images to improve the accuracy of NER in tweets. However, most of the multimodal methods use attention mechanisms to extract visual clues regardless of whether the text and image are relevant. Practically, the irrelevant text-image pairs account for a large proportion in tweets. The visual clues that are unrelated to the texts will exert uncertain or even negative effects on multimodal model learning. In this paper, we introduce a method for text-image relation propagation into the multimodal BERT model. We integrate soft or hard gates to select visual clues and propose a multitask algorithm to train on the MNER datasets. In the experiments, we deeply analyze the changes in the visual attention before and after the use of text-image relation propagation. Our model achieves state-of-the-art performance on the MNER datasets. The source code is available online.
+
+#### LayoutLMv2: Multi-modal Pre-training for Visually-rich Document Understanding
+  * [[pdf](https://arxiv.org/pdf/2012.14740.pdf)] [[repo](paper/xu2021layoutlmv2.pdf)]
+  * Xu et al. (2021.06)
+  * ACL'21
+  * Pre-training of text and layout has proved effective in a variety of visually-rich document understanding tasks due to its effective model architecture and the advantage of large-scale unlabeled scanned/digital-born documents. In this paper, we present LayoutLMv2 by pre-training text, layout and image in a multi-modal framework, where new model architectures and pre-training tasks are leveraged. Specifically, LayoutLMv2 not only uses the existing masked visual-language modeling task but also the new text-image alignment and text-image matching tasks in the pre-training stage, where cross-modality interaction is better learned. Meanwhile, it also integrates a spatial-aware self-attention mechanism into the Transformer architecture, so that the model can fully understand the relative positional relationship among different text blocks. Experimental results show that LayoutLMv2 outperforms strong baselines and archieves new state-of-the-art results on a wide variety of downstream visually-rich document understanding tasks, including FUNSD, CORD, SROIE, Kleister-NDA, RVL-CDIP, and DocVQA
+
+#### Knowledgeable or Educated Guess? Revisiting Language Models as Knowledge Bases
+  * [[pdf](https://arxiv.org/pdf/2106.09231.pdf)] [[repo](paper/cao2021knowledgeable.pdf)]
+  * Cao et al. (2021.06)
+  * ACL'21
+  * Previous literatures show that pre-trained masked language models (MLMs) such as BERT can achieve competitive factual knowledge extraction performance on some datasets, indicating that MLMs can potentially be a reliable knowledge source. In this paper, we conduct a rigorous study to explore the underlying predicting mechanisms of MLMs over different extraction paradigms. By investigating the behaviors of MLMs, we find that previous decent performance mainly owes to the biased prompts which overfit dataset artifacts. Furthermore, incorporating illustrative cases and external contexts improve knowledge prediction mainly due to entity type guidance and golden answer leakage. Our findings shed light on the underlying predicting mechanisms of MLMs, and strongly question the previous conclusion that current MLMs can potentially serve as reliable factual knowledge bases.
+
+#### KM-BART: Knowledge Enhanced Multimodal BART for Visual Commonsense Generation
+  * [[pdf](https://arxiv.org/pdf/2101.00419.pdf)] [[repo](paper/xing2021kmbart.pdf)]
+  * Xing et al. (2021.06)
+  * ACL'21
+  * We present Knowledge Enhanced Multimodal BART (KM-BART), which is a Transformer-based sequence-to-sequence model capable of reasoning about commonsense knowledge from multimodal inputs of images and texts. We adapt the generative BART architecture to a multimodal model with visual and textual inputs. We further develop novel pretraining tasks to improve the model performance on the Visual Commonsense Generation (VCG) task. In particular, our pretraining task of Knowledge-based Commonsense Generation (KCG) boosts model performance on the VCG task by leveraging commonsense knowledge from a large langauge model pretrained on external commonsense knowledge graphs. To the best of our knowledge, we are the first to propose a dedicated task for improving model performance on the VCG task. Experimental results show that our model reaches state-of-the-art performance on the VCG task by applying these novel pretraining tasks.
+
+#### GEM: A General Evaluation Benchmark for Multimodal Tasks
+  * [[pdf](https://arxiv.org/pdf/2106.09889.pdf)] [[repo](paper/su2021gem.pdf)]
+  * Su et al. (2021.06)
+  * ACL'21
+  * In this paper, we present GEM as a General Evaluation benchmark for Multimodal tasks. Different from existing datasets such as GLUE, SuperGLUE, XGLUE and XTREME that mainly focus on natural langauge tasks, GEM is a large-scale vision-language benchmark, which consists of GEM-I for image-language tasks and GEM-V for video-language tasks. Comparing with existing multimodal datasets such as MSCOCO and Flicker30K for image-language tasks, YouCook2 and MSR-VTT for video-langauge tasks, GEM is not only the largest vision-language dataset covering image-language tasks and video-language tasks at the same time, but also labeled in multiple languages. We also provide two baseline models for this benchmark. We will release the dataset, code and baseline models, aiming to advance the development of multilingual multimodal research.
 
 ## Tutorials
 
