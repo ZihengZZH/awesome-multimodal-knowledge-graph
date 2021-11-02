@@ -58,6 +58,7 @@
     - [Knowledgeable or Educated Guess? Revisiting Language Models as Knowledge Bases](#knowledgeable-or-educated-guess-revisiting-language-models-as-knowledge-bases)
     - [KM-BART: Knowledge Enhanced Multimodal BART for Visual Commonsense Generation](#km-bart-knowledge-enhanced-multimodal-bart-for-visual-commonsense-generation)
     - [GEM: A General Evaluation Benchmark for Multimodal Tasks](#gem-a-general-evaluation-benchmark-for-multimodal-tasks)
+    - [Is Visual Context Really Helpful for Knowledge Graph? A Representation Learning Perspective](#is-visual-context-really-helpful-for-knowledge-graph-a-representation-learning-perspective)
 - [Tutorials](#tutorials)
     - [Multimodal Knowledge Graphs: Automatic Extraction & Applications](#multimodal-knowledge-graphs-automatic-extraction--applications)
     - [Towards Building Large-Scale Multimodal Knowledge Bases](#towards-building-large-scale-multimodal-knowledge-bases)
@@ -344,7 +345,7 @@
   * NeurIPS'20
   * Deep multimodal fusion by using multiple sources of data for classification or regression has exhibited a clear advantage over the unimodal counterpart on various applications. Yet, current methods including aggregation-based and alignment-based fusion are still inadequate in balancing the trade-off between inter-modal fusion and intra-modal processing, incurring a bottleneck of performance improvement. To this end, this paper proposes Channel-Exchanging-Network (CEN), a parameter-free multimodal fusion framework that dynamically exchanges channels between sub-networks of different modalities. Specifically, the channel exchanging process is self-guided by individual channel importance that is measured by the magnitude of Batch-Normalization (BN) scaling factor during training. The validity of such exchanging process is also guaranteed by sharing convolutional filters yet keeping separate BN layers across modalities, which, as an add-on benefit, allows our multimodal architecture to be almost as compact as a unimodal network. Extensive experiments on semantic segmentation via RGB-D data and image translation through multi-domain input verify the effectiveness of our CEN compared to current state-of-the-art methods. Detailed ablation studies have also been carried out, which provably affirm the advantage of each component we propose.
 
-**2021** {#9}
+**2021** {#10}
 
 #### Visual Pivoting for (Unsupervised) Entity Alignment
   * [[pdf](https://arxiv.org/pdf/2009.13603.pdf)] [[repo](paper/liu2021visual.pdf)]
@@ -399,6 +400,12 @@
   * Su et al. (2021.06)
   * ACL'21
   * In this paper, we present GEM as a General Evaluation benchmark for Multimodal tasks. Different from existing datasets such as GLUE, SuperGLUE, XGLUE and XTREME that mainly focus on natural langauge tasks, GEM is a large-scale vision-language benchmark, which consists of GEM-I for image-language tasks and GEM-V for video-language tasks. Comparing with existing multimodal datasets such as MSCOCO and Flicker30K for image-language tasks, YouCook2 and MSR-VTT for video-langauge tasks, GEM is not only the largest vision-language dataset covering image-language tasks and video-language tasks at the same time, but also labeled in multiple languages. We also provide two baseline models for this benchmark. We will release the dataset, code and baseline models, aiming to advance the development of multilingual multimodal research.
+
+#### Is Visual Context Really Helpful for Knowledge Graph? A Representation Learning Perspective
+  * [[pdf](https://dl.acm.org/doi/pdf/10.1145/3474085.3475470)] [[repo](paper/wang2021visual.pdf)]
+  * Wang et al. (2021.10)
+  * ACM-MM'21
+  * Visual modality recently has aroused extensive attention in the fields of knowledge graph and multimedia because a lot of real-world knowledge is multi-modal in nature. However, it is currently unclear to what extent the visual modality can improve the performance of knowledge graph tasks over unimodal models, and equally treating structural and visual features may encode too much irrelevant information from images. In this paper, we probe the utility of the auxiliary visual context from knowledge graph representation learning perspective by designing a Relation Sensitive Multi-modal Embedding model, RSME for short. RSME can automatically encourage or filter the influence of visual context during the representation learning. We also examine the effect of different visual feature encoders. Experimental results validate the superiority of our approach compared to the state-of-the-art methods. On the basis of in-depth analysis, we conclude that under appropriate circumstances models are capable of leveraging the visual input to generate better knowledge graph embeddings and vice versa.
 
 ## Tutorials
 

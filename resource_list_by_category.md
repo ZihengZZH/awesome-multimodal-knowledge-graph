@@ -34,6 +34,7 @@
 | 2020.11| Wang et al. | EMNLP'20 | Incorporating Multimodal Information in Open-Domain Web Keyphrase Extraction | [[pdf](https://www.aclweb.org/anthology/2020.emnlp-main.140.pdf)] [[repo](paper/wang2020incorporating.pdf)] [[github](https://github.com/victorywys/SMART-KPE)] |
 | 2021.02| Liu et al. | AAAI'21 | Visual Pivoting for (Unsupervised) Entity Alignment | [[pdf](https://arxiv.org/pdf/2009.13603.pdf)] [[repo](paper/liu2021visual.pdf)] |
 | 2021.02| Sun et al. | AAAI'21 | RpBERT: A Text-image Relation Propagation-based BERT Model for Multimodal NER | [[pdf](https://arxiv.org/pdf/2102.02967.pdf)] [[repo](paper/sun2021rpbert.pdf)] [[github](https://github.com/Multimodal-NER/RpBERT)] |
+| 2021.10| Wang et al. | ACM-MM'21 | Is Visual Context Really Helpful for Knowledge Graph? A Representation Learning Perspective | [[pdf](https://dl.acm.org/doi/pdf/10.1145/3474085.3475470)] [[repo](paper/wang2021visual.pdf)] |
 
 ## multimodal language model
 
