@@ -59,6 +59,11 @@
     - [KM-BART: Knowledge Enhanced Multimodal BART for Visual Commonsense Generation](#km-bart-knowledge-enhanced-multimodal-bart-for-visual-commonsense-generation)
     - [GEM: A General Evaluation Benchmark for Multimodal Tasks](#gem-a-general-evaluation-benchmark-for-multimodal-tasks)
     - [Is Visual Context Really Helpful for Knowledge Graph? A Representation Learning Perspective](#is-visual-context-really-helpful-for-knowledge-graph-a-representation-learning-perspective)
+    - [Interactive Machine Comprehension with Dynamic Knowledge Graphs](#interactive-machine-comprehension-with-dynamic-knowledge-graphs)
+    - [BiQUE: Biquaternionic Embeddings of Knowledge Graphs](#bique-biquaternionic-embeddings-of-knowledge-graphs)
+    - [Open Knowledge Graphs Canonicalization using Variational Autoencoders](#open-knowledge-graphs-canonicalization-using-variational-autoencoders)
+    - [End-to-End Entity Resolution and Question Answering Using Differentiable Knowledge Graphs](#end-to-end-entity-resolution-and-question-answering-using-differentiable-knowledge-graphs)
+    - [Mixture-of-Partitions: Infusing Large Biomedical Knowledge Graphs into BERT](#mixture-of-partitions-infusing-large-biomedical-knowledge-graphs-into-bert)
 - [Tutorials](#tutorials)
     - [Multimodal Knowledge Graphs: Automatic Extraction & Applications](#multimodal-knowledge-graphs-automatic-extraction--applications)
     - [Towards Building Large-Scale Multimodal Knowledge Bases](#towards-building-large-scale-multimodal-knowledge-bases)
@@ -345,7 +350,7 @@
   * NeurIPS'20
   * Deep multimodal fusion by using multiple sources of data for classification or regression has exhibited a clear advantage over the unimodal counterpart on various applications. Yet, current methods including aggregation-based and alignment-based fusion are still inadequate in balancing the trade-off between inter-modal fusion and intra-modal processing, incurring a bottleneck of performance improvement. To this end, this paper proposes Channel-Exchanging-Network (CEN), a parameter-free multimodal fusion framework that dynamically exchanges channels between sub-networks of different modalities. Specifically, the channel exchanging process is self-guided by individual channel importance that is measured by the magnitude of Batch-Normalization (BN) scaling factor during training. The validity of such exchanging process is also guaranteed by sharing convolutional filters yet keeping separate BN layers across modalities, which, as an add-on benefit, allows our multimodal architecture to be almost as compact as a unimodal network. Extensive experiments on semantic segmentation via RGB-D data and image translation through multi-domain input verify the effectiveness of our CEN compared to current state-of-the-art methods. Detailed ablation studies have also been carried out, which provably affirm the advantage of each component we propose.
 
-**2021** {#10}
+**2021** {#15}
 
 #### Visual Pivoting for (Unsupervised) Entity Alignment
   * [[pdf](https://arxiv.org/pdf/2009.13603.pdf)] [[repo](paper/liu2021visual.pdf)]
@@ -406,6 +411,36 @@
   * Wang et al. (2021.10)
   * ACM-MM'21
   * Visual modality recently has aroused extensive attention in the fields of knowledge graph and multimedia because a lot of real-world knowledge is multi-modal in nature. However, it is currently unclear to what extent the visual modality can improve the performance of knowledge graph tasks over unimodal models, and equally treating structural and visual features may encode too much irrelevant information from images. In this paper, we probe the utility of the auxiliary visual context from knowledge graph representation learning perspective by designing a Relation Sensitive Multi-modal Embedding model, RSME for short. RSME can automatically encourage or filter the influence of visual context during the representation learning. We also examine the effect of different visual feature encoders. Experimental results validate the superiority of our approach compared to the state-of-the-art methods. On the basis of in-depth analysis, we conclude that under appropriate circumstances models are capable of leveraging the visual input to generate better knowledge graph embeddings and vice versa.
+
+#### Interactive Machine Comprehension with Dynamic Knowledge Graphs
+  * [[pdf](https://arxiv.org/pdf/2109.00077.pdf)] [[repo](paper/yuan2021interactive.pdf)]
+  * Yuan et al. (2021.11)
+  * EMNLP'21
+  * Interactive machine reading comprehension (iMRC) is machine comprehension tasks where knowledge sources are partially observable. An agent must interact with an environment sequentially to gather necessary knowledge in order to answer a question. We hypothesize that graph representations are good inductive biases, which can serve as an agent's memory mechanism in iMRC tasks. We explore four different categories of graphs that can capture text information at various levels. We describe methods that dynamically build and update these graphs during information gathering, as well as neural models to encode graph representations in RL agents. Extensive experiments on iSQuAD suggest that graph representations can result in significant performance improvements for RL agents.
+
+#### BiQUE: Biquaternionic Embeddings of Knowledge Graphs
+  * [[pdf](https://arxiv.org/pdf/2109.14401.pdf)] [[repo](paper/guo2021bique.pdf)]
+  * Guo et al. (2021.11)
+  * EMNLP'21
+  * Knowledge graph embeddings (KGEs) compactly encode multi-relational knowledge graphs (KGs). Existing KGE models rely on geometric operations to model relational patterns. Euclidean (circular) rotation is useful for modeling patterns such as symmetry, but cannot represent hierarchical semantics. In contrast, hyperbolic models are effective at modeling hierarchical relations, but do not perform as well on patterns on which curcular rotation excels. It is crucial for KGE models to unify multiple geometric transformations so as to fully cover the multifarious relations in KGs. To do so, we propose BiQUE, a novel model that employs biquaternions to integrate multiple geometric transformations, viz., scaling, translation, Euclidean rotation, and hyperbolic rotation. BiQUE makes the best trade-offs among geometric operators during training, picking the best one (or their best combination) for each relation. Experiments on five datasets show BiQUE's effectiveness.
+
+#### Open Knowledge Graphs Canonicalization using Variational Autoencoders
+  * [[pdf](https://arxiv.org/pdf/2012.04780.pdf)] [[repo](paper/dash2021open.pdf)]
+  * Dash et al. (2021.11)
+  * EMNLP'21
+  * Noun phrases and Relation phrases in open knowledge graphs are not canonicalized, leading to an explosion of redundant and ambiguous subject-relation-object triples. Existing approaches to solve this problem take a two-step approach. First, they generate embedding representations for both noun and relation phrases, then a clustering algorithm is used to group them using the embeddings as features. In this work, we propose Canonicalizing Using Variational Autoencoders (CUVA), a joint model to learn both embeddings and cluster assignments in an end-to-end approach, which leads to a better vector representation for the noun and relation phrases. Our evaluation over multiple benchmarks shows that CUVA outperforms the existing state-of-the-art approaches. Moreover, we introduce CANONICNELL, a novel dataset to evaluate entity canonicalization systems.
+
+#### End-to-End Entity Resolution and Question Answering Using Differentiable Knowledge Graphs
+  * [[pdf](https://arxiv.org/pdf/2109.05817.pdf)] [[repo](paper/oliya2021end.pdf)]
+  * Oliya et al. (2021.11)
+  * EMNLP'21
+  * Recently, end-to-end (E2E) trained models for question answering over knowledge graphs (KGQA) have delivered promising results using only a weakly supervised dataset. However, these models are trained and evaluated in a setting where hand-annotated question entities are supplied to the model, leaving the important and non-trivial task of entity resolution (ER) outside the scope of E2E learning. In this work, we extend the boundaries of E2E learning for KGQA to include the training of an ER component. Our model only needs the question text and answer entities to train, and delivers a stand-alone QA model that does not require an additional ER component to be supplied during runtime. Our approach is fully differentiable, thanks to its reliance on a recent method for building differentiable KGs. We evaluate our E2E trained model on two public datasets and show that it comes close to baseline models that use hand-annotated entities.
+
+#### Mixture-of-Partitions: Infusing Large Biomedical Knowledge Graphs into BERT
+  * [[pdf](https://arxiv.org/pdf/2109.04810.pdf)] [[repo](paper/meng2021infusing.pdf)]
+  * Meng et al. (2021.11)
+  * EMNLP'21
+  * Infusing factural knowledge into pretrained models is fundamental for many knowledge-intensive tasks. In this paper, we propose Mixture-of-Partitions (MoP), an infusion approach that can handle a very large knowledge graph (KG) by partitioning it into smaller sub-graphs and infusing their specific knowledge into various BERT models using lightweight adapters. To leverage the overall factual knowledge for a target task, these sub-graph adapters are further fine-tuned along with the underlying BERT through a mixture layer. We evaluate our MoP with three biomedical BERTs (SciBERT, BioBERT, PubmedBERT) on six downstream tasks (inc. NLI, QA, Classification), and the results show that our MoP consistently enhances the underlying BERTs in task performance, and achieves new SOTA performances on five evaluated datasets.
 
 ## Tutorials
 

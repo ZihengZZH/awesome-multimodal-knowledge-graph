@@ -78,6 +78,11 @@
 | 2016.02| Ji et al. | AAAI'16 | Knowledge Graph Completion with Adaptive Sparse Transfer Matrix | [[pdf](https://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/download/11982/11693)] [[repo](paper/ji2016knowledge.pdf)] |
 | 2016.08| Lin et al. | ACL'16 | Neural Relation Extraction with Selective Attention over Instances | [[pdf](https://www.aclweb.org/anthology/P16-1200v2.pdf)] [[repo](paper/lin2016neural.pdf)] |
 | 2016.08| Xiao et al. | ACL'16 | TransG: A Generative Model for Knowledge Graph Embedding | [[pdf](https://www.aclweb.org/anthology/P16-1219.pdf)] [[repo](paper/xiao2016transg.pdf)] |
+| 2021.11| Yuan et al. | EMNLP'21 | Interactive Machine Comprehension with Dynamic Knowledge Graphs | [[pdf](https://arxiv.org/pdf/2109.00077.pdf)] [[repo](paper/yuan2021interactive.pdf)] |
+| 2021.11| Guo et al. | EMNLP'21 | BiQUE: Biquaternionic Embeddings of Knowledge Graphs | [[pdf](https://arxiv.org/pdf/2109.14401.pdf)] [[repo](paper/guo2021bique.pdf)] |
+| 2021.11| Dash et al. | EMNLP'21 | Open Knowledge Graphs Canonicalization using Variational Autoencoders | [[pdf](https://arxiv.org/pdf/2012.04780.pdf)] [[repo](paper/dash2021open.pdf)] |
+| 2021.11| Meng et al. | EMNLP'21 | Mixture-of-Partitions: Infusing Large Biomedical Knowledge Graphs into BERT | [[pdf](https://arxiv.org/pdf/2109.04810.pdf)] [[repo](paper/meng2021infusing.pdf)] |
+| 2021.11| Oliya et al. | EMNLP'21 | End-to-End Entity Resolution and Question Answering Using Differentiable Knowledge Graphs | [[pdf](https://arxiv.org/pdf/2109.05817.pdf)] [[repo](paper/oliya2021end.pdf)] |
 
 ## tutorials
 
