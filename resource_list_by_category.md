@@ -6,7 +6,7 @@
 > [web]: website link  
 
 - [multimodal knowledge graph](#multimodal-knowledge-graph)
-- [multimodal language model](#multimodal-language-model)
+- [multimodal representation learning](#multimodal-representation-learning)
 - [information extraction](#information-extraction)
 - [tutorials](#tutorials)
 - [datasets](#datasets)
@@ -34,9 +34,11 @@
 | 2020.11| Wang et al. | EMNLP'20 | Incorporating Multimodal Information in Open-Domain Web Keyphrase Extraction | [[pdf](https://www.aclweb.org/anthology/2020.emnlp-main.140.pdf)] [[repo](paper/wang2020incorporating.pdf)] [[github](https://github.com/victorywys/SMART-KPE)] |
 | 2021.02| Liu et al. | AAAI'21 | Visual Pivoting for (Unsupervised) Entity Alignment | [[pdf](https://arxiv.org/pdf/2009.13603.pdf)] [[repo](paper/liu2021visual.pdf)] |
 | 2021.02| Sun et al. | AAAI'21 | RpBERT: A Text-image Relation Propagation-based BERT Model for Multimodal NER | [[pdf](https://arxiv.org/pdf/2102.02967.pdf)] [[repo](paper/sun2021rpbert.pdf)] [[github](https://github.com/Multimodal-NER/RpBERT)] |
+| 2021.06| Wang et al. | CVPR'21 | Improving Weakly Supervised Visual Grounding by Contrastive Knowledge Distillation | [[pdf](https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_Improving_Weakly_Supervised_Visual_Grounding_by_Contrastive_Knowledge_Distillation_CVPR_2021_paper.pdf)] [[repo]] |
+| 2021.06| Zhang et al. | CVPR'21 | Explicit Knowledge Incorporation for Visual Reasoning | [[pdf](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_Explicit_Knowledge_Incorporation_for_Visual_Reasoning_CVPR_2021_paper.pdf)] [[repo](paper/zhang2021explicit.pdf)] |
 | 2021.10| Wang et al. | ACM-MM'21 | Is Visual Context Really Helpful for Knowledge Graph? A Representation Learning Perspective | [[pdf](https://dl.acm.org/doi/pdf/10.1145/3474085.3475470)] [[repo](paper/wang2021visual.pdf)] |
 
-## multimodal language model
+## multimodal representation learning
 
 | *Year* | <div style="width:100px">*Author*</div> | <div style="width:100px">*Conf.*</div> | *Title* | *Links* |
 | :----: | --------------------------------------- | -------------------------------------- | ------- | ------- |
@@ -64,6 +66,8 @@
 | 2021.06| Cao et al. | ACL'21 | Knowledgeable or Educated Guess? Revisiting Language Models as Knowledge Bases | [[pdf](https://arxiv.org/pdf/2106.09231.pdf)] [[repo](paper/cao2021knowledgeable.pdf)] |
 | 2021.06| Xing et al. | ACL'21 | KM-BART: Knowledge Enhanced Multimodal BART for Visual Commonsense Generation | [[pdf](https://arxiv.org/pdf/2101.00419.pdf)] [[repo](paper/xing2021kmbart.pdf)] |
 | 2021.06| Su et al. | ACL'21 | GEM: A General Evaluation Benchmark for Multimodal Tasks | [[pdf](https://arxiv.org/pdf/2106.09889.pdf)] [[repo](paper/su2021gem.pdf)] |
+| 2021.06| Marino et al. | CVPR'21 | KRISP: Integrating Implicit and Symbolic Knowledge for Open-Domain Knowledge-Based VQA | [[pdf](https://openaccess.thecvf.com/content/CVPR2021/papers/Marino_KRISP_Integrating_Implicit_and_Symbolic_Knowledge_for_Open-Domain_Knowledge-Based_VQA_CVPR_2021_paper.pdf)] [[repo](paper/marino2021integrating.pdf)] |
+| 2021.06| Yuan et al. | CVPR'21 | Multimodal Contrastive Training for Visual Representation Learning | [[pdf](https://openaccess.thecvf.com/content/CVPR2021/papers/Yuan_Multimodal_Contrastive_Training_for_Visual_Representation_Learning_CVPR_2021_paper.pdf)] [[repo](paper/yuan2021multimodal.pdf)] |
 
 ## information extraction
 
