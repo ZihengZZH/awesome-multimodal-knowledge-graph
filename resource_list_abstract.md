@@ -69,6 +69,8 @@
     - [Open Knowledge Graphs Canonicalization using Variational Autoencoders](#open-knowledge-graphs-canonicalization-using-variational-autoencoders)
     - [End-to-End Entity Resolution and Question Answering Using Differentiable Knowledge Graphs](#end-to-end-entity-resolution-and-question-answering-using-differentiable-knowledge-graphs)
     - [Mixture-of-Partitions: Infusing Large Biomedical Knowledge Graphs into BERT](#mixture-of-partitions-infusing-large-biomedical-knowledge-graphs-into-bert)
+    - [Are Vision-Language Transformers Learning Multimodal Representations? A Probing Perspective](#are-vision-language-transformers-learning-multimodal-representations-a-probing-perspective)
+    - [Multi-Modal Knowledge Graph Construction and Application: A Survey](#multi-modal-knowledge-graph-construction-and-application-a-survey)
 - [Tutorials](#tutorials)
     - [Multimodal Knowledge Graphs: Automatic Extraction & Applications](#multimodal-knowledge-graphs-automatic-extraction--applications)
     - [Towards Building Large-Scale Multimodal Knowledge Bases](#towards-building-large-scale-multimodal-knowledge-bases)
@@ -476,6 +478,20 @@
   * Meng et al. (2021.11)
   * EMNLP'21
   * Infusing factural knowledge into pretrained models is fundamental for many knowledge-intensive tasks. In this paper, we propose Mixture-of-Partitions (MoP), an infusion approach that can handle a very large knowledge graph (KG) by partitioning it into smaller sub-graphs and infusing their specific knowledge into various BERT models using lightweight adapters. To leverage the overall factual knowledge for a target task, these sub-graph adapters are further fine-tuned along with the underlying BERT through a mixture layer. We evaluate our MoP with three biomedical BERTs (SciBERT, BioBERT, PubmedBERT) on six downstream tasks (inc. NLI, QA, Classification), and the results show that our MoP consistently enhances the underlying BERTs in task performance, and achieves new SOTA performances on five evaluated datasets.
+
+**2022** {#2}
+
+#### Are Vision-Language Transformers Learning Multimodal Representations? A Probing Perspective
+  * [[pdf](https://hal.archives-ouvertes.fr/hal-03521715/document)] [[repo](paper/salin2022vision.pdf)]
+  * Salin et al. (2022.01)
+  * AAAI'22
+  * In recent years, joint text-image embeddings have significantly improved thanks to the development of transformer-based Vision-Language models. Despite these advances, we still need to better understand the representations produced by those models. In this paper, we compare pre-trained and fine-tuned representations at a vision, language and multimodal level. To that end, we use a set of probing tasks to evaluate the performance of state-of-the-art Vision-Language models and introduce new datasets specifically for multimodal probing. These datasets are carefully designed to address a range of multimodal capabilities while minimizing the potential for models to rely on bias. Although the results confirm the ability of Vision-Language models to understand color at a multimodal level, the models seem to prefer relying on bias in text data for object position and size. On semantically adversarial examples, we find that those models are able to pinpoint fine-grained multimodal differences. Finally, we also notice that fine-tuning a Vision-Language model on multimodal tasks does not necessarily improve its multimodal ability. We make all datasets and code available to replicate experiments.
+
+#### Multi-Modal Knowledge Graph Construction and Application: A Survey
+  * [[pdf](https://arxiv.org/pdf/2202.05786.pdf)] [[repo](paper/zhu2022multimodal.pdf)]
+  * Zhu et al. (2022.02)
+  * IEEE
+  * Recent years have witnessed the resurgence of knowledge engineering which is featured by the fast growth of knowledge graphs. However, most of existing knowledge graphs are represented with pure symbols, which hurts the machine's capability to understand the real world. The multi-modalization of knowledge graphs is an inevitable key step towards the realization of human-level machine intelligence. The results of this endeavor are Multi-Modal Knowledge Graphs (MMKGs). In this survey on MMKGs constructed systematically review the challenges, progresses and opportunities on the construcion and application of MMKGs respectively, with detailed analysis of the strength and weakness of different solutions. We finalize this survey with open research problems relevant to MMKGs.
 
 ## Tutorials
 

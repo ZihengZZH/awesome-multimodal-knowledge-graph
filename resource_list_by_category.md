@@ -37,6 +37,7 @@
 | 2021.06| Wang et al. | CVPR'21 | Improving Weakly Supervised Visual Grounding by Contrastive Knowledge Distillation | [[pdf](https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_Improving_Weakly_Supervised_Visual_Grounding_by_Contrastive_Knowledge_Distillation_CVPR_2021_paper.pdf)] [[repo]] |
 | 2021.06| Zhang et al. | CVPR'21 | Explicit Knowledge Incorporation for Visual Reasoning | [[pdf](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_Explicit_Knowledge_Incorporation_for_Visual_Reasoning_CVPR_2021_paper.pdf)] [[repo](paper/zhang2021explicit.pdf)] |
 | 2021.10| Wang et al. | ACM-MM'21 | Is Visual Context Really Helpful for Knowledge Graph? A Representation Learning Perspective | [[pdf](https://dl.acm.org/doi/pdf/10.1145/3474085.3475470)] [[repo](paper/wang2021visual.pdf)] |
+| 2022.02| Zhu et al. | IEEE | Multi-Modal Knowledge Graph Construction and Application: A Survey | [[pdf](https://arxiv.org/pdf/2202.05786.pdf)] [[repo](paper/zhu2022multimodal.pdf)] |
 
 ## multimodal representation learning
 
@@ -68,7 +69,7 @@
 | 2021.06| Su et al. | ACL'21 | GEM: A General Evaluation Benchmark for Multimodal Tasks | [[pdf](https://arxiv.org/pdf/2106.09889.pdf)] [[repo](paper/su2021gem.pdf)] |
 | 2021.06| Marino et al. | CVPR'21 | KRISP: Integrating Implicit and Symbolic Knowledge for Open-Domain Knowledge-Based VQA | [[pdf](https://openaccess.thecvf.com/content/CVPR2021/papers/Marino_KRISP_Integrating_Implicit_and_Symbolic_Knowledge_for_Open-Domain_Knowledge-Based_VQA_CVPR_2021_paper.pdf)] [[repo](paper/marino2021integrating.pdf)] |
 | 2021.06| Yuan et al. | CVPR'21 | Multimodal Contrastive Training for Visual Representation Learning | [[pdf](https://openaccess.thecvf.com/content/CVPR2021/papers/Yuan_Multimodal_Contrastive_Training_for_Visual_Representation_Learning_CVPR_2021_paper.pdf)] [[repo](paper/yuan2021multimodal.pdf)] |
-
+| 2022.01| Salin et al. | AAAI'22 | Are Vision-Language Transformers Learning Multimodal Representations? A Probing Perspective | [[pdf](https://hal.archives-ouvertes.fr/hal-03521715/document)] [[repo](paper/salin2022vision.pdf)] |
 ## information extraction
 
 | *Year* | <div style="width:100px">*Author*</div> | <div style="width:100px">*Conf.*</div> | *Title* | *Links* |
