@@ -38,6 +38,8 @@
 | 2021.06| Zhang et al. | CVPR'21 | Explicit Knowledge Incorporation for Visual Reasoning | [[pdf](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_Explicit_Knowledge_Incorporation_for_Visual_Reasoning_CVPR_2021_paper.pdf)] [[repo](paper/zhang2021explicit.pdf)] |
 | 2021.10| Wang et al. | ACM-MM'21 | Is Visual Context Really Helpful for Knowledge Graph? A Representation Learning Perspective | [[pdf](https://dl.acm.org/doi/pdf/10.1145/3474085.3475470)] [[repo](paper/wang2021visual.pdf)] |
 | 2022.02| Zhu et al. | IEEE | Multi-Modal Knowledge Graph Construction and Application: A Survey | [[pdf](https://arxiv.org/pdf/2202.05786.pdf)] [[repo](paper/zhu2022multimodal.pdf)] |
+| 2022.05| Chen et al. | SIGIR’22 | Hybrid Transformer with Multi-level Fusion for Multimodal Knowledge Graph Completion | [[pdf](https://arxiv.org/pdf/2205.02357.pdf)] [[repo]()][[github](https://github.com/zjunlp/MKGformer)] |
+| 2022.05| Chen et al. | NAACL'22 | Good Visual Guidance Makes A Better Extractor: Hierarchical Visual Prefix for Multimodal Entity and Relation Extraction | [[pdf](https://arxiv.org/pdf/2205.03521.pdf)] [[repo]()][[github](https://github.com/zjunlp/HVPNeT)] |
 
 ## multimodal representation learning
 
