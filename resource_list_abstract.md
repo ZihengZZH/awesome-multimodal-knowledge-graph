@@ -71,6 +71,9 @@
     - [Mixture-of-Partitions: Infusing Large Biomedical Knowledge Graphs into BERT](#mixture-of-partitions-infusing-large-biomedical-knowledge-graphs-into-bert)
     - [Are Vision-Language Transformers Learning Multimodal Representations? A Probing Perspective](#are-vision-language-transformers-learning-multimodal-representations-a-probing-perspective)
     - [Multi-Modal Knowledge Graph Construction and Application: A Survey](#multi-modal-knowledge-graph-construction-and-application-a-survey)
+    - [Hybrid Transformer with Multi-level Fusion for Multimodal Knowledge Graph Completion](#hybrid-transformer-with-multi-level-fusion-for-multimodal-knowledge-graph-completion)
+    - [Good Visual Guidance Makes A Better Extractor: Hierarchical Visual Prefix for Multimodal Entity and Relation Extraction](#good-visual-guidance-makes-a-better-extractor-hierarchical-visual-prefix-for-multimodal-entity-and-relation-extraction)
+    - [ITA: Image-Text Alignments for Multi-Modal Named Entity Recognition](#ita-image-text-alignments-for-multi-modal-named-entity-recognition)
 - [Tutorials](#tutorials)
     - [Multimodal Knowledge Graphs: Automatic Extraction & Applications](#multimodal-knowledge-graphs-automatic-extraction--applications)
     - [Towards Building Large-Scale Multimodal Knowledge Bases](#towards-building-large-scale-multimodal-knowledge-bases)
@@ -432,7 +435,7 @@
   * We develop an approach to learning visual representations that embraces multimodal data, driven by a combination of intra- and inter-modal similarity preservation objectives. Unlike existing visual pre-training methods, which solve a proxy prediction task in a single domain, our method exploits intrinsic data properties within each modality and semantic information from cross-modal correlations simultaneously, hence improving the quality of learned visual representations. By including multimodal training in a unified framework with different types of contrastive losses, our method can learn moore powerful and generic visual features. We first train our model on COCO and evaluate the learned visual representations on various downstream tasks including image classificationo, object detection, and instance segmentation. For example, the visual representationos pre-trained ono COCO by our method achieve state-of-the-art top-1 validation accuracy of 55.3% on ImageNet classification, under the common transfer protocol. We also evaluate out method on the large-scale Stock images dataset and show its effectiveness on multi-label image tagging, and cross-modal retrieval tasks.
 
 #### Improving Weakly Supervised Visual Grounding by Contrastive Knowledge Distillation
-  * [[pdf](https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_Improving_Weakly_Supervised_Visual_Grounding_by_Contrastive_Knowledge_Distillation_CVPR_2021_paper.pdf)] [[repo]]
+  * [[pdf](https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_Improving_Weakly_Supervised_Visual_Grounding_by_Contrastive_Knowledge_Distillation_CVPR_2021_paper.pdf)] [[repo](paper/wang2021improving.pdf)]
   * Wang et al. (2021.06)
   * CVPR'21
   * Weakly supervised phrase grouding aims at learning region-phrase correspondences using only image-sentence pairs. A major challenge thus lies in the missing links between image regions and sentence phrases during training. To address this challenge, we leverage a generic object detector at training time, and propose a contrastive learning framework that accounts for both region-phrase and image-sentence matching. Our core innovation is the learning of a region-phrase score function, based on which an image-sentence score function is further constructed. Importantly, our region-phrase score function is learned by distilling from soft matching scores between the detected object names and candidate phrases within an image-sentence pair, while the image-sentence score function is supervised by ground-truth image-sentence pair. The design of such score functions removes the need of object detection at test time, thereby significantly reducing the inference cost. Without bells and whistles, our approach achieves state-of-the-art results on visual phrase grounding, surpassing previous methods that require expensive object detectors at test time.
@@ -479,7 +482,7 @@
   * EMNLP'21
   * Infusing factural knowledge into pretrained models is fundamental for many knowledge-intensive tasks. In this paper, we propose Mixture-of-Partitions (MoP), an infusion approach that can handle a very large knowledge graph (KG) by partitioning it into smaller sub-graphs and infusing their specific knowledge into various BERT models using lightweight adapters. To leverage the overall factual knowledge for a target task, these sub-graph adapters are further fine-tuned along with the underlying BERT through a mixture layer. We evaluate our MoP with three biomedical BERTs (SciBERT, BioBERT, PubmedBERT) on six downstream tasks (inc. NLI, QA, Classification), and the results show that our MoP consistently enhances the underlying BERTs in task performance, and achieves new SOTA performances on five evaluated datasets.
 
-**2022** {#2}
+**2022** {#5}
 
 #### Are Vision-Language Transformers Learning Multimodal Representations? A Probing Perspective
   * [[pdf](https://hal.archives-ouvertes.fr/hal-03521715/document)] [[repo](paper/salin2022vision.pdf)]
@@ -492,6 +495,24 @@
   * Zhu et al. (2022.02)
   * IEEE
   * Recent years have witnessed the resurgence of knowledge engineering which is featured by the fast growth of knowledge graphs. However, most of existing knowledge graphs are represented with pure symbols, which hurts the machine's capability to understand the real world. The multi-modalization of knowledge graphs is an inevitable key step towards the realization of human-level machine intelligence. The results of this endeavor are Multi-Modal Knowledge Graphs (MMKGs). In this survey on MMKGs constructed systematically review the challenges, progresses and opportunities on the construcion and application of MMKGs respectively, with detailed analysis of the strength and weakness of different solutions. We finalize this survey with open research problems relevant to MMKGs.
+
+#### Hybrid Transformer with Multi-level Fusion for Multimodal Knowledge Graph Completion
+  * [[pdf](https://arxiv.org/pdf/2205.02357.pdf)] [[repo](paper/chen2022hybrid.pdf)] [[github](https://github.com/zjunlp/MKGformer)]
+  * Chen et al. (2022.05)
+  * SIGIR'22
+  * Multimodal Knowledge Graphs (MKGs), which organize visual-text factual knowledge, have recently been successfully applied to tasks such as information retrieval, question answering, and recommendation system. Since most MKGs are far from complete, extensive knowledge graph completion studies have been proposed focusing on the multimodal entity, relation extraction and link prediction. However, different tasks and modalities require changes to the model architecture, and not all images/objects are relevant to text input, which hinders the applicability to diverse real-world scenarios. In this paper, we propose a hybrid transformer with multi-level fusion to address those issues. Specifically, we leverage a hybrid transformer architecture with unified input-output for diverse multimodal knowledge graph completion tasks. Moreover, we propose multi-level fusion, which integrates visual and text representation via coarse-grained prefix-guided interaction and fine-grained correlation-aware fusion modules. We conduct extensive experiments to validate that our MKGformer can obtain SOTA performance on four datasets of multimodal link prediction, multimodal RE, and multimodal NER.
+
+#### Good Visual Guidance Makes A Better Extractor: Hierarchical Visual Prefix for Multimodal Entity and Relation Extraction
+  * [[pdf](https://arxiv.org/pdf/2205.03521.pdf)] [[repo](paper/chen2022good.pdf)] [[github](https://github.com/zjunlp/HVPNeT)]
+  * Chen et al. (2022.05)
+  * NAACL'22
+  * Multimodal named entity recognition and relation extraction (MNER and MRE) is a fundamental and crucial branch in information extraction. However, existing approaches for MNER and MRE usually suffer from error sensitivity when irrelevant object images incorporated in texts. To deal with these issues, we propose a novel Hierarchical Visual Prefix fusion Network (HVPNeT) for visual-enhanced entity and relation extraction, aiming to achieve more effective and robust performance. Specifically, we regard visual representation as pluggable visual prefix to guide the textual representation for error insensitive forecasting decision. We further propose a dynamic gated aggregation strategy to achieve hierarchical multi-scaled visual features as visual prefix for fusion. Extensive experiments on three benchmark datasets demonstrate the effectiveness of our method, and achieve state-of-the-art performance.
+
+#### ITA: Image-Text Alignments for Multi-Modal Named Entity Recognition
+  * [[pdf](https://arxiv.org/pdf/2112.06482.pdf)] [[repo](paper/wang2022ita.pdf)]
+  * Wang et al. (2022.05)
+  * NAACL'22
+  * Recently, Multi-modal Named Entity Recognition (MNER) has attracted a lot of attention. Most of the work utilizes image information through region-level visual representations obtained from a pretrained object detector and relies on an attention mechanism to model the interactions between image and text representations. However, it is difficult to model such interactions as image and text representations are trained separately on the data of their respective modality and are not aligned in the same space. As text representations take the most important role in MNER, in this paper, we propose Image-text Alignments (ITA) to align image features into the textual space, so that the attention mechanism in transformer-based pretrained textual embeddings can be better utilized. ITA first aligns the image into regional object tags, image-level captions and optical characters as visual contexts, concatenates them with the input texts are a new cross-modal input, and then feeds it into a pretrained textual embedding model. This makes it easier for the attention module of a pretrained textual embedding model to model the interaction between the two modalities since they are both represented in the textual space. ITA further aligns the output distributions predicted from the cross-modal input and textual input views so that the MNER model can be more practical in dealing with text-only inputs and robust to noises from images. In our experiments, we show that ITA models can achieve state-of-the-art accuracy on multi-modal Named Entity Recognition datasets, even without image information.
 
 ## Tutorials
 
@@ -527,4 +548,3 @@
   * Uni California, Irvine
 
 ## Datasets
-
