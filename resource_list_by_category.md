@@ -40,6 +40,8 @@
 | 2022.02| Zhu et al. | IEEE | Multi-Modal Knowledge Graph Construction and Application: A Survey | [[pdf](https://arxiv.org/pdf/2202.05786.pdf)] [[repo](paper/zhu2022multimodal.pdf)] |
 | 2022.05| Chen et al. | SIGIR’22 | Hybrid Transformer with Multi-level Fusion for Multimodal Knowledge Graph Completion | [[pdf](https://arxiv.org/pdf/2205.02357.pdf)] [[repo](paper/chen2022hybrid.pdf)] [[github](https://github.com/zjunlp/MKGformer)] |
 | 2022.05| Chen et al. | NAACL'22 | Good Visual Guidance Makes A Better Extractor: Hierarchical Visual Prefix for Multimodal Entity and Relation Extraction | [[pdf](https://arxiv.org/pdf/2205.03521.pdf)] [[repo](paper/chen2022good.pdf)] [[github](https://github.com/zjunlp/HVPNeT)] |
+| 2022.06| Ding et al. | CVPR'22 | MuKEA: Multimodal Knowledge Extraction and Accumulation for Knowledge-based Visual Question Answering | [[pdf](https://openaccess.thecvf.com/content/CVPR2022/papers/Ding_MuKEA_Multimodal_Knowledge_Extraction_and_Accumulation_for_Knowledge-Based_Visual_Question_CVPR_2022_paper.pdf)] [[repo](paper/ding2022multimodal.pdf)] |
+| 2022.06| Chang et al. | CVPR'22 | WebQA: Multihop and Multimodal QA | [[pdf](https://openaccess.thecvf.com/content/CVPR2022/papers/Chang_WebQA_Multihop_and_Multimodal_QA_CVPR_2022_paper.pdf)] [[repo](paper/chang2022multihop.pdf)] |
 
 ## multimodal representation learning
 
@@ -73,6 +75,7 @@
 | 2021.06| Yuan et al. | CVPR'21 | Multimodal Contrastive Training for Visual Representation Learning | [[pdf](https://openaccess.thecvf.com/content/CVPR2021/papers/Yuan_Multimodal_Contrastive_Training_for_Visual_Representation_Learning_CVPR_2021_paper.pdf)] [[repo](paper/yuan2021multimodal.pdf)] |
 | 2022.01| Salin et al. | AAAI'22 | Are Vision-Language Transformers Learning Multimodal Representations? A Probing Perspective | [[pdf](https://hal.archives-ouvertes.fr/hal-03521715/document)] [[repo](paper/salin2022vision.pdf)] |
 | 2022.05| Wang et al. | NAACL'22 | ITA: Image-Text Alignments for Multi-Modal Named Entity Recognition | [[pdf](https://arxiv.org/pdf/2112.06482.pdf)] [[repo](paper/wang2022ita.pdf)] |
+| 2022.06| Ma et al. | CVPR'22 | Are Multimodal Transformers Robust to Missing Modality? | [[pdf](https://openaccess.thecvf.com/content/CVPR2022/papers/Ma_Are_Multimodal_Transformers_Robust_to_Missing_Modality_CVPR_2022_paper.pdf)] [[repo](paper/ma2022multimodal.pdf)] |
 
 ## information extraction
 
