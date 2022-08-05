@@ -71,6 +71,9 @@
     - [Mixture-of-Partitions: Infusing Large Biomedical Knowledge Graphs into BERT](#mixture-of-partitions-infusing-large-biomedical-knowledge-graphs-into-bert)
     - [Are Vision-Language Transformers Learning Multimodal Representations? A Probing Perspective](#are-vision-language-transformers-learning-multimodal-representations-a-probing-perspective)
     - [Multi-Modal Knowledge Graph Construction and Application: A Survey](#multi-modal-knowledge-graph-construction-and-application-a-survey)
+    - [WikiDiverse: A Multimodal Entity Linking Dataset with Diversified Contextual Topics and Entity Types](#wikidiverse-a-multimodal-entity-linking-dataset-with-diversified-contextual-topics-and-entity-types)
+    - [Understanding Multimodal Procedural Knowledge by Sequencing Multimodal Instructional Manuals](#understanding-multimodal-procedural-knowledge-by-sequencing-multimodal-instructional-manuals)
+    - [Modeling Temporal-Modal Entity Graph for Procedural Multimodal Machine Comprehension](#modeling-temporal-modal-entity-graph-for-procedural-multimodal-machine-comprehension)
     - [Hybrid Transformer with Multi-level Fusion for Multimodal Knowledge Graph Completion](#hybrid-transformer-with-multi-level-fusion-for-multimodal-knowledge-graph-completion)
     - [Good Visual Guidance Makes A Better Extractor: Hierarchical Visual Prefix for Multimodal Entity and Relation Extraction](#good-visual-guidance-makes-a-better-extractor-hierarchical-visual-prefix-for-multimodal-entity-and-relation-extraction)
     - [ITA: Image-Text Alignments for Multi-Modal Named Entity Recognition](#ita-image-text-alignments-for-multi-modal-named-entity-recognition)
@@ -485,7 +488,7 @@
   * EMNLP'21
   * Infusing factural knowledge into pretrained models is fundamental for many knowledge-intensive tasks. In this paper, we propose Mixture-of-Partitions (MoP), an infusion approach that can handle a very large knowledge graph (KG) by partitioning it into smaller sub-graphs and infusing their specific knowledge into various BERT models using lightweight adapters. To leverage the overall factual knowledge for a target task, these sub-graph adapters are further fine-tuned along with the underlying BERT through a mixture layer. We evaluate our MoP with three biomedical BERTs (SciBERT, BioBERT, PubmedBERT) on six downstream tasks (inc. NLI, QA, Classification), and the results show that our MoP consistently enhances the underlying BERTs in task performance, and achieves new SOTA performances on five evaluated datasets.
 
-**2022** {#8}
+**2022** {#11}
 
 #### Are Vision-Language Transformers Learning Multimodal Representations? A Probing Perspective
   * [[pdf](https://hal.archives-ouvertes.fr/hal-03521715/document)] [[repo](paper/salin2022vision.pdf)]
@@ -498,6 +501,24 @@
   * Zhu et al. (2022.02)
   * IEEE
   * Recent years have witnessed the resurgence of knowledge engineering which is featured by the fast growth of knowledge graphs. However, most of existing knowledge graphs are represented with pure symbols, which hurts the machine's capability to understand the real world. The multi-modalization of knowledge graphs is an inevitable key step towards the realization of human-level machine intelligence. The results of this endeavor are Multi-Modal Knowledge Graphs (MMKGs). In this survey on MMKGs constructed systematically review the challenges, progresses and opportunities on the construcion and application of MMKGs respectively, with detailed analysis of the strength and weakness of different solutions. We finalize this survey with open research problems relevant to MMKGs.
+
+#### WikiDiverse: A Multimodal Entity Linking Dataset with Diversified Contextual Topics and Entity Types
+  * [[pdf](https://aclanthology.org/2022.acl-long.328.pdf)] [[repo](paper/wang2022wikidiverse.pdf)] [[dataset](https://github.com/wangxw5/wikiDiverse)]
+  * Wang et al. (2022.05)
+  * ACL'22
+  * Multimodal Entity Linking (MEL) which aims at linking mentions with multimodal contexts to the referent entities from a knowledge base (e.g., Wikipedia), is an essential task for many multimodal applications. Although much attention has been paid to MEL, the shortcomings of existing MEL datasets including limited contextual topics and entity types, simplified mention ambiguity, and restricted availability, have caused great obstacles to the research and application of MEL. In this paper, we present WikiDiverse, a high-quality human-annotated MEL dataset with diversified contextual topics and entity types from Wikines, which uses Wikipedia as the corresponding knowledge base. A well-tailored annotation procedure is adopted to ensure the quality of the dataset. Based on WikiDiverse, a sequence of well-designed MEL models with intra-modality and inter-modality attentions are implemented, which utilize the visual information of images more adaquately than existing MEL models do. Extensive experiments analyses are conducted to investigated the contributions of different modalities in terms of MEL, facilitating the future research on this task.
+
+#### Understanding Multimodal Procedural Knowledge by Sequencing Multimodal Instructional Manuals
+  * [[pdf](https://aclanthology.org/2022.acl-long.310.pdf)] [[repo](paper/wu2022understanding.pdf)]
+  * Wu et al. (2022.05)
+  * ACL'22
+  * The ability to sequence unordered events is evidence of comprehension and reasoning about real world tasks/procedures. It is essential for applications such as task planning and multi-source instruction summarization. It often requires thorough understanding of temporal common sense and multimodal information, since these procedures are often conveyed by a combination of texts and images. While humans are capable of reasoning about and sequencing unordered procedural instructions, the extent to which the current machine learning methods process such capability is still an open question. In this work, we benchmark models' capability of reasoning over and sequenceig unordered multimodal instructions by curating datasets from online instructional manuals and collecting comprehensive human annotations. We find current state-of-the-art models not only perform significantly worse than humans but also seem incapable of efficiently utilizing multimodal information. To improve machines' performance on multimodal event sequencing, we propose sequence-aware pretraining techniques exploiting the sequential alignment properties of both texts and images, resulting in >5% improvements on perfect match ratio.
+
+#### Modeling Temporal-Modal Entity Graph for Procedural Multimodal Machine Comprehension
+  * [[pdf](https://aclanthology.org/2022.acl-long.84.pdf)] [[repo](paper/zhang2022modeling.pdf)]
+  * Zhang et al. (2022.05)
+  * ACL'22
+  * Procedural Multimodal Documents (PMDs) organize textual instructions and corresponding images step by step. Comprehending PMDs and inducing their representations for the downstream reasoning tasks is designated as Procedural MultiModal Machine Comprehension (M3C). In this study, we approach Procedural M3C at a fine-grained level (compared with existing explorations at a document or sentence level), that is, entity. With delicate consideration, we model entity both in its temporal and cross-modal relation and propose a novel Temporal-Modal Entity Graph (TMEG). Specifically, a heterogeneous graph structure is formulated to capture textual and visual entities and trace their temporal-modal evolution. In addition, a graph aggregation module is introduced to conduct graph encoding an reasoning. Comprehensive experiments across three Procedural M3C tasks are conducte on a traditional dataset RecipeQA and our new dataset CraftQA, which can better evaluate the generalization of TMEG.
 
 #### Hybrid Transformer with Multi-level Fusion for Multimodal Knowledge Graph Completion
   * [[pdf](https://arxiv.org/pdf/2205.02357.pdf)] [[repo](paper/chen2022hybrid.pdf)] [[github](https://github.com/zjunlp/MKGformer)]
