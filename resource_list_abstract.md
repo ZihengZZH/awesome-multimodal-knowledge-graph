@@ -80,6 +80,7 @@
     - [MuKEA: Multimodal Knowledge Extraction and Accumulation for Knowledge-based Visual Question Answering](#mukea-multimodal-knowledge-extraction-and-accumulation-for-knowledge-based-visual-question-answering)
     - [WebQA: Multihop and Multimodal QA](#webqa-multihop-and-multimodal-qa)
     - [Are Multimodal Transformers Robust to Missing Modality?](#are-multimodal-transformers-robust-to-missing-modality)
+    - [Multi-modal Siamese Network for Entity Alignment](#multi-modal-siamese-network-for-entity-alignment)
 - [Tutorials](#tutorials)
     - [Multimodal Knowledge Graphs: Automatic Extraction & Applications](#multimodal-knowledge-graphs-automatic-extraction--applications)
     - [Towards Building Large-Scale Multimodal Knowledge Bases](#towards-building-large-scale-multimodal-knowledge-bases)
@@ -488,7 +489,7 @@
   * EMNLP'21
   * Infusing factural knowledge into pretrained models is fundamental for many knowledge-intensive tasks. In this paper, we propose Mixture-of-Partitions (MoP), an infusion approach that can handle a very large knowledge graph (KG) by partitioning it into smaller sub-graphs and infusing their specific knowledge into various BERT models using lightweight adapters. To leverage the overall factual knowledge for a target task, these sub-graph adapters are further fine-tuned along with the underlying BERT through a mixture layer. We evaluate our MoP with three biomedical BERTs (SciBERT, BioBERT, PubmedBERT) on six downstream tasks (inc. NLI, QA, Classification), and the results show that our MoP consistently enhances the underlying BERTs in task performance, and achieves new SOTA performances on five evaluated datasets.
 
-**2022** {#11}
+**2022** {#12}
 
 #### Are Vision-Language Transformers Learning Multimodal Representations? A Probing Perspective
   * [[pdf](https://hal.archives-ouvertes.fr/hal-03521715/document)] [[repo](paper/salin2022vision.pdf)]
@@ -555,6 +556,12 @@
   * Ma et al. (2022.06)
   * CVPR'22
   * Multimodal data collected from the real world are often imperfect due to missing modalities. Therefore multimodal models that are robust against modal-incomplete data are highly preferred. Recently, Transformer models have shown great success in processing multimodal data. However, existing work has been limited to either architecture designs or pre-training strategies; whether Transformer models are naturally robust against missing-modal data has rarely been investigated. In this paper, we present the first-of-its-kind work to comprehensively investigate the behavior of Transformers in the presence of modal-incomplete data. Unsurprising, we find Transformer models are sensitive to missing modalities while different modal fusion strategies will significantly affect the robustness. What surprised us is that the optimal fusion strategy is dataset dependent even for the same Transformer model; there does not exist a universal strategy that works in general cases. Based on these findings, we propose a principle method to improve the robustness of Transformer models by automatically searching for an optimal fusion strategy regarding input data. Experimental validations on three benchmarks support the superior performance of the proposed method.
+
+#### Multi-modal Siamese Network for Entity Alignment
+  * [[pdf](https://dl.acm.org/doi/10.1145/3534678.3539244)] [[repo](paper/chen2022multimodal.pdf)] [[github](https://github.com/liyichen-cly/MSNEA)]
+  * Chen et al. (2022.08)
+  * KDD'22
+  * The booming of multi-modal knowledge graphs (MMKGs) has raised the imperative demand for multi-modal entity alignment techniques, which faciliate the integration of multiple MMKGs from separate data sources. Unfortunately, prior arts harness multi-modal knowledge only via the heuristic merging of uni-modal feature embeddings. Therefore, inter-modal cues concealed in multi-modal knowldge could be largely ignored. To deal with that problem, in this paper, we propose a novel Multi-modal Siamese Network for Entity Alignment (MSNEA) to align entities in different MMKGs, in which multi-modal knowledge could be comprehensively leveraged by the exploitation of inter-modal effect. Specifically, we first devise a multi-modal knowledge embedding module to extract visual, relational, and attribute features of entities to generate holistic entity representations for distinct MMKGs. During this procedure, we employ inter-modal enhancement mechanisms to integrate visual features to guide relational feature learning and adaptively assign attention weights to capture valuable attributes for alignment. Afterwards, we design a multi-modal contrastive learning module to achieve inter-modal enhancement fusion with avoiding the overwhelming impact of weak modalities. Experimental results on two public datasets demonstrate that our proposed MSNEA provides state-of-the-art performance with a large margin compared with competitive baselines.
 
 ## Tutorials
 

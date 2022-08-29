@@ -43,6 +43,7 @@
 | 2022.05| Chen et al. | NAACL'22 | Good Visual Guidance Makes A Better Extractor: Hierarchical Visual Prefix for Multimodal Entity and Relation Extraction | [[pdf](https://arxiv.org/pdf/2205.03521.pdf)] [[repo](paper/chen2022good.pdf)] [[github](https://github.com/zjunlp/HVPNeT)] |
 | 2022.06| Ding et al. | CVPR'22 | MuKEA: Multimodal Knowledge Extraction and Accumulation for Knowledge-based Visual Question Answering | [[pdf](https://openaccess.thecvf.com/content/CVPR2022/papers/Ding_MuKEA_Multimodal_Knowledge_Extraction_and_Accumulation_for_Knowledge-Based_Visual_Question_CVPR_2022_paper.pdf)] [[repo](paper/ding2022multimodal.pdf)] |
 | 2022.06| Chang et al. | CVPR'22 | WebQA: Multihop and Multimodal QA | [[pdf](https://openaccess.thecvf.com/content/CVPR2022/papers/Chang_WebQA_Multihop_and_Multimodal_QA_CVPR_2022_paper.pdf)] [[repo](paper/chang2022multihop.pdf)] |
+| 2022.08| Chen et al. | KDD'22 | Multi-modal Siamese Network for Entity Alignment | [[pdf](https://dl.acm.org/doi/10.1145/3534678.3539244)] [[repo](paper/chen2022multimodal.pdf)] [[github](https://github.com/liyichen-cly/MSNEA)] |
 
 ## multimodal representation learning
 
