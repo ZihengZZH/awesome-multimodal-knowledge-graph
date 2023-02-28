@@ -50,8 +50,9 @@
 | 2022.11| Lin et al. | NeurIPS'22 | REVIVE: Regional Visual Representation Matters in Knowledge-Based Visual Question Answering | [[pdf](https://openreview.net/pdf?id=wwyiEyK-G5D)] [[repo](paper/lin2022revive.pdf)] |
 | 2022.11| Pan et al. | NeurIPS'22 | Contrastive Language-Image Pre-Training with Knowledge Graphs | [[pdf](https://openreview.net/pdf?id=4T3kbrzfeR)] [[repo](paper/pan2022contrastive.pdf)] |
 | 2022.11| Yang et al. | NeurIPS'22 | Rethinking Knowledge Graph Evaluation Under the Open-World Assumption | [[pdf](https://openreview.net/pdf?id=5xiLuNutzJG)] [[repo](paper/yang2022rethinking.pdf)] |
-| 2023.02| Zhao et al. | EMNLP'22 | MoSE: Modality Split and Ensemble for Multimodal Knowledge Graph Completion | [[pdf](https://aclanthology.org/2022.emnlp-main.719.pdf)] [[repo]()] [[github](https://github.com/OreOZhao/MoSE4MKGC)] |
-| 2023.02| Zhou et al. | EMNLP'22 | A Span-based Multimodal Variational Autoencoder for Semi-supervised Multimodal Named Entity Recognition | [[pdf](https://aclanthology.org/2022.emnlp-main.422.pdf)] [[repo]()] [[github](https://github.com/ZovanZhou/SMVAE)] |
+| 2022.12| Zhao et al. | EMNLP'22 | MoSE: Modality Split and Ensemble for Multimodal Knowledge Graph Completion | [[pdf](https://aclanthology.org/2022.emnlp-main.719.pdf)] [[repo]()] [[github](https://github.com/OreOZhao/MoSE4MKGC)] |
+| 2022.12| Zhou et al. | EMNLP'22 | A Span-based Multimodal Variational Autoencoder for Semi-supervised Multimodal Named Entity Recognition | [[pdf](https://aclanthology.org/2022.emnlp-main.422.pdf)] [[repo]()] [[github](https://github.com/ZovanZhou/SMVAE)] |
+| 2023.02| Feng et al. | TOMM'23 | MKVSE: Multimodal Knowledge Enhanced Visual-Semantic Embedding for Image-Text Retrieval | [[pdf](https://dl.acm.org/doi/pdf/10.1145/3580501)] [[repo](paper/feng2023multimodal.pdf)] [[github](https://github.com/PKU-ICST-MIPL/MKVSE-TOMM2023)] |
 
 ## multimodal representation learning
 
