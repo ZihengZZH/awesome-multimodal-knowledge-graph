@@ -53,6 +53,8 @@
 | 2022.12| Zhao et al. | EMNLP'22 | MoSE: Modality Split and Ensemble for Multimodal Knowledge Graph Completion | [[pdf](https://aclanthology.org/2022.emnlp-main.719.pdf)] [[repo]()] [[github](https://github.com/OreOZhao/MoSE4MKGC)] |
 | 2022.12| Zhou et al. | EMNLP'22 | A Span-based Multimodal Variational Autoencoder for Semi-supervised Multimodal Named Entity Recognition | [[pdf](https://aclanthology.org/2022.emnlp-main.422.pdf)] [[repo]()] [[github](https://github.com/ZovanZhou/SMVAE)] |
 | 2023.02| Feng et al. | TOMM'23 | MKVSE: Multimodal Knowledge Enhanced Visual-Semantic Embedding for Image-Text Retrieval | [[pdf](https://dl.acm.org/doi/pdf/10.1145/3580501)] [[repo](paper/feng2023multimodal.pdf)] [[github](https://github.com/PKU-ICST-MIPL/MKVSE-TOMM2023)] |
+| 2023.04| Li et al. | WWW'23 | Attribute-Consistent Knowledge Graph Representation Learning for Multi-Modal Entity Alignment | [[pdf](https://dl.acm.org/doi/10.1145/3543507.3583328)] [[repo](paper/li2023attribute.pdf)] |
+| 2023.04| Yao et al. | WWW'23 | CapEnrich: Enriching Caption Semantics for Web Images via Cross-modal Pre-trained Knowledge | [[pdf](https://dl.acm.org/doi/10.1145/3543507.3583232)] [[repo](paper/yao2023capenrich.pdf)] |
 
 ## multimodal representation learning
 
@@ -115,6 +117,8 @@
 | 2021.11| Dash et al. | EMNLP'21 | Open Knowledge Graphs Canonicalization using Variational Autoencoders | [[pdf](https://arxiv.org/pdf/2012.04780.pdf)] [[repo](paper/dash2021open.pdf)] |
 | 2021.11| Meng et al. | EMNLP'21 | Mixture-of-Partitions: Infusing Large Biomedical Knowledge Graphs into BERT | [[pdf](https://arxiv.org/pdf/2109.04810.pdf)] [[repo](paper/meng2021infusing.pdf)] |
 | 2021.11| Oliya et al. | EMNLP'21 | End-to-End Entity Resolution and Question Answering Using Differentiable Knowledge Graphs | [[pdf](https://arxiv.org/pdf/2109.05817.pdf)] [[repo](paper/oliya2021end.pdf)] |
+| 2023.02| Huang et al. | AAAI'23 | Enabling Knowledge Refinement upon New Concepts in Abductive Learning | [[pdf](https://www.lamda.nju.edu.cn/publication/aaai23ablnc.pdf)] [[repo](paper/huang2023enabling.pdf)] |
+| 2023.04| Zhang et al. | WWW'23 | Structure Pretraining and Prompt Tuning for Knowledge Graph Transfer | [[pdf](https://dl.acm.org/doi/10.1145/3543507.3583301)] [[repo](paper/zhang2023structure.pdf)] |
 
 ## tutorials
 
