@@ -8,6 +8,15 @@ This repository records the awesome reading list or other resources (datasets, t
 * [resource list w/ abstract](https://github.com/ZihengZZH/awesome-multimodal-knowledge-graph/blob/master/resource_list_abstract.md)
 * [knowledge graph introduction](https://github.com/ZihengZZH/awesome-multimodal-knowledge-graph/blob/master/knowledge_graph.md)
 
-### bibtex
+### other awesome repos
 
-By the way, the [.bib](https://github.com/ZihengZZH/awesome-multimodal-knowledge-graph/blob/master/reference.bib) file of the selected paper is included for following paperwork writing.
+There are some other **very helpful** repositories in the topic of "**Knowledge Graph**" or "**Multimodal Machine Learning**".
+
+* [awesome-knowledge-graph](https://github.com/totogo/awesome-knowledge-graph)
+* [knowledge-graph-learning](https://github.com/BrambleXu/knowledge-graph-learning)
+* [Awesome-Multimodal-Research](https://github.com/Eurus-Holmes/Awesome-Multimodal-Research)
+* [Awesome-Multimodal-Large-Language-Models](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models)
+
+### bibtex files
+
+The [.bib](https://github.com/ZihengZZH/awesome-multimodal-knowledge-graph/blob/master/reference.bib) file of the selected paper is included for following paperwork writing.
