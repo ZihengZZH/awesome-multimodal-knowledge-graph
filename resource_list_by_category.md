@@ -55,6 +55,8 @@
 | 2023.02| Feng et al. | TOMM'23 | MKVSE: Multimodal Knowledge Enhanced Visual-Semantic Embedding for Image-Text Retrieval | [[pdf](https://dl.acm.org/doi/pdf/10.1145/3580501)] [[repo](paper/feng2023multimodal.pdf)] [[github](https://github.com/PKU-ICST-MIPL/MKVSE-TOMM2023)] |
 | 2023.04| Li et al. | WWW'23 | Attribute-Consistent Knowledge Graph Representation Learning for Multi-Modal Entity Alignment | [[pdf](https://dl.acm.org/doi/10.1145/3543507.3583328)] [[repo](paper/li2023attribute.pdf)] |
 | 2023.04| Yao et al. | WWW'23 | CapEnrich: Enriching Caption Semantics for Web Images via Cross-modal Pre-trained Knowledge | [[pdf](https://dl.acm.org/doi/10.1145/3543507.3583232)] [[repo](paper/yao2023capenrich.pdf)] |
+| 2023.07| Si et al. | ACL'23 | Combo of Thinking and Observing for Outside-Knowledge VQA | [[pdf](https://aclanthology.org/2023.acl-long.614.pdf)] [[repo](paper/si2023combo.pdf)] |
+| 2023.07| Yao et al. | ACL'23 | VisKoP: Visual Knowledge oriented Programming for Interactive Knowledge Base Question Answering | [[pdf](https://aclanthology.org/2023.acl-demo.17.pdf)] [[repo](paper/yao2023viskop.pdf)] |
 
 ## multimodal representation learning
 
@@ -98,6 +100,7 @@
 | 2022.11| Kim et al. | NeurIPS'22 | Transferring Pre-trained Multimodal Representations with Cross-modal Similarity Matching | [[pdf](https://openreview.net/pdf?id=j2Vtg_jhKZ)] [[repo](paper/kim2022transfer.pdf)] |
 | 2022.11| Huang et al. | NeurIPS'22 | MACK: Multimodal Aligned Conceptual Knowledge for Unpaired Image-text Matching | [[pdf](https://openreview.net/pdf?id=7lf58jWnDIS)] [[repo](paper/huang2022mack.pdf)] |
 | 2022.11| Liang et al. | NeurIPS'22 | Mind the Gap: Understanding the Modality Gap in Multi-modal Contrastive Representation Learning | [[pdf](https://openreview.net/pdf?id=S7Evzt9uit3)] [[repo](paper/liang2022mind.pdf)] |
+| 2023.07| Luo et al. | ACL'23 | End-to-end Knowledge Retrieval with Multi-modal Queries | [[pdf](https://aclanthology.org/2023.acl-long.478.pdf)] [[repo](paper/luo2023end.pdf)] [[github](https://github.com/luomancs/ReMuQ)] |
 
 ## information extraction
 
@@ -119,6 +122,9 @@
 | 2021.11| Oliya et al. | EMNLP'21 | End-to-End Entity Resolution and Question Answering Using Differentiable Knowledge Graphs | [[pdf](https://arxiv.org/pdf/2109.05817.pdf)] [[repo](paper/oliya2021end.pdf)] |
 | 2023.02| Huang et al. | AAAI'23 | Enabling Knowledge Refinement upon New Concepts in Abductive Learning | [[pdf](https://www.lamda.nju.edu.cn/publication/aaai23ablnc.pdf)] [[repo](paper/huang2023enabling.pdf)] |
 | 2023.04| Zhang et al. | WWW'23 | Structure Pretraining and Prompt Tuning for Knowledge Graph Transfer | [[pdf](https://dl.acm.org/doi/10.1145/3543507.3583301)] [[repo](paper/zhang2023structure.pdf)] |
+| 2023.07| Baek et al. | ACL'23 | Direct Fact Retrieval from Knowledge Graphs without Entity Linking | [[pdf](https://aclanthology.org/2023.acl-long.558.pdf)] [[repo](paper/baek2023direct.pdf)] |
+| 2023.07| Kim et al. | ACL'23 | FACTKG: Fact Verification via Reasoning on Knowledge Graphs | [[pdf](https://aclanthology.org/2023.acl-long.895.pdf)] [[repo](paper/kim2023factkg.pdf)] |
+| 2023.07| Li et al. | ACL'23 | To Copy Rather Than Memorize: A Vertical Learning Paradigm for Knowledge Graph Completion | [[pdf](https://aclanthology.org/2023.acl-long.349.pdf)] [[repo](paper/li2023vertical.pdf)] [[github](https://github.com/rui9812/VLP)] |
 
 ## tutorials
 
