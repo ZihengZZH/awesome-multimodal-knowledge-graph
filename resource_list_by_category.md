@@ -57,6 +57,8 @@
 | 2023.04| Yao et al. | WWW'23 | CapEnrich: Enriching Caption Semantics for Web Images via Cross-modal Pre-trained Knowledge | [[pdf](https://dl.acm.org/doi/10.1145/3543507.3583232)] [[repo](paper/yao2023capenrich.pdf)] |
 | 2023.07| Si et al. | ACL'23 | Combo of Thinking and Observing for Outside-Knowledge VQA | [[pdf](https://aclanthology.org/2023.acl-long.614.pdf)] [[repo](paper/si2023combo.pdf)] |
 | 2023.07| Yao et al. | ACL'23 | VisKoP: Visual Knowledge oriented Programming for Interactive Knowledge Base Question Answering | [[pdf](https://aclanthology.org/2023.acl-demo.17.pdf)] [[repo](paper/yao2023viskop.pdf)] |
+| 2023.07| Luo et al. | KDD'23 | Multi-Grained Multimodal Interaction Network for Entity Linking | [[pdf](https://arxiv.org/pdf/2307.09721.pdf)] [[repo](paper/luo2023multi.pdf)] |
+| 2023.07| Wu et al. | KDD'23 | Recognizing Unseen Objects via Multimodal Intensive Knowledge Graph Propagation | [[pdf](https://arxiv.org/pdf/2306.08487.pdf)] [[repo](paper/wu2023recognizing.pdf)] |
 
 ## multimodal representation learning
 
