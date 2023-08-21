@@ -103,6 +103,8 @@
 | 2022.11| Huang et al. | NeurIPS'22 | MACK: Multimodal Aligned Conceptual Knowledge for Unpaired Image-text Matching | [[pdf](https://openreview.net/pdf?id=7lf58jWnDIS)] [[repo](paper/huang2022mack.pdf)] |
 | 2022.11| Liang et al. | NeurIPS'22 | Mind the Gap: Understanding the Modality Gap in Multi-modal Contrastive Representation Learning | [[pdf](https://openreview.net/pdf?id=S7Evzt9uit3)] [[repo](paper/liang2022mind.pdf)] |
 | 2023.07| Luo et al. | ACL'23 | End-to-end Knowledge Retrieval with Multi-modal Queries | [[pdf](https://aclanthology.org/2023.acl-long.478.pdf)] [[repo](paper/luo2023end.pdf)] [[github](https://github.com/luomancs/ReMuQ)] |
+| 2023.08| Peng et al. | IJCAI'23 | An Empirical Study on the Language Modal in Visual Question Answering | [[pdf](https://www.ijcai.org/proceedings/2023/0457.pdf)] [[repo](paper/peng2023empirical.pdf)] |
+| 2023.08| Yan et al. | IJCAI'23 | Prompt Learns Prompt: Exploring Knowledge-Aware Generative Prompt Collaboration for Video Captioning | [[pdf](https://www.ijcai.org/proceedings/2023/0180.pdf)] [[repo](paper/yan2023prompt.pdf)] |
 
 ## information extraction
 
