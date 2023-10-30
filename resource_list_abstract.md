@@ -92,6 +92,7 @@
     - [REVIVE: Regional Visual Representation Matters in Knowledge-Based Visual Question Answering](#revive-regional-visual-representation-matters-in-knowledge-based-visual-question-answering)
     - [MACK: Multimodal Aligned Conceptual Knowledge for Unpaired Image-text Matching](#mack-multimodal-aligned-conceptual-knowledge-for-unpaired-image-text-matching)
     - [Mind the Gap: Understanding the Modality Gap in Multi-modal Contrastive Representation Learning](#mind-the-gap-understanding-the-modality-gap-in-multi-modal-contrastive-representation-learning)
+    - [Learn to Explain: Multimodal Reasoning via Thought Chains for Science Question Answering](#learn-to-explain-multimodal-reasoning-via-thought-chains-for-science-question-answering)
     - [Contrastive Language-Image Pre-Training with Knowledge Graphs](#contrastive-language-image-pre-training-with-knowledge-graphs)
     - [Rethinking Knowledge Graph Evaluation Under the Open-World Assumption](#rethinking-knowledge-graph-evaluation-under-the-open-world-assumption)
     - [MoSE: Modality Split and Ensemble for Multimodal Knowledge Graph Completion](#mose-modality-split-and-ensemble-for-multimodal-knowledge-graph-completion)
@@ -101,6 +102,8 @@
     - [Attribute-Consistent Knowledge Graph Representation Learning for Multi-Modal Entity Alignment](#attribute-consistent-knowledge-graph-representation-learning-for-multi-modal-entity-alignment)
     - [CapEnrich: Enriching Caption Semantics for Web Images via Cross-modal Pre-trained Knowledge](#capenrich-enriching-caption-semantics-for-web-images-via-cross-modal-pre-trained-knowledge)
     - [Structure Pretraining and Prompt Tuning for Knowledge Graph Transfer](#structure-pretraining-and-prompt-tuning-for-knowledge-graph-transfer)
+    - [MMKGR: Multi-hop Multi-modal Knowledge Graph Reasoning](#mmkgr-multi-hop-multi-modal-knowledge-graph-reasoning)
+    - [Do as I can, not as I get: Topology-aware multi-hop reasoning on multi-modal knowledge graphs](#do-as-i-can-not-as-i-get-topology-aware-multi-hop-reasoning-on-multi-modal-knowledge-graphs)
     - [Direct Fact Retrieval from Knowledge Graphs without Entity Linking](#direct-fact-retrieval-from-knowledge-graphs-without-entity-linking)
     - [FACTKG: Fact Verification via Reasoning on Knowledge Graphs](#factkg-fact-verification-via-reasoning-on-knowledge-graphs)
     - [To Copy Rather Than Memorize: A Vertical Learning Paradigm for Knowledge Graph Completion](#to-copy-rather-than-memorize-a-vertical-learning-paradigm-for-knowledge-graph-completion)
@@ -112,6 +115,8 @@
     - [An Empirical Study on the Language Modal in Visual Question Answering](#an-empirical-study-on-the-language-modal-in-visual-question-answering)
     - [Prompt Learns Prompt: Exploring Knowledge-Aware Generative Prompt Collaboration for Video Captioning](#prompt-learns-prompt-exploring-knowledge-aware-generative-prompt-collaboration-for-video-captioning)
 - [Tutorials](#tutorials)
+    - [Knowledge Graph Generation from Wikipedia in the Age of ChatGPT: Knowledge Extraction or Knowledge Hallucination?](#knowledge-graph-generation-from-wikipedia-in-the-age-of-chatgpt-knowledge-extraction-or-knowledge-hallucination)
+    - [Online Multimodal Knowledge Discovery](#online-multimodal-knowledge-discovery)
     - [Multimodal Knowledge Graphs: Automatic Extraction \& Applications](#multimodal-knowledge-graphs-automatic-extraction--applications)
     - [Towards Building Large-Scale Multimodal Knowledge Bases](#towards-building-large-scale-multimodal-knowledge-bases)
     - [How To Build a Knowledge Graph](#how-to-build-a-knowledge-graph)
@@ -519,7 +524,7 @@
   * EMNLP'21
   * Infusing factural knowledge into pretrained models is fundamental for many knowledge-intensive tasks. In this paper, we propose Mixture-of-Partitions (MoP), an infusion approach that can handle a very large knowledge graph (KG) by partitioning it into smaller sub-graphs and infusing their specific knowledge into various BERT models using lightweight adapters. To leverage the overall factual knowledge for a target task, these sub-graph adapters are further fine-tuned along with the underlying BERT through a mixture layer. We evaluate our MoP with three biomedical BERTs (SciBERT, BioBERT, PubmedBERT) on six downstream tasks (inc. NLI, QA, Classification), and the results show that our MoP consistently enhances the underlying BERTs in task performance, and achieves new SOTA performances on five evaluated datasets.
 
-**2022** {#27}
+**2022** {#28}
 
 #### Are Vision-Language Transformers Learning Multimodal Representations? A Probing Perspective
   * [[pdf](https://hal.archives-ouvertes.fr/hal-03521715/document)] [[repo](paper/salin2022vision.pdf)]
@@ -659,6 +664,12 @@
   * NeurIPS'22
   * We present modality gap, an intriguing geometric phenomenon of the representation space of multi-modal models. Specifically, we show that different data modalities (e.g. images and texts) are embedded at arm's length in their shared representation in multi-modal models such as CLIP. Our systematic analysis demonstrates that this gap is caused by a combination of model initialization and contrastive learning optimization. In model intialization, we show empirically and theoretically that the representation of a common deep neural network is restricted to a narrow cone. As a consequence, in a multi-modal model with two encoders, the representations of the two modalities are clearly apart when the model is initialized. During optimization, contrastive learning keeps the different modalities separated by a certain distance, which is influenced by the temperature parameter in the loss function. Our experiments further demonstrate that varying the modality gap distance has a significant impact in improving the model's downstream zero-shot classification performance and fairness.
 
+#### Learn to Explain: Multimodal Reasoning via Thought Chains for Science Question Answering
+  * [[pdf](https://papers.nips.cc/paper_files/paper/2022/file/11332b6b6cf4485b84afadb1352d3a9a-Paper-Conference.pdf)] [[repo](paper/lu2022learn.pdf)]
+  * Lu et al. (2022.11)
+  * NeurIPS'22
+  * When answering a question, humans utilize the information available across different modalities to synthesize a consistent and complete chain of thought (CoT). This process is normally a black box in the case of deep learning models like large-scale language models. Recently, science question benchmarks have been used to diagnose the multi-hop reasoning ability and interpretability of an AI system. However, existing datasets fail to provide annotations for the answers, or are restricted to the textual-only modality, small scales, and limited domain diversity. To this end, we present Science Question Answering (SCIENCEQA), a new benchmark that consists of ~21k multimodal multiple choice questions with diverse science topics and annotations of their answers with corresponding lectures and explanations. We further design language models to learn to generate lectures and explanations as the chain-of-thought (CoT) to mimic the multi-hop reasoning process when answering SCIENCEQA questions. SCIENCEQA demonstrates the utility of CoT in language models, as CoT improves the question answering performance by 1.20% in few-shot GPT-3 and 3.99% in fine-tuned UnifiedQA. We also explore the upper bound for models to leverage explanations by feeding those in the input: we observe that it improves the few-shot performance by GPT-3 by 18.96%. Our analysis further shows that language models, similar to humans, benefit from explanations to learn from fewer data and achieve the same performance with just 40% of the data.
+
 #### Contrastive Language-Image Pre-Training with Knowledge Graphs
   * [[pdf](https://openreview.net/pdf?id=4T3kbrzfeR)] [[repo](paper/pan2022contrastive.pdf)]
   * Pan et al. (2022.11)
@@ -683,7 +694,7 @@
   * EMNLP'22
   * Multimodal named entity recognition (MNER) on social media is a challenging task which aims to extract named entities in free text and incorporate images to classify them into user-defined types. The existing semi-supervised named entity recognition methods focus on the text modal and are utilized to reduce labeling costs in traditional NER. However, the previous methods are not efficient for semi-supervised MNER. Because the MNER task is defined to combine the text information with image one and needs to consider the mis-match between the posted text and image. To fuse the text and image features for MNER effectively under semi-supervised setting, we propose a novel span-based multimodal variational autoencoder (SMVAE) model for semi-supervised MNER. The proposed method exploits modal-specific VAEs to model text and image latent features, and utilizes product-of-experts to acquire multimodal features. In our approach, the implicit relations between labels and multimodal features are modeled by multimodal VAE. Thus, the useful information of unlabeled data can be exploited in our method under semi-supervised setting. Experimental results on two benchmark datasets demonstrate that our apporach not only outperforms baselines under supervised setting, but also improves MNER performance with less labeled data than existing semi-supervised methods.
 
-**2023** {#15}
+**2023** {#17}
 
 #### MKVSE: Multimodal Knowledge Enhanced Visual-Semantic Embedding for Image-Text Retrieval
   * [[pdf](https://dl.acm.org/doi/pdf/10.1145/3580501)] [[repo](paper/feng2023multimodal.pdf)] [[github](https://github.com/PKU-ICST-MIPL/MKVSE-TOMM2023)]
@@ -714,6 +725,18 @@
   * Zhang et al. (2023.04)
   * WWW'23
   * Knowledge graphs (KG) are essential background knowledge provides in many tasks. When designing models for KG-related tasks, one of the key tasks is to devise the Knowledge Representation and Fusion (KRF) module that learns the representation of elements from KGs and fuses them with task representations. While due to the difference of KGs and perspectives to be considered during fusion across tasks, duplicate and ad hoc KRF modules design are conducted among tasks. In this paper, we propose a novel knowledge graph pretraining model KGTransformer that could serve as a uniform KRF module in diverse KG-related tasks. We pretrain KGTransformer with three self-supervised tasks with sampled sub-graphs as input. For utilization, we propose a general prompt-tuning mechanism regarding task data as a triple prompt to allow flexible interactions between task KGs and task data. We evaluate pretrained KGTransformer on three tasks, triple classification, zero-shot image classification, and question answering. KGTransformer consistently achieves better results than specifically designed task models. Through experiments, we justify that the pretrained KGTransformer could be used off the shelf as a general and effective KRF module across KG-related tasks.
+
+#### MMKGR: Multi-hop Multi-modal Knowledge Graph Reasoning
+  * [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10184753)] [[repo](paper/zheng2023mmkgr.pdf)]
+  * Zheng et al. (2023.04)
+  * ICDE'23
+  * Multi-modal knowledge graphs (MKGs) include not only the relation triplets, but also related multi-modal auxiliary data (i.e., texts and images), which enhance the diversity of knowledge. However, the natural incompleteness has significantly hindered the applications of MKGs. To tackle the problem, existing studies employ the embedding-based reasoning models to infer the missing knowledge after fusing the multi-modal features. However, the reasoning performance of these methods is limited due to the following problems: (1) ineffective fusion of multi-modal auxiliary features; (2) lack of complex reasoning ability as well as inability to conduct the multi-hop reasoning which is able to infer more missing knowledge. To overcome these problems, we propose a novel model entitled MMKGR (Multi-hop Multi-modal Knowledge Graph Reasoning). Specifically, the model contains the following two components: (1) a unified gate-attention network which is designed to generate effective multi-modal complementary features through sufficient attention interaction and noise reduction; (2) a complementary feature-aware reinforcement learning method which is proposed to predict missing elements by performing the multi-hop reasoning process, based on the features obtained in component (1). The experimental results demonstrate that MMKGR outperforms the state-of-the-art approaches in the MKG reasoning task.
+
+#### Do as I can, not as I get: Topology-aware multi-hop reasoning on multi-modal knowledge graphs
+  * [[pdf](https://arxiv.org/pdf/2306.10345.pdf)]
+  * Zheng et al. (2023.04)
+  * ArXiv
+  * Multi-modal knowledge graph (MKG) includes triplets that consists of entities and relations and multi-modal auxiliary data. In recent years, multi-hop knowledge graph reasoning (MMKGR) based on reinforcement learning (RL) has received extensive attention because it addresses the intrinsic incompleteness of MKG in an interpretable manner. However, its performance is limited by empirically designed rewards and sparse relations. In addition, this method has been designed for the transductive setting where test entities have been seen during training, and it works poorly in the inductive setting where test entities do not appear in the training set. To overcome these issues, we propose TMR (Topology-aware Multi-hop Reasoning), which can conduct MKG reasoning under inductive and transductive settings. Specifically, TMR mainly consists of two components. (1) The topology-aware inductive representation captures information from the directed relations of unseen entities, and aggregates query-related topology features in an attentive manner to generate the fine-grained entity-independent features. (2) After completing multi-modal feature fusion, the relation-augment adaptive RL conducts multi-hop reasoning by eliminating manual rewards and dynamically adding actions. Finally we construct new MKG datasets with different scales for inductive reasoning evalution. Experimental results demonstrate that TMP outperforms state-of-the-art MKGR methods under both inductive and transductive settings.
 
 #### Direct Fact Retrieval from Knowledge Graphs without Entity Linking
   * [[pdf](https://aclanthology.org/2023.acl-long.558.pdf)] [[repo](paper/baek2023direct.pdf)]
@@ -776,6 +799,16 @@
   * Fine-tuning large vision-language models is a challenging task. Prompt tuning approaches have been introduced to learn fixed textual or visual prompts while freezing the pre-trained model in downstream tasks. Despite the effectiveness of prompt tuning, what do those learnable prompts learn remains unexplained. In this work, we explore whether prompts in the fine-tuning can learn knowledge-aware prompts from the pre-training, by designing two sets of prompts -- one in pre-training and the other in fine-tuning. Specifically, we present a Video-Language Prompt tuning (VL-Prompt) approach for video captioning, which first effeciently pre-train a video-language model to extract key information (e.g., actions and objects) with flexibly generated Knowledge-Aware Prompt (KAP). Then, we design a Video-Language Prompt (VLP) to utilize the knowledge from KAP and finetune the model to generate full captions. Experimental results show the superior performance of our approach over several state-of-the-art baselines. We further demonstrate that the video-language prompts are well learned from the knowledge-aware prompts.
 
 ## Tutorials
+
+#### Knowledge Graph Generation from Wikipedia in the Age of ChatGPT: Knowledge Extraction or Knowledge Hallucination?
+  * [[pdf](https://www.slideshare.net/heikopaulheim/knowledge-graph-generation-from-wikipedia-in-the-age-of-chatgpt-knowledge-extraction-or-knowledge-hallucination)]
+  * Heiko Paulheim
+  * Universität Mannheim
+
+#### Online Multimodal Knowledge Discovery
+  * [[pdf](https://multimodal-knowledge-discovery.github.io/)]
+  * Ilharco et al.
+  * ICDM'20
 
 #### Multimodal Knowledge Graphs: Automatic Extraction & Applications
   * [[pdf](http://www.ee.columbia.edu/~sfchang/papers/CVPR2019_MM_Knowledge_Graph_SF_Chang.pdf)] [[repo](tutorials/MultimodalKnowledgeGraphs@Columbia.pdf)]

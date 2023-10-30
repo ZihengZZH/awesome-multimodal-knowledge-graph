@@ -134,6 +134,8 @@
 
 | *Author* | <div style="width:100px">*Conf. / Uni*</div> | *Title* | *Links* |
 | -------- | -------------------------------------------- | ------- | ------- |
+| Heiko Paulheim | Universität Mannheim | Knowledge Graph Generation from Wikipedia in the Age of ChatGPT: Knowledge Extraction or Knowledge Hallucination? | [[pdf](https://www.slideshare.net/heikopaulheim/knowledge-graph-generation-from-wikipedia-in-the-age-of-chatgpt-knowledge-extraction-or-knowledge-hallucination)] |
+| Ilharco et al. | ICDM'20 | Online Multimodal Knowledge Discovery | [[pdf](https://multimodal-knowledge-discovery.github.io/)] |
 | Shih-Fu Chang | CVPR'19 & Uni. Columbia | Multimodal Knowledge Graphs: Automatic Extraction & Applications | [[pdf](http://www.ee.columbia.edu/~sfchang/papers/CVPR2019_MM_Knowledge_Graph_SF_Chang.pdf)] [[repo](tutorials/MultimodalKnowledgeGraphs@Columbia.pdf)] |
 | Dihong Gong | Uni. Florida | Towards Building Large-Scale Multimodal Knowledge Bases | [[pdf](https://www.cise.ufl.edu/~dihong/assets/MKBC.pdf)] [[repo](tutorials/TowardsBuildingLargeScaleMultimodalKnowledgeBases@Florida.pdf)] |
 | Elias Karle & Umutcan Simsek | Uni Innsbruck | How To Build a Knowledge Graph | [[pdf](https://2019.semantics.cc/sites/2019.semantics.cc/files/how-to-build-a-knowledge-graph.pdf)] [[repo](tutorials/HowToBuildKnowledgeGraph@Innsbruck.pdf)] |
@@ -141,3 +143,7 @@
 | Sameer Singh | Uni California, Irvine | Injecting Prior Information and Multiple Modalities into Knowledge Base Embeddings | [[pdf](http://exobrain.kr/images/(1-1)Injecting%20Prior%20Information%20and%20Multiple%20Modalities%20into%20KB%20Embeddings(Sameer%20Singh).pdf)] [[repo](tutorials/InjectingPriorInformationAndMultipleModalitiesIntoKBEmbeddings.pdf)] |
 
 ## datasets
+
+| *Year* | <div style="width:100px">*Author*</div> | <div style="width:100px">*Conf.*</div> | *Title* | *Links* |
+| :----: | --------------------------------------- | -------------------------------------- | ------- | ------- |
+| 2022.11| Lu et al. | NeurIPS'22 | Learn to Explain: Multimodal Reasoning via Thought Chains for Science Question Answering | [[pdf](https://papers.nips.cc/paper_files/paper/2022/file/11332b6b6cf4485b84afadb1352d3a9a-Paper-Conference.pdf)] [[repo](paper/lu2022learn.pdf)] |
