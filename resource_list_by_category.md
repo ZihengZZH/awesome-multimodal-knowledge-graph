@@ -104,6 +104,7 @@
 | 2022.11| Kim et al. | NeurIPS'22 | Transferring Pre-trained Multimodal Representations with Cross-modal Similarity Matching | [[pdf](https://openreview.net/pdf?id=j2Vtg_jhKZ)] [[repo](paper/kim2022transfer.pdf)] |
 | 2022.11| Huang et al. | NeurIPS'22 | MACK: Multimodal Aligned Conceptual Knowledge for Unpaired Image-text Matching | [[pdf](https://openreview.net/pdf?id=7lf58jWnDIS)] [[repo](paper/huang2022mack.pdf)] |
 | 2022.11| Liang et al. | NeurIPS'22 | Mind the Gap: Understanding the Modality Gap in Multi-modal Contrastive Representation Learning | [[pdf](https://openreview.net/pdf?id=S7Evzt9uit3)] [[repo](paper/liang2022mind.pdf)] |
+| 2023.02| Zeng et al. | AAAI'23 | Multi-Modal Knowledge Hypergraph for Diverse Image Retrieval | [[pdf](https://ojs.aaai.org/index.php/AAAI/article/view/25445)] [[repo](/paper/zeng2023multimodal.pdf)] |
 | 2023.07| Luo et al. | ACL'23 | End-to-end Knowledge Retrieval with Multi-modal Queries | [[pdf](https://aclanthology.org/2023.acl-long.478.pdf)] [[repo](paper/luo2023end.pdf)] [[github](https://github.com/luomancs/ReMuQ)] |
 | 2023.08| Peng et al. | IJCAI'23 | An Empirical Study on the Language Modal in Visual Question Answering | [[pdf](https://www.ijcai.org/proceedings/2023/0457.pdf)] [[repo](paper/peng2023empirical.pdf)] |
 | 2023.08| Yan et al. | IJCAI'23 | Prompt Learns Prompt: Exploring Knowledge-Aware Generative Prompt Collaboration for Video Captioning | [[pdf](https://www.ijcai.org/proceedings/2023/0180.pdf)] [[repo](paper/yan2023prompt.pdf)] |
@@ -126,6 +127,7 @@
 | 2021.11| Dash et al. | EMNLP'21 | Open Knowledge Graphs Canonicalization using Variational Autoencoders | [[pdf](https://arxiv.org/pdf/2012.04780.pdf)] [[repo](paper/dash2021open.pdf)] |
 | 2021.11| Meng et al. | EMNLP'21 | Mixture-of-Partitions: Infusing Large Biomedical Knowledge Graphs into BERT | [[pdf](https://arxiv.org/pdf/2109.04810.pdf)] [[repo](paper/meng2021infusing.pdf)] |
 | 2021.11| Oliya et al. | EMNLP'21 | End-to-End Entity Resolution and Question Answering Using Differentiable Knowledge Graphs | [[pdf](https://arxiv.org/pdf/2109.05817.pdf)] [[repo](paper/oliya2021end.pdf)] |
+| 2023.02| Chung et al. | AAAI'23 | Learning Representations of Bi-level Knowledge Graph for Reasoning beyond Link Prediction | [[pdf](https://arxiv.org/abs/2302.02601)] [[repo](/paper/chung2023learning.pdf)] |
 | 2023.02| Huang et al. | AAAI'23 | Enabling Knowledge Refinement upon New Concepts in Abductive Learning | [[pdf](https://www.lamda.nju.edu.cn/publication/aaai23ablnc.pdf)] [[repo](paper/huang2023enabling.pdf)] |
 | 2023.04| Zhang et al. | WWW'23 | Structure Pretraining and Prompt Tuning for Knowledge Graph Transfer | [[pdf](https://dl.acm.org/doi/10.1145/3543507.3583301)] [[repo](paper/zhang2023structure.pdf)] |
 | 2023.07| Baek et al. | ACL'23 | Direct Fact Retrieval from Knowledge Graphs without Entity Linking | [[pdf](https://aclanthology.org/2023.acl-long.558.pdf)] [[repo](paper/baek2023direct.pdf)] |
