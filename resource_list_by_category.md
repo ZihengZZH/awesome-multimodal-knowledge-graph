@@ -61,6 +61,7 @@
 | 2023.07| Wu et al. | KDD'23 | Recognizing Unseen Objects via Multimodal Intensive Knowledge Graph Propagation | [[pdf](https://arxiv.org/pdf/2306.08487.pdf)] [[repo](paper/wu2023recognizing.pdf)] |
 | 2023.11| Deng et al. | ICDE'23 | Construction and Applications of Billion-Scale Pre-Trained Multimodal Business Knowledge Graph | [[pdf](https://ieeexplore.ieee.org/abstract/document/10184871/authors#authors)] [[repo](/paper/deng2023construction.pdf)] |
 | 2023.11| Wen et al. | IEEE'23 | IMKGA-SM: Interpretable Multimodal Knowledge Graph Answer Prediction via Sequence Modeling | [[pdf](https://arxiv.org/pdf/2301.02445.pdf)] [[repo](/paper/wen2023interpretable.pdf)] |
+| 2024.02| Chen et al. | arXiv | <font color=red>Knowledge Graphs Meet Multi-Modal Learning: A Comprehensive Survey</font> | [[pdf](https://arxiv.org/pdf/2402.05391.pdf)] [[repo](/paper/chen2024survey.pdf)] [[github](https://github.com/zjukg/KG-MM-Survey)] |
 
 ## multimodal representation learning
 

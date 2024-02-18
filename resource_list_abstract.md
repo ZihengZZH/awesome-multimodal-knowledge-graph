@@ -118,6 +118,7 @@
     - [Prompt Learns Prompt: Exploring Knowledge-Aware Generative Prompt Collaboration for Video Captioning](#prompt-learns-prompt-exploring-knowledge-aware-generative-prompt-collaboration-for-video-captioning)
     - [Construction and Applications of Billion-Scale Pre-Trained Multimodal Business Knowledge Graph](#construction-and-applications-of-billion-scale-pre-trained-multimodal-business-knowledge-graph)
     - [IMKGA-SM: Interpretable Multimodal Knowledge Graph Answer Prediction via Sequence Modeling](#imkga-sm-interpretable-multimodal-knowledge-graph-answer-prediction-via-sequence-modeling)
+    - [Knowledge Graphs Meet Multi-Modal Learning: A Comprehensive Survey](#knowledge-graphs-meet-multi-modal-learning-a-comprehensive-survey)
 - [Tutorials](#tutorials)
     - [Knowledge Graph Generation from Wikipedia in the Age of ChatGPT: Knowledge Extraction or Knowledge Hallucination?](#knowledge-graph-generation-from-wikipedia-in-the-age-of-chatgpt-knowledge-extraction-or-knowledge-hallucination)
     - [Online Multimodal Knowledge Discovery](#online-multimodal-knowledge-discovery)
@@ -825,6 +826,13 @@
   * Wen et al. (2023.11)
   * IEEE'23
   * Multimodal knowledge graph link prediction aims to improve the accuracy and efficiency of link prediction tasks for multimodal data. However, for complex multimodal information and sparse training data, it is usually difficult to achieve interpretability and high accuracy simultaneously for most methods. To address this difficulty, a new model is developed in this paper, namely interpretable Multimodal Knowledge Graph Answer Prediction via Sequence Modeling (IMKGA-SM). First, a multi-modal fine-grained fusion method is proposed, and VGG16 and Optical Character Recognition (OCR) techniques are adopted to effectively extract text information from images and images. Then, the knowledge graph link prediction task is modelled as an offline reinforcement learning Markov decision model, which is then abstracted into a unified sequence framework. An interactive perception-based reward expectation mechanism and special causal masking mechanism are designed, which "converts" the query into an inference path. Then an autoregressive dynamic gradient adjustment mechanism is proposed to alleviate the insufficient problem of multimodal optimization. Finally, two datasets are adopted for experiments, and the popular SOTA baselines are used for comparison. The results show that the developed IMKGA-SM achieves much better performance than SOTA baselines on multimodal link prediction datasets of different sizes.
+
+**2024** {#1}
+
+#### Knowledge Graphs Meet Multi-Modal Learning: A Comprehensive Survey
+  * [[pdf](https://arxiv.org/pdf/2402.05391.pdf)] [[repo](/paper/chen2024survey.pdf)] [[github](https://github.com/zjukg/KG-MM-Survey)]
+  * Chen et al. (2024.02)
+  * Knowledge Graphs (KGs) play a pivotal role in advancing various AI applications, with the semantic web community's exploration into multi-modal dimensions unlocking new avenues for innovation. In this survey, we carefully review over 300 articles, focusing on KG-aware research in two principal aspects: KG-driven Multi-Modal (KG4MM) learning, where KGs support multi-modal tasks, and Multi-Modal Knowledge Graph (MM4KG), which extends KG studies into the MMKG realm. We begin by defining KGs and MMKGs, then expore their construction progress. Our review includes two primary task categories: KG-aware multi-modal learning tasks, such as Image Classification and Visual Question Answering, and intrinsic MMKG tasks like Multi-modal Knowledge Graph Completion and Entity Alignment, highlighting specific research trahjectories. For most of these tasks, we provide definitions, evaluation benchmarks, and additionally outline essential insights for conducting relevant research. Finally, we discuss current challenges and identify emerging trends, such as progress in Large Language Modeling and Multi-modal Pre-training strategies. This survey aims to serve as a comprehensive reference for researchers already involved in or considering delving into KG and multi-modal learning research, offering insights into the evolving landscape of MMKG research and supporting future work.
 
 ## Tutorials
 

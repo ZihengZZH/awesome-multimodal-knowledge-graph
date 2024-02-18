@@ -16,6 +16,7 @@ There are some other **very helpful** repositories in the topic of "**Knowledge 
 * [knowledge-graph-learning](https://github.com/BrambleXu/knowledge-graph-learning)
 * [Awesome-Multimodal-Research](https://github.com/Eurus-Holmes/Awesome-Multimodal-Research)
 * [Awesome-Multimodal-Large-Language-Models](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models)
+* [KG-MM-Survey](https://github.com/zjukg/KG-MM-Survey) [<font color=red>NEW!</font>]
 
 ### bibtex files
 
