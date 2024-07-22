@@ -64,6 +64,7 @@
 | 2024.01| Mondal et al. | AAAI'24 | KAM-CoT: Knowledge Augmented Multimodal Chain-of-Thoughts Reasoning | [[pdf](https://arxiv.org/pdf/2401.12863.pdf)] [[repo](paper/mondal2024knowledge.pdf)] |
 | 2024.01| Liu et al. | AAAI'24 | Beyond Entities: A Large-Scale Multi-Modal Knowledge Graph with Triplet Fact Grounding | [[pdf](https://ojs.aaai.org/index.php/AAAI/article/view/29828)] [[repo](paper/liu2024beyond.pdf)] [[github](https://github.com/kleinercubs/ImgFact)] |
 | 2024.01| Liang et al. | AAAI'24 | Self-Supervised Multi-Modal Knowledge Graph Contrastive Hashing for Cross-Modal Search | [[pdf](https://ojs.aaai.org/index.php/AAAI/article/view/29280)] [[repo](paper/liang2024selfsupervised.pdf)] |
+| 2024.01| Shang et al. | AAAI'24 | LAFA: Multimodal Knowledge Graph Completion with Link Aware Fusion and Aggregation | [[pdf](https://ojs.aaai.org/index.php/AAAI/article/view/28744)] [[repo](paper/shang2024lafa.pdf)] |
 | 2024.02| Chen et al. | arXiv | <font color=red>Knowledge Graphs Meet Multi-Modal Learning: A Comprehensive Survey</font> | [[pdf](https://arxiv.org/pdf/2402.05391.pdf)] [[repo](/paper/chen2024survey.pdf)] [[github](https://github.com/zjukg/KG-MM-Survey)] |
 | 2024.02| Zhang et al. | COLING'24 | Unleashing the Power of Imbalanced Modality Information for Multi-modal Knowledge Graph Completion | [[pdf](https://arxiv.org/pdf/2402.15444.pdf)] [[repo](paper/zhang2024unleashing.pdf)] [[github](https://github.com/zjukg/AdaMF-MAT)] |
 
@@ -115,6 +116,8 @@
 | 2023.08| Yan et al. | IJCAI'23 | Prompt Learns Prompt: Exploring Knowledge-Aware Generative Prompt Collaboration for Video Captioning | [[pdf](https://www.ijcai.org/proceedings/2023/0180.pdf)] [[repo](paper/yan2023prompt.pdf)] |
 | 2024.01| Cui et al. | AAAI'24 | Continual Vision-Language Retrieval via Dynamic Knowledge Rectification | [[pdf](https://ojs.aaai.org/index.php/AAAI/article/view/29054)] [[repo](paper/cui2024continual.pdf)] |
 | 2024.01| Kim et al. | AAAI'24 | Improving Open Set Recognition via Visual Prompts Distilled from Common-Sense Knowledge | [[pdf](https://ojs.aaai.org/index.php/AAAI/article/view/28058)] [[repo](/paper/kim2024improving.pdf)] |
+| 2024.06| Chen et al. | CVPR'24 | LION: Empowering Multimodal Large Language Model with Dual-Level Visual Knowledge | [[pdf](https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_LION_Empowering_Multimodal_Large_Language_Model_with_Dual-Level_Visual_Knowledge_CVPR_2024_paper.pdf)] [[repo](paper/chen2024lion.pdf)] |
+| 2024.07| Lin et al. | arXiv | Rethinking Visual Prompting for Multimodal Large Language Models with External Knowledge | [[pdf](https://arxiv.org/pdf/2407.04681)] [[repo](paper/lin2024rethinking.pdf)] |
 
 ## information extraction
 
