@@ -68,6 +68,9 @@
 | 2024.01| Shang et al. | AAAI'24 | LAFA: Multimodal Knowledge Graph Completion with Link Aware Fusion and Aggregation | [[pdf](https://ojs.aaai.org/index.php/AAAI/article/view/28744)] [[repo](paper/shang2024lafa.pdf)] |
 | 2024.02| Chen et al. | arXiv | <font color=red>Knowledge Graphs Meet Multi-Modal Learning: A Comprehensive Survey</font> | [[pdf](https://arxiv.org/pdf/2402.05391.pdf)] [[repo](/paper/chen2024survey.pdf)] [[github](https://github.com/zjukg/KG-MM-Survey)] |
 | 2024.02| Zhang et al. | COLING'24 | Unleashing the Power of Imbalanced Modality Information for Multi-modal Knowledge Graph Completion | [[pdf](https://arxiv.org/pdf/2402.15444.pdf)] [[repo](paper/zhang2024unleashing.pdf)] [[github](https://github.com/zjukg/AdaMF-MAT)] |
+| 2024.06| Lee et al. | ACL'24 | Multimodal Reasoning with Multimodal Knowledge Graph | [[pdf](https://arxiv.org/pdf/2406.02030)] [[repo](paper/lee2024multimodal.pdf)] |
+| 2024.06| Liang et al. | ACM Computing Surveys | <font color=red>A Survey of Multi-modal Knowledge Graphs: Technologies and Trends</font> | [[pdf](https://dl.acm.org/doi/full/10.1145/3656579)] [[repo](paper/liang2024survey.pdf)] |
+| 2025.02| He et al. | WWW'25 | UniGraph2: Learning a Unified Embedding Space to Bind Multimodal Graphs | [[pdf](https://arxiv.org/pdf/2502.00806)] [[repo](paper/he2025unigraph.pdf)] [[github](https://github.com/yf-he/UniGraph2)] |
 
 ## multimodal representation learning
 
